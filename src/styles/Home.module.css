@@ -1,0 +1,46 @@
+.headerContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 35px 10px;
+  max-width: 900px;
+}
+
+.headshot {
+  display: block;
+  height: 100%;
+  width: 50vw;
+}
+
+.titleContainer {
+  bottom: 1vh;
+  position: relative;
+}
+
+.titleBottom {
+  bottom: 10px;
+  position: relative;
+  right: 14px;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+
+.titleTop {
+  position: relative;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  font-size: 49px;
+  margin: 0;
+}
+
+.titleParagraph {
+  font-size: 12px;
+  font-family: 'poppins', sans-serif;
+  max-width: 153px;
+  margin: 0;
+  position: relative;
+  right: 14px;
+}
