@@ -1,8 +1,8 @@
 # My Portfolio of Work
 
 ### Link
-trentendeavors.com
+http://trentendeavors.com
 
 --or--
 
-endeavors.herokuapp.com/
+http://endeavors.herokuapp.com/
