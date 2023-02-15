@@ -2,20 +2,40 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin: 35px 10px;
-  max-width: 900px;
+  max-height: 450px;
+}
+
+.headshotFaded {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 
 .headshot {
-  display: block;
+  display: none;
+  position: relative;
   height: 100%;
-  width: 50vw;
+  width: 100%;
+  z-index: -1;
 }
 
 .titleContainer {
-  bottom: 1vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   position: relative;
+  right: 20px;
+}
+
+.titleTop {
+  position: relative;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-size: 88px;
+  margin: 0;
 }
 
 .titleBottom {
@@ -23,24 +43,70 @@
   position: relative;
   right: 14px;
   text-align: center;
-  font-family: 'poppins', sans-serif;
-  font-size: 30px;
-  margin: 0;
-}
-
-.titleTop {
-  position: relative;
-  text-align: center;
-  font-family: 'poppins', sans-serif;
-  font-size: 49px;
+  font-family: "poppins", sans-serif;
+  font-size: 50px;
   margin: 0;
 }
 
 .titleParagraph {
-  font-size: 12px;
-  font-family: 'poppins', sans-serif;
-  max-width: 153px;
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+  max-width: 280px;
   margin: 0;
   position: relative;
-  right: 14px;
+}
+
+@media only screen and (max-width: 900px) {
+  /* tablets and desktop */
+  .titleContainer {
+  }
+
+  .titleTop {
+    font-size: 65px;
+  }
+
+  .titleBottom {
+    font-size: 38px;
+  }
+
+  .titleParagraph {
+    font-size: 14px;
+    max-width: 200px;
+    right: 8px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* tablets and desktop */
+  .titleContainer {
+    right: 0;
+    width: 100%;
+  }
+
+  .titleTop {
+    font-size: 65px;
+  }
+
+  .titleBottom {
+    font-size: 38px;
+  }
+
+  .titleParagraph {
+    font-size: 14px;
+    max-width: 100%;
+    margin: 0 20px;
+    right: 0;
+  }
+
+  .headshot {
+    display: block;
+  }
+
+  .headshotFaded {
+    display: none;
+  }
+
+  .headerContainer {
+    flex-direction: column;
+  }
 }
