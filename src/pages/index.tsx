@@ -7,10 +7,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [mobileHeaderOffset, setMobileHeaderOffset] = useState("0");
+  const [desktopHeaderOffset, setDesktopHeaderOffset] = useState("0");
   useEffect(() => {
     const scroll = () => {
       const { pageYOffset } = window;
       setMobileHeaderOffset(pageYOffset / 3 + "px");
+      setDesktopHeaderOffset(pageYOffset / 1.5 + "px");
     };
     document.addEventListener("scroll", scroll);
     () => document.removeEventListener("scroll", scroll);
@@ -31,6 +33,7 @@ export default function Home() {
         <div className={styles.headerContainer}>
           <div className={styles.headshotContainer}>
             <img
+              style={{ bottom: desktopHeaderOffset }}
               className={styles.headshotFaded}
               src="/me_arms_out_faded.jpg"
               alt=""
