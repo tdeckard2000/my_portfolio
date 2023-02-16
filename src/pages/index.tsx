@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.headerContainer}>
           <div className={styles.headshotContainer}>
             <img className={styles.headshotFaded} src="/me_arms_out_faded.jpg" alt="" />
-            <img className={styles.headshot} src="/me_arms_out.jpg" alt="" />
+            <img className={styles.headshot} src="/me_faded_bottom.jpg" alt="" />
           </div>
           <div className={styles.titleContainer}>
             <h4 className={styles.titleTop}>Trent</h4>
