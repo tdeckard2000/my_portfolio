@@ -12,7 +12,7 @@ export default function Home() {
     const scroll = () => {
       const { pageYOffset } = window;
       setMobileHeaderOffset(pageYOffset / 3 + "px");
-      setDesktopHeaderOffset(pageYOffset / 1.5 + "px");
+      setDesktopHeaderOffset(pageYOffset / 2.6 + "px");
     };
     document.addEventListener("scroll", scroll);
     () => document.removeEventListener("scroll", scroll);
@@ -35,7 +35,7 @@ export default function Home() {
             <img
               style={{ bottom: desktopHeaderOffset }}
               className={styles.headshotFaded}
-              src="/me_arms_out_faded.jpg"
+              src="/me_faded_side.jpg"
               alt=""
             />
             <img
@@ -55,6 +55,18 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+        <div className={styles.body}>
+          <div
+            className={styles.navContainerDesktop}>
+            <span>Contact</span>
+            <span>Web</span>
+            <span>Electronics</span>
+            <span className={styles.buttonModeling}>Modeling</span>
+            <span>Video</span>
+            <span>More</span>
+          </div>
+          <div className={styles.contactSection}>Contact Me</div>
         </div>
       </main>
     </>
