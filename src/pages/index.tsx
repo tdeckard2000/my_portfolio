@@ -1,23 +1,46 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
-import { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "../../node_modules/gsap/ScrollTrigger";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  // const [mobileHeaderOffset, setMobileHeaderOffset] = useState("0");
-  // const [desktopHeaderOffset, setDesktopHeaderOffset] = useState("0");
+  gsap.registerPlugin(ScrollTrigger);
+  const ref = useRef<HTMLDivElement>(null);
   const [yPosition, setYPosition] = useState(0);
+
   useEffect(() => {
     const scroll = () => {
       const { pageYOffset } = window;
       setYPosition(pageYOffset);
-      // setMobileHeaderOffset(pageYOffset / 3 + "px");
-      // setDesktopHeaderOffset(pageYOffset / 2.6 + "px");
     };
     document.addEventListener("scroll", scroll);
     () => document.removeEventListener("scroll", scroll);
+  }, []);
+
+  useEffect(() => {
+    const element = ref.current;
+    console.log(element);
+    gsap.fromTo(
+      element?.querySelector(".animationOne") as HTMLDivElement,
+      {
+        opacity: 0,
+        y: -20,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        scrollTrigger: {
+          trigger: element?.querySelector(".titleBottom"),
+          start: "top top",
+          end: "bottom center",
+          scrub: true,
+        },
+      }
+    );
   }, []);
 
   return (
@@ -31,7 +54,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main ref={ref} className={styles.allPage}>
         <div className={styles.headerContainer}>
           <div className={styles.headshotContainer}>
             <img
@@ -65,11 +88,16 @@ export default function Home() {
           >
             <span>Web</span>
             <span>Electronics</span>
-            <span className={styles.buttonModeling}>Modeling</span>
+            <span>Modeling</span>
             <span>Video</span>
             <span>Random</span>
-            <span className={styles.buttonContact}>Contact</span>
+            <span>Contact</span>
           </div>
+          <div className="animationOne">
+            <div>Web Development</div>
+            <div className={styles.projectContainer}></div>
+          </div>
+
           {/* <div className={styles.contactSection}>
             <h1>Trent Deckard</h1>
             <div>

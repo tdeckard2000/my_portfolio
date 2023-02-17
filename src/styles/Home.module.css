@@ -1,23 +1,11 @@
+.allPage{
+  font-family: "poppins", sans-serif;
+}
+
 .body {
-  /* background-image: url('../../public/bg_sky_water.jpg'); */
   background-repeat: no-repeat;
   height: 500vh;
 }
-
-/* .buttonContact:hover {
-  background-image: url('../../public/bg_contact_opac.png');
-  background-size: 131px;
-  background-repeat: no-repeat;
-  background-position-y: -34px;
-  background-position-x: -5px;
-} */
-
-/* .buttonModeling:hover {
-  background-image: url('../../public/bg_3d_opac.png');
-  background-size: 200px;
-  background-repeat: no-repeat;
-  background-position-y: -40px;
-} */
 
 .contactSection {
   background-image: url('../../public/bg_sky_mountains.jpg');
@@ -26,7 +14,6 @@
   color: white;
   display: flex;
   flex-direction: row;
-  font-family: "poppins", sans-serif;
   height: 300px;
   justify-content: center;
   margin-top: 100px;
@@ -70,7 +57,6 @@
 .navContainerDesktop {
   display: flex;
   flex-direction: row;
-  font-family: "poppins", sans-serif;
   justify-content: center;
   margin-top: 50px;
   position: relative; 
@@ -92,13 +78,16 @@
 
 .navContainerDesktop span:active {
   box-shadow: none;
-  /* color: white; */
-  /* font-weight: bold; */
 }
 
 .navContainerDesktop span:hover {
   border: 1px solid black;
-  /* font-weight: bold; */
+}
+
+.projectContainer {
+  background-color: gray;
+  height: 250px;
+  width: 100%;
 }
 
 .titleContainer {
@@ -113,7 +102,6 @@
 .titleTop {
   position: relative;
   text-align: center;
-  font-family: "poppins", sans-serif;
   font-size: 88px;
   margin: 0;
 }
@@ -123,7 +111,6 @@
   position: relative;
   right: 14px;
   text-align: center;
-  font-family: "poppins", sans-serif;
   font-size: 50px;
   margin: 0;
 }
@@ -143,7 +130,6 @@
   }
 
   .titleContainer {
-    /* margin-bottom: 100px; */
   }
   
   .titleTop {
