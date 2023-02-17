@@ -1,10 +1,36 @@
-.allPage{
+.allPage {
   font-family: "poppins", sans-serif;
 }
 
-.blockWebDev {
-  
+.blockContainer {
+  align-items: center;
+  border: 1px solid rgb(207, 207, 207);
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  width: 80%;
 }
+
+.blockImage {
+  height: 100px;
+  object-fit: cover;
+  width: 100px;
+}
+
+.blockRightColumn {
+  margin: 0 50px;
+}
+
+.blockTitle {
+  font-size: 30px;
+  margin: 45px 20px 50px;
+}
+
+.blockWebDev {}
 
 .body {
   background-repeat: no-repeat;
@@ -27,7 +53,7 @@
   width: 100%;
 }
 
-.contactSection a{
+.contactSection a {
   color: white;
   margin-bottom: 10px;
   text-decoration: none;
@@ -63,10 +89,10 @@
   flex-direction: row;
   justify-content: center;
   margin-top: 50px;
-  position: relative; 
+  position: relative;
 }
 
-.navContainerDesktop span{
+.navContainerDesktop span {
   align-items: center;
   border: 1px solid #888888;
   border-radius: 5px;
@@ -86,12 +112,6 @@
 
 .navContainerDesktop span:hover {
   border: 1px solid black;
-}
-
-.projectContainer {
-  background-color: gray;
-  height: 250px;
-  width: 100%;
 }
 
 .titleContainer {
@@ -128,14 +148,14 @@
 }
 
 @media only screen and (max-width: 900px) {
+
   /* tablets and small desktop */
   .headerContainer {
     max-height: 335px;
   }
 
-  .titleContainer {
-  }
-  
+  .titleContainer {}
+
   .titleTop {
     font-size: 65px;
   }

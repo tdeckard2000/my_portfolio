@@ -48,19 +48,24 @@ export default function Home() {
   const webDevelopmentProjects = [
     {
       title: 'Ted Counter',
-      image: '',
-      description: '',
+      image: 'https://raw.githubusercontent.com/tdeckard2000/TedCounter/master/IMG_0726.jpg',
+      description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+      ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
       pageLink: ''
     },
     {
       title: 'Meter Wiring Guide',
-      image: '',
+      image: 'https://raw.githubusercontent.com/tdeckard2000/TedCounter/master/IMG_0726.jpg',
       description: '',
       pageLink: ''
     },
     {
       title: 'Yolo Logan',
-      image: '',
+      image: 'https://raw.githubusercontent.com/tdeckard2000/TedCounter/master/IMG_0726.jpg',
       description: '',
       pageLink: ''
     }
@@ -115,21 +120,20 @@ export default function Home() {
             <span>Contact</span>
           </div>
           <div className={styles.blockWebDev} id="blockWebDev">
-            <div>Web Development</div>
-            {webDevelopmentProjects.map((proj) =>
-              <Fragment>
-                <div className={styles.projectContainer}>
-                <p>{proj.title}</p>
+            <div className={styles.blockTitle}>Web Development</div>
+            {webDevelopmentProjects.map((project) =>
+              <Fragment key={project.title}>
+                <div className={styles.blockContainer}>
                   <div>
-                    Image Here
+                    <img className={styles.blockImage} src={project.image} alt="" />
                   </div>
-                  <div>
-                    Description Here
+                  <div className={styles.blockRightColumn}>
+                    <p>{project.title}</p>
+                    <div>{project.description}</div>
                   </div>
                 </div>
               </Fragment>
             )}
-
           </div>
         </div>
       </main>
