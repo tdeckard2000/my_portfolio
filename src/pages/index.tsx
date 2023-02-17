@@ -3,7 +3,9 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "../../node_modules/gsap/ScrollTrigger";
+// import { ScrollTrigger } from "../../node_modules/gsap/ScrollTrigger";
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
