@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
-import React, { useEffect, useRef, useState } from "react";
+import React, { Fragment, useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 // import { ScrollTrigger } from "../../node_modules/gsap/ScrollTrigger";
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
@@ -27,7 +27,7 @@ export default function Home() {
     const element = ref.current;
     console.log(element);
     gsap.fromTo(
-      element?.querySelector(".animationOne") as HTMLDivElement,
+      element?.querySelector("#blockWebDev") as HTMLDivElement,
       {
         opacity: 0,
         y: -20,
@@ -44,6 +44,27 @@ export default function Home() {
       }
     );
   }, []);
+
+  const webDevelopmentProjects = [
+    {
+      title: 'Ted Counter',
+      image: '',
+      description: '',
+      pageLink: ''
+    },
+    {
+      title: 'Meter Wiring Guide',
+      image: '',
+      description: '',
+      pageLink: ''
+    },
+    {
+      title: 'Yolo Logan',
+      image: '',
+      description: '',
+      pageLink: ''
+    }
+  ]
 
   return (
     <>
@@ -84,10 +105,8 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.body}>
-          <div
-            className={styles.navContainerDesktop}
-            style={{ bottom: yPosition / 4 + "px" }}
-          >
+          <div className={styles.navContainerDesktop}
+            style={{ bottom: yPosition / 4 + "px" }}>
             <span>Web</span>
             <span>Electronics</span>
             <span>Modeling</span>
@@ -95,12 +114,30 @@ export default function Home() {
             <span>Random</span>
             <span>Contact</span>
           </div>
-          <div className="animationOne">
+          <div className={styles.blockWebDev} id="blockWebDev">
             <div>Web Development</div>
-            <div className={styles.projectContainer}></div>
-          </div>
+            {webDevelopmentProjects.map((proj) =>
+              <Fragment>
+                <div className={styles.projectContainer}>
+                <p>{proj.title}</p>
+                  <div>
+                    Image Here
+                  </div>
+                  <div>
+                    Description Here
+                  </div>
+                </div>
+              </Fragment>
+            )}
 
-          {/* <div className={styles.contactSection}>
+          </div>
+        </div>
+      </main>
+    </>
+  );
+}
+
+/* <div className={styles.contactSection}>
             <h1>Trent Deckard</h1>
             <div>
               <h3>Contact</h3>
@@ -113,9 +150,4 @@ export default function Home() {
               <a href="https://github.com/tdeckard2000">GitHub</a>
               <a href="http://youtube.com/interestingted">YouTube</a>
             </div>
-          </div> */}
-        </div>
-      </main>
-    </>
-  );
-}
+          </div> */
