@@ -47,8 +47,23 @@ export default function Home() {
 
   const webDevelopmentProjects = [
     {
+      title: 'Meter Wiring Guide',
+      image: 'https://raw.githubusercontent.com/tdeckard2000/wiringGuide/main/images/Example.png',
+      imageAdjustments: {objectPosition: "-5px -48px", width: '532px'},
+      description: '',
+      pageLink: ''
+    },
+    {
+      title: 'Yolo Logan!',
+      image: 'https://raw.githubusercontent.com/tdeckard2000/YoloLogan/master/images/example.png',
+      imageAdjustments: {objectPosition: "-54px 10px", width: '379px'},
+      description: '',
+      pageLink: ''
+    },
+    {
       title: 'Ted Counter',
-      image: 'https://raw.githubusercontent.com/tdeckard2000/TedCounter/master/IMG_0726.jpg',
+      image: 'https://raw.githubusercontent.com/tdeckard2000/TedCounter/master/IMG_0729.jpg',
+      imageAdjustments: {objectPosition: "-4px -44px", width: '356px'},
       description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
@@ -58,14 +73,61 @@ export default function Home() {
       pageLink: ''
     },
     {
-      title: 'Meter Wiring Guide',
-      image: 'https://raw.githubusercontent.com/tdeckard2000/TedCounter/master/IMG_0726.jpg',
+      title: 'Support Ticket Dashboard',
+      image: 'https://raw.githubusercontent.com/tdeckard2000/Support-Ticket-Dashboard/master/images/example.png',
+      imageAdjustments: {objectPosition: "-10px 12px", width: '537px'},
       description: '',
       pageLink: ''
     },
     {
-      title: 'Yolo Logan',
-      image: 'https://raw.githubusercontent.com/tdeckard2000/TedCounter/master/IMG_0726.jpg',
+      title: 'Rate-A-Coworker 2.0',
+      image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
+      imageAdjustments: {objectPosition: "-27px 1px", width: '330px'},
+      description: '',
+      pageLink: ''
+    },
+    {
+      title: 'Fancy To-Do List',
+      image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
+      imageAdjustments: {objectPosition: "-27px 1px", width: '330px'},
+      description: '',
+      pageLink: ''
+    },
+    {
+      title: 'Simon Says Game',
+      image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
+      imageAdjustments: {objectPosition: "-27px 1px", width: '330px'},
+      description: '',
+      pageLink: ''
+    },
+    {
+      title: 'Portfolio Site',
+      image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
+      imageAdjustments: {objectPosition: "-27px 1px", width: '330px'},
+      description: "You're looking at it. Just a confirmation that I did indeed make this.",
+      pageLink: ''
+    }
+  ];
+
+  const electronicProjects = [
+    {
+      title: 'Rex',
+      image: 'rex.GIF',
+      imageAdjustments: {objectPosition: "-52px -3px", width: '400px'},
+      description: '',
+      pageLink: ''
+    },
+    {
+      title: 'Knock to Unlock',
+      image: 'https://raw.githubusercontent.com/tdeckard2000/door_knock_unlock_arduino/main/images/IMG_7573.jpeg',
+      imageAdjustments: {objectPosition: "-33px 1px", width: '309px'},
+      description: '',
+      pageLink: ''
+    },
+    {
+      title: 'Cat Fan Deterrent',
+      image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/6.jpg',
+      imageAdjustments: {objectPosition: "-33px 1px", width: '309px'},
       description: '',
       pageLink: ''
     }
@@ -116,7 +178,6 @@ export default function Home() {
             <span>Electronics</span>
             <span>Modeling</span>
             <span>Video</span>
-            <span>Random</span>
             <span>Contact</span>
           </div>
           <div className={styles.blockWebDev} id="blockWebDev">
@@ -124,12 +185,28 @@ export default function Home() {
             {webDevelopmentProjects.map((project) =>
               <Fragment key={project.title}>
                 <div className={styles.blockContainer}>
-                  <div>
-                    <img className={styles.blockImage} src={project.image} alt="" />
+                  <div className={styles.blockImageContainer}>
+                    <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
                   </div>
                   <div className={styles.blockRightColumn}>
-                    <p>{project.title}</p>
-                    <div>{project.description}</div>
+                    <div style={{fontSize: '24px', margin: '30px 0'}}>{project.title}</div>
+                    <p>{project.description}</p>
+                  </div>
+                </div>
+              </Fragment>
+            )}
+          </div>
+          <div className={styles.blockWebDev} id="blockElectronics">
+            <div className={styles.blockTitle}>Electronics</div>
+            {electronicProjects.map((project) =>
+              <Fragment key={project.title}>
+                <div className={styles.blockContainer}>
+                  <div className={styles.blockImageContainer}>
+                    <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
+                  </div>
+                  <div className={styles.blockRightColumn}>
+                    <div style={{fontSize: '24px', margin: '30px 0'}}>{project.title}</div>
+                    <p>{project.description}</p>
                   </div>
                 </div>
               </Fragment>
