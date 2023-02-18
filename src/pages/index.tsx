@@ -75,7 +75,7 @@ export default function Home() {
     {
       title: 'Support Ticket Dashboard',
       image: 'https://raw.githubusercontent.com/tdeckard2000/Support-Ticket-Dashboard/master/images/example.png',
-      imageAdjustments: {objectPosition: "-10px 12px", width: '537px'},
+      imageAdjustments: {objectPosition: "-17px -3px", width: '537px'},
       description: '',
       pageLink: ''
     },
