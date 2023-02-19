@@ -288,9 +288,9 @@ export default function Home() {
               <div>
                 <h3>Social Media</h3>
                 <div className={styles.socialLinks}>
-                  <a className={styles.linkHover} href="http://linkedin.com/in/trentdeckard" target="_blank">LinkedIn <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
-                  <a className={styles.linkHover} href="https://github.com/tdeckard2000" target="_blank">GitHub <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
-                  <a className={styles.linkHover} href="http://youtube.com/interestingted" target="_blank">YouTube <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
+                  <a className={styles.linkHover} href="http://linkedin.com/in/trentdeckard" target="_blank" rel="noreferrer">LinkedIn <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
+                  <a className={styles.linkHover} href="https://github.com/tdeckard2000" target="_blank" rel="noreferrer">GitHub <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
+                  <a className={styles.linkHover} href="http://youtube.com/interestingted" target="_blank" rel="noreferrer">YouTube <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
                 </div>
               </div>
             </div>
