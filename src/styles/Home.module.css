@@ -79,7 +79,8 @@
   text-decoration: none;
 }
 
-.contactSection a:hover {
+.contactSection .linkHover:hover{
+  cursor: pointer;
   filter: brightness(0) invert(0);
 }
 
@@ -114,6 +115,12 @@
   top: 5px;
 }
 
+.modalHide {
+  transition: visibility .2s, opacity .2s linear;
+  opacity: 0;
+  visibility: hidden;
+}
+
 .navContainerDesktop {
   display: flex;
   flex-direction: row;
@@ -143,6 +150,22 @@
 
 .navContainerDesktop span:hover {
   border: 1px solid black;
+}
+
+.notificationCopy {
+  align-items: center;
+  background-color: #4a4a4acf;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  left: calc(50% - 75px);
+  position: fixed;
+  bottom: calc(20% - 40px);
+  font-size: 20px;
+  width: 150px;
+  z-index: 2;
 }
 
 .socialLinks a{

@@ -13,6 +13,17 @@ export default function Home() {
   const ref = useRef<HTMLDivElement>(null);
   const [yPosition, setYPosition] = useState(0);
 
+  const onCopy = (value:string) => {
+    const element = ref.current;
+    const notificationCopy = element?.querySelector("#notificationCopy") as HTMLDivElement;
+    console.log(notificationCopy)
+    notificationCopy?.classList.remove(styles.modalHide);
+    navigator.clipboard.writeText(value);
+    setTimeout(() => {
+      notificationCopy.classList.add(styles.modalHide)
+    }, 1000)
+  }
+
   useEffect(() => {
     const scroll = () => {
       const { pageYOffset } = window;
@@ -159,6 +170,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main ref={ref} className={styles.allPage}>
+        <div className={styles.notificationCopy + ' ' + styles.modalHide} id="notificationCopy">
+          Copied
+        </div>
         <div className={styles.headerContainer}>
           <div className={styles.headshotContainer}>
             <img
@@ -268,15 +282,15 @@ export default function Home() {
               <h1>Trent Deckard</h1>
               <div>
                 <h3>Contact</h3>
-                <a href="tel:+8123605563">812-360-5563</a>
-                <a href="mailto: tredeckard@gmail.com">tredeckard@gmail.com</a>
+                <div className={styles.linkHover} onClick={() => {onCopy("812-360-5563")}}>812-360-5563</div>
+                <div className={styles.linkHover} onClick={() => {onCopy("tredeckard@gmail.com")}}>tredeckard@gmail.com</div>
               </div>
               <div>
                 <h3>Social Media</h3>
                 <div className={styles.socialLinks}>
-                  <a href="http://linkedin.com/in/trentdeckard" target="_blank">LinkedIn <img src="icon_new_window.svg" className={styles.iconNewWindow} /></a>
-                  <a href="https://github.com/tdeckard2000" target="_blank">GitHub <img src="icon_new_window.svg" className={styles.iconNewWindow} /></a>
-                  <a href="http://youtube.com/interestingted" target="_blank">YouTube <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
+                  <a className={styles.linkHover} href="http://linkedin.com/in/trentdeckard" target="_blank">LinkedIn <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
+                  <a className={styles.linkHover} href="https://github.com/tdeckard2000" target="_blank">GitHub <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
+                  <a className={styles.linkHover} href="http://youtube.com/interestingted" target="_blank">YouTube <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
                 </div>
               </div>
             </div>
