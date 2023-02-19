@@ -13,15 +13,26 @@ export default function Home() {
   const ref = useRef<HTMLDivElement>(null);
   const [yPosition, setYPosition] = useState(0);
 
-  const onCopy = (value:string) => {
+  const onCopy = (value: string) => {
     const element = ref.current;
     const notificationCopy = element?.querySelector("#notificationCopy") as HTMLDivElement;
-    console.log(notificationCopy)
     notificationCopy?.classList.remove(styles.modalHide);
     navigator.clipboard.writeText(value);
     setTimeout(() => {
       notificationCopy.classList.add(styles.modalHide)
     }, 1000)
+  }
+
+  const showById = (elementId: string) => {
+    const element = ref.current;
+    const target = element?.querySelector("#"+elementId) as HTMLElement;
+    console.log("target: ", target)
+  }
+
+  const hideById = (elementId: string) => {
+    const element = ref.current;
+    const target = element?.querySelector("#"+elementId) as HTMLElement;
+    console.log("end: ", target)
   }
 
   useEffect(() => {
@@ -35,7 +46,6 @@ export default function Home() {
 
   useEffect(() => {
     const element = ref.current;
-    console.log(element);
     gsap.fromTo(
       [
         element?.querySelector("#blockWebDev") as HTMLDivElement,
@@ -60,7 +70,6 @@ export default function Home() {
 
   useEffect(() => {
     const element = ref.current;
-    console.log(element);
     gsap.fromTo(
       [
         element?.querySelector("#blockElectronics") as HTMLDivElement,
@@ -85,7 +94,6 @@ export default function Home() {
 
   useEffect(() => {
     const element = ref.current;
-    console.log(element);
     gsap.fromTo(
       [
         element?.querySelector("#blockModeling") as HTMLDivElement,
@@ -110,7 +118,6 @@ export default function Home() {
 
   useEffect(() => {
     const element = ref.current;
-    console.log(element);
     gsap.fromTo(
       [
         element?.querySelector("#blockVideo") as HTMLDivElement,
@@ -135,7 +142,6 @@ export default function Home() {
 
   useEffect(() => {
     const element = ref.current;
-    console.log(element);
     gsap.fromTo(
       [
         element?.querySelector("#blockResume") as HTMLDivElement,
@@ -279,18 +285,34 @@ export default function Home() {
           <div className={styles.blockTitle} id="blockResumeTitle">Resume</div>
           <div id="blockResume">
             <div className={styles.contactSection}>
-              <h1>Trent Deckard</h1>
-              <div>
+              <h1 className={styles.linkHover} style={{ left: '13px', position: 'relative' }} onClick={() => { onCopy("Hi Trent Deckard. Let's set up an interview! 🪤") }}>Trent Deckard <img src="icon_copy.svg" className={styles.iconNewWindow} style={{ marginBottom: '6px' }} /></h1>
+              <div className={styles.socialLinks}>
                 <h3>Contact</h3>
-                <div className={styles.linkHover} onClick={() => {onCopy("812-360-5563")}}>812-360-5563</div>
-                <div className={styles.linkHover} onClick={() => {onCopy("tredeckard@gmail.com")}}>tredeckard@gmail.com</div>
+                <div className={styles.contactLinks}>
+                  <div className={styles.linkHover} onClick={() => { onCopy("812-360-5563") }}>812-360-5563 <img src="icon_copy.svg" className={styles.iconNewWindow} /></div>
+                  <div className={styles.linkHover} onClick={() => { onCopy("tredeckard@gmail.com") }}>tredeckard@gmail.com <img src="icon_copy.svg" className={styles.iconNewWindow} /></div>
+                </div>
               </div>
               <div>
                 <h3>Social Media</h3>
                 <div className={styles.socialLinks}>
-                  <a className={styles.linkHover} href="http://linkedin.com/in/trentdeckard" target="_blank" rel="noreferrer">LinkedIn <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
-                  <a className={styles.linkHover} href="https://github.com/tdeckard2000" target="_blank" rel="noreferrer">GitHub <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
-                  <a className={styles.linkHover} href="http://youtube.com/interestingted" target="_blank" rel="noreferrer">YouTube <img src="icon_new_window.svg" className={styles.iconNewWindow}/></a>
+                  <a className={styles.linkHover} href="http://linkedin.com/in/trentdeckard" target="_blank" rel="noreferrer">LinkedIn <img src="icon_new_window.svg" className={styles.iconNewWindow} /></a>
+                  <a className={styles.linkHover} href="https://github.com/tdeckard2000" target="_blank" rel="noreferrer">GitHub <img src="icon_new_window.svg" className={styles.iconNewWindow} /></a>
+                  <a className={styles.linkHover} href="http://youtube.com/interestingted" target="_blank" rel="noreferrer">YouTube <img src="icon_new_window.svg" className={styles.iconNewWindow} /></a>
+                </div>
+              </div>
+            </div>
+            <div className={styles.resumeSection}>
+              <div className={styles.resumeContainer}>
+                <div>
+                  <img className={styles.resumeImage} src="Web_Resume.png" alt="My Web Developer Resume" />
+                  <img className={styles.resumeOpenIcon} src="icon_new_window.svg" alt="" />
+                  <div className={styles.resumeTitle}>Web Developer Resume</div>
+                </div>
+                <div>
+                  <img onMouseEnter={() => showById("fullResumeIcon")} onMouseLeave={() => hideById("fullResumeIcon")} className={styles.resumeImage} src="Full_Resume.png" alt="My Full Resume" />
+                  <img className={styles.resumeOpenIcon} id="fullResumeIcon" src="icon_new_window.svg" alt="" />
+                  <div className={styles.resumeTitle}>All Inclusive Resume</div>
                 </div>
               </div>
             </div>
