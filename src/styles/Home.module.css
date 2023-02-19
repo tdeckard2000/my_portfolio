@@ -15,6 +15,10 @@
   width: 80%;
 }
 
+.blockDivider {
+  height: 20px;
+}
+
 .blockImage {
   object-fit: cover;
 }
@@ -35,17 +39,20 @@
 }
 
 .blockTitle {
+  background-image: linear-gradient(to right, rgb(255 255 255), rgb(255 255 255) ,rgb(255 255 255 / 0%));
   border-bottom: 1px solid #d0d0d0;
   font-size: 30px;
-  margin: 45px auto 70px;
-  width: 80%;
+  margin: 45px auto 45px;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  width: 81%;
+  z-index: 1;
 }
-
-.blockWebDev {}
 
 .body {
   background-repeat: no-repeat;
-  height: 500vh;
+  height: 1000vh;
 }
 
 .contactSection {
