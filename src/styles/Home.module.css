@@ -115,12 +115,13 @@
   border: 1px solid #888888;
   border-radius: 5px;
   box-shadow: 0px 3px 5px #0000001f;
+  color: black;
+  cursor: pointer;
   display: flex;
+  height: 40px;
   justify-content: center;
   margin: 0 10px;
   padding: 10px;
-  height: 40px;
-  cursor: pointer;
   width: 100px;
 }
 

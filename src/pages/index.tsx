@@ -298,6 +298,13 @@ export default function Home() {
       pageLink: ''
     },
     {
+      title: 'On TV',
+      image: '',
+      imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+      description: '',
+      pageLink: ''
+    },
+    {
       title: 'Belay Glasses Advert',
       image: '',
       imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
@@ -354,11 +361,11 @@ export default function Home() {
         <div className={styles.body}>
           <div className={styles.navContainerDesktop}
             style={{ bottom: yPosition / 4 + "px" }}>
-            <span>Web</span>
-            <span>Electronics</span>
-            <span>3D Modeling</span>
-            <span>Video</span>
-            <span>Resume</span>
+              <a style={{textDecoration: 'none'}} href="#blockWebDevTitle"><span>Web</span></a>
+              <a style={{textDecoration: 'none'}} href="#blockElectronicsTitle"><span>Electronics</span></a>
+              <a style={{textDecoration: 'none'}} href="#blockModelingTitle"><span>3D Modeling</span></a>
+              <a style={{textDecoration: 'none'}} href="#blockVideoTitle"><span>Video</span></a>
+              <a style={{textDecoration: 'none'}} href="#blockResumeTitle"><span>Resume</span></a>
           </div>
           <div className={styles.blockTitle} id="blockWebDevTitle">Web Development</div>
           <div id="blockWebDev">
