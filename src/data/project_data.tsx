@@ -1,5 +1,14 @@
 export const webDevelopmentProjects = [
     {
+        title: "NextCentury Submetering Systems",
+        image: 'nextCentury.jpeg',
+        imageAdjustments: { objectPosition: "-1px 3px", width: '372px' },
+        description: `I worked at NextCentury for four years. I worked as a Full Stack Web Developer during 
+        my final year. I was a lead software and hardware tester for 2 years and a technical support
+        for 1 year. The company had just 8 members when I joined.`,
+        pageLink: ''
+    },
+    {
         title: 'Meter Wiring Guide',
         image: 'https://raw.githubusercontent.com/tdeckard2000/wiringGuide/main/images/Example.png',
         imageAdjustments: { objectPosition: "-5px -48px", width: '532px' },
@@ -16,7 +25,7 @@ export const webDevelopmentProjects = [
     {
         title: 'Ted Counter',
         image: 'https://raw.githubusercontent.com/tdeckard2000/TedCounter/master/IMG_0729.jpg',
-        imageAdjustments: { objectPosition: "-4px -44px", width: '356px' },
+        imageAdjustments: { objectPosition: "-2px -30px", width: '274px' },
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
@@ -59,28 +68,28 @@ export const webDevelopmentProjects = [
         imageAdjustments: { objectPosition: "-27px 1px", width: '330px' },
         description: "You're looking at it. Just a confirmation that I did indeed make this.",
         pageLink: ''
-    }
+    },
 ];
 
 export const electronicProjects = [
     {
         title: "Rex 'Battle Bot' R/C",
         image: 'rex.GIF',
-        imageAdjustments: { objectPosition: "-52px -3px", width: '400px' },
+        imageAdjustments: { objectPosition: "-52px -27px", width: '400px' },
         description: '',
         pageLink: ''
     },
     {
-        title: 'Knock to Unlock',
-        image: 'https://raw.githubusercontent.com/tdeckard2000/door_knock_unlock_arduino/main/images/IMG_7573.jpeg',
-        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        title: 'Door Knock to Unlock',
+        image: 'https://raw.githubusercontent.com/tdeckard2000/door_knock_unlock_arduino/main/images/1.JPG',
+        imageAdjustments: { objectPosition: "-17px -20px", width: '309px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'Cat Fan Deterrent',
-        image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/6.jpg',
-        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/7.jpg',
+        imageAdjustments: { objectPosition: "1px -25px", width: '265px' },
         description: '',
         pageLink: ''
     }
@@ -89,15 +98,15 @@ export const electronicProjects = [
 export const modelingProjects = [
     {
         title: 'RF Logger Housing',
-        image: '',
-        imageAdjustments: { objectPosition: "-52px -3px", width: '400px' },
+        image: 'Rf_Logger.png',
+        imageAdjustments: { objectPosition: "-12px -19px", width: '283px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'Pulse Generator Housing',
-        image: '',
-        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        image: 'pulse_generator.jpeg',
+        imageAdjustments: { objectPosition: "-44px -55px", width: '325px' },
         description: '',
         pageLink: ''
     },
@@ -124,15 +133,15 @@ export const modelingProjects = [
     },
     {
         title: 'GoPro Anchor Mount',
-        image: '',
-        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        image: 'GoPro_Anchor.png',
+        imageAdjustments: { objectPosition: "1px -10px", width: '258px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'Cat Deterrent Housing',
-        image: '',
-        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/6.jpg',
+        imageAdjustments: { objectPosition: "-1px -25px", width: '267px' },
         description: '',
         pageLink: ''
     },
@@ -141,15 +150,15 @@ export const modelingProjects = [
 export const videoProjects = [
     {
         title: 'Recognition',
-        image: '',
-        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        image: 'newspaper.jpeg',
+        imageAdjustments: { objectPosition: "-29px -9px", width: '321px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'On TV',
-        image: '',
-        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        image: 'fox_video.jpeg',
+        imageAdjustments: { objectPosition: "-1px 1px", width: '300px' },
         description: '',
         pageLink: ''
     },
@@ -161,15 +170,22 @@ export const videoProjects = [
         pageLink: ''
     },
     {
-        title: 'Belay Glasses Advert',
+        title: 'Pitch 6 Belay Glasses Advert',
         image: '',
         imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
         description: '',
         pageLink: ''
     },
     {
-        title: 'Bread Advert',
+        title: "Stong's Bread Advert",
         image: 'https://i.ytimg.com/vi/gCD0lYrGNG0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWn4Y5bPfCmSma2bVMSq3tvA4Z6g',
+        imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
+        description: '',
+        pageLink: ''
+    },
+    {
+        title: 'Doggie Dinners Advert',
+        image: '',
         imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
         description: '',
         pageLink: ''

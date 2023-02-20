@@ -223,7 +223,7 @@ export default function Home() {
                     <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
                   </div>
                   <div className={styles.blockRightColumn}>
-                    <div style={{ fontSize: '24px', margin: '30px 0' }}>{project.title}</div>
+                    <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
                     <p>{project.description}</p>
                   </div>
                 </div>
@@ -240,7 +240,7 @@ export default function Home() {
                     <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
                   </div>
                   <div className={styles.blockRightColumn}>
-                    <div style={{ fontSize: '24px', margin: '30px 0' }}>{project.title}</div>
+                    <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
                     <p>{project.description}</p>
                   </div>
                 </div>
@@ -257,7 +257,7 @@ export default function Home() {
                     <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
                   </div>
                   <div className={styles.blockRightColumn}>
-                    <div style={{ fontSize: '24px', margin: '30px 0' }}>{project.title}</div>
+                    <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
                     <p>{project.description}</p>
                   </div>
                 </div>
@@ -274,7 +274,7 @@ export default function Home() {
                     <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
                   </div>
                   <div className={styles.blockRightColumn}>
-                    <div style={{ fontSize: '24px', margin: '30px 0' }}>{project.title}</div>
+                    <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
                     <p>{project.description}</p>
                   </div>
                 </div>
@@ -285,7 +285,7 @@ export default function Home() {
           <div className={styles.blockTitle} id="blockResumeTitle">Resume</div>
           <div id="blockResume">
             <div className={styles.contactSection}>
-              <h1 className={styles.linkHover} style={{ left: '13px', position: 'relative' }} onClick={() => { onCopy("Hi Trent Deckard. Let's set up an interview! 🪤") }}>Trent Deckard <img src="icon_copy.svg" className={styles.iconNewWindow} style={{ marginBottom: '6px' }} /></h1>
+              <h1 className={styles.linkHover} style={{ left: '13px', position: 'relative' }} onClick={() => { onCopy("Hi Trent Deckard. Let's set up an interview! 💞") }}>Trent Deckard <img src="icon_copy.svg" className={styles.iconNewWindow} style={{ marginBottom: '6px' }} /></h1>
               <div className={styles.socialLinks}>
                 <h3>Contact</h3>
                 <div className={styles.contactLinks}>
