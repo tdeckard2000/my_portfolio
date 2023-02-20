@@ -97,6 +97,13 @@ export const electronicProjects = [
 
 export const modelingProjects = [
     {
+        title: 'Giant Articulating Display Wall',
+        image: 'meter_wall.jpeg',
+        imageAdjustments: { objectPosition: "-12px -19px", width: '283px' },
+        description: '',
+        pageLink: ''
+    },
+    {
         title: 'RF Logger Housing',
         image: 'Rf_Logger.png',
         imageAdjustments: { objectPosition: "-12px -19px", width: '283px' },
@@ -145,6 +152,13 @@ export const modelingProjects = [
         description: '',
         pageLink: ''
     },
+    {
+        title: 'Hair Trigger ROV Claw',
+        image: '',
+        imageAdjustments: { objectPosition: "-1px -25px", width: '267px' },
+        description: '',
+        pageLink: ''
+    },
 ]
 
 export const videoProjects = [
@@ -185,6 +199,27 @@ export const videoProjects = [
     },
     {
         title: 'Doggie Dinners Advert',
+        image: '',
+        imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
+        description: '',
+        pageLink: ''
+    },
+    {
+        title: 'Documentary Now Finale Extra',
+        image: '',
+        imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
+        description: '',
+        pageLink: ''
+    },
+    {
+        title: 'Devin Graham (Super Tramp) Extra',
+        image: '',
+        imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
+        description: '',
+        pageLink: ''
+    },
+    {
+        title: 'Acting & Improv Groups',
         image: '',
         imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
         description: '',
