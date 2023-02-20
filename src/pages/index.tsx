@@ -242,7 +242,7 @@ export default function Home() {
                         <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
                       </div>
                       <div className={styles.blockRightColumn}>
-                        <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
+                        <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
                         <p className={styles.blockDescription}>{project.description}</p>
                       </div>
                     </div>
@@ -268,7 +268,7 @@ export default function Home() {
                           <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
                         </div>
                         <div className={styles.blockRightColumn}>
-                          <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
+                          <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
                           <p className={styles.blockDescription}>{project.description}</p>
                         </div>
                       </div>
@@ -294,7 +294,7 @@ export default function Home() {
                          <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
                        </div>
                        <div className={styles.blockRightColumn}>
-                         <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
+                         <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
                          <p className={styles.blockDescription}>{project.description}</p>
                        </div>
                      </div>
@@ -320,7 +320,7 @@ export default function Home() {
                         <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
                       </div>
                       <div className={styles.blockRightColumn}>
-                        <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
+                        <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
                         <p className={styles.blockDescription}>{project.description}</p>
                       </div>
                     </div>
