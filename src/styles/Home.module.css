@@ -3,20 +3,62 @@
 }
 
 .blockContainer {
-  align-items: center;
   border-radius: 8px;
   box-shadow: 0px 2px 8px #e3e3e3;
+  height: 160px;
+  margin: auto;
+  margin-bottom: 50px;
+  max-width: 1150px;
+  position: relative;
+  transform: rotateX(0deg);
+  transform-style: preserve-3d;
+  transition: transform .3s;
+  width: 80%;
+}
+
+.blockFront {
+  align-items: center;
+  backface-visibility: hidden;
   display: flex;
   flex-direction: row;
   height: 160px;
   justify-content: space-between;
-  margin: auto;
-  margin-bottom: 50px;
-  width: 80%;
+  position: absolute;
+  -webkit-backface-visibility: hidden; /* Safari */
+}
+
+.blockBack {
+  align-items: center;
+  backface-visibility: hidden;
+  background-color: rgb(165, 165, 165);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  height: 160px;
+  justify-content: space-between;
+  position: absolute;
+  transform: rotateX(180deg);
+  width: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+}
+
+.blockContainer:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 8px #c4c4c4;
+}
+
+.blockDescription {
+  color: #323232;
+  font-size: 14px;
 }
 
 .blockDivider {
   height: 20px;
+}
+
+.blockIsFlipped {
+  position: relative;
+  transform: rotateX(180deg);
 }
 
 .blockImage {
@@ -43,6 +85,7 @@
   border-bottom: 1px solid #d0d0d0;
   font-size: 30px;
   margin: 45px auto 45px;
+  max-width: 1175px;
   padding: 15px;
   position: sticky;
   top: 0;

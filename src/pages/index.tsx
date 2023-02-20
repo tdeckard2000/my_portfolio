@@ -12,6 +12,7 @@ export default function Home() {
   gsap.registerPlugin(ScrollTrigger);
   const ref = useRef<HTMLDivElement>(null);
   const [yPosition, setYPosition] = useState(0);
+  const [currentFlippedBlock, setCurrentFlippedBlock] = useState<null | string>(null);
 
   const onCopy = (value: string) => {
     const element = ref.current;
@@ -34,6 +35,20 @@ export default function Home() {
     const target = element?.querySelector("#" + elementId) as HTMLDivElement;
     target.style.visibility = "hidden";
   }
+
+  const flipBlock = (blockId: string) => {
+    const element = ref.current;
+    const newBlockClicked = blockId !== currentFlippedBlock;
+    if (currentFlippedBlock) {
+      const target = element?.querySelector("#" + currentFlippedBlock);
+      target?.classList.remove(styles.blockIsFlipped);
+      setCurrentFlippedBlock(null);
+    }
+    if (newBlockClicked) {
+      element?.querySelector("#" + blockId)?.classList.add(styles.blockIsFlipped);
+      setCurrentFlippedBlock(blockId);
+    }
+}
 
   useEffect(() => {
     const scroll = () => {
@@ -214,74 +229,112 @@ export default function Home() {
             <a style={{ textDecoration: 'none' }} href="#blockVideoTitle"><span>Video</span></a>
             <a style={{ textDecoration: 'none' }} href="#blockResumeTitle"><span>Resume</span></a>
           </div>
+
+          {/* ----- Web Development ----- */}
           <div className={styles.blockTitle} id="blockWebDevTitle">Web Development</div>
           <div id="blockWebDev">
-            {webDevelopmentProjects.map((project) =>
+            { webDevelopmentProjects.map((project, index) =>
               <Fragment key={project.title}>
-                <div className={styles.blockContainer}>
-                  <div className={styles.blockImageContainer}>
-                    <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
-                  </div>
-                  <div className={styles.blockRightColumn}>
-                    <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
-                    <p>{project.description}</p>
+                <div style={{perspective: '1000px'}}>
+                  <div onClick={() => flipBlock('web' + index)} id={"web" + index} className={styles.blockContainer}>
+                    <div className={styles.blockFront}>
+                      <div className={styles.blockImageContainer}>
+                        <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
+                      </div>
+                      <div className={styles.blockRightColumn}>
+                        <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
+                        <p className={styles.blockDescription}>{project.description}</p>
+                      </div>
+                    </div>
+                    <div className={styles.blockBack}>
+                      <p>place holder</p>
+                    </div>
                   </div>
                 </div>
               </Fragment>
             )}
           </div>
           <div className={styles.blockDivider}></div>
+
+          {/* ----- Electronics ----- */}
           <div className={styles.blockTitle} id="blockElectronicsTitle">Electronics</div>
           <div id="blockElectronics">
-            {electronicProjects.map((project) =>
+            { electronicProjects.map((project, index) =>
               <Fragment key={project.title}>
-                <div className={styles.blockContainer}>
-                  <div className={styles.blockImageContainer}>
-                    <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
-                  </div>
-                  <div className={styles.blockRightColumn}>
-                    <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
-                    <p>{project.description}</p>
+                  <div style={{perspective: '1000px'}}>
+                    <div onClick={() => flipBlock('electronics' + index)} id={"electronics" + index} className={styles.blockContainer}>
+                      <div className={styles.blockFront}>
+                        <div className={styles.blockImageContainer}>
+                          <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
+                        </div>
+                        <div className={styles.blockRightColumn}>
+                          <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
+                          <p className={styles.blockDescription}>{project.description}</p>
+                        </div>
+                      </div>
+                    <div className={styles.blockBack}>
+                      <p>place holder</p>
+                    </div>
                   </div>
                 </div>
               </Fragment>
             )}
           </div>
           <div className={styles.blockDivider}></div>
+
+          {/* ----- 3D Modeling ----- */}
           <div className={styles.blockTitle} id="blockModelingTitle">3D Modeling</div>
           <div id="blockModeling">
-            {modelingProjects.map((project) =>
-              <Fragment key={project.title}>
-                <div className={styles.blockContainer}>
-                  <div className={styles.blockImageContainer}>
-                    <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
-                  </div>
-                  <div className={styles.blockRightColumn}>
-                    <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
-                    <p>{project.description}</p>
-                  </div>
-                </div>
-              </Fragment>
+            { modelingProjects.map((project, index) =>
+                 <Fragment key={project.title}>
+                 <div style={{perspective: '1000px'}}>
+                   <div onClick={() => flipBlock('modeling' + index)} id={"modeling" + index} className={styles.blockContainer}>
+                     <div className={styles.blockFront}>
+                       <div className={styles.blockImageContainer}>
+                         <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
+                       </div>
+                       <div className={styles.blockRightColumn}>
+                         <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
+                         <p className={styles.blockDescription}>{project.description}</p>
+                       </div>
+                     </div>
+                   <div className={styles.blockBack}>
+                     <p>place holder</p>
+                   </div>
+                 </div>
+               </div>
+             </Fragment>
             )}
           </div>
           <div className={styles.blockDivider}></div>
-          <div className={styles.blockTitle} id="blockVideoTitle">Video</div>
+
+          {/* ----- Video Production ----- */}
+          <div className={styles.blockTitle} id="blockVideoTitle">Video Production</div>
           <div id="blockVideo">
-            {videoProjects.map((project) =>
-              <Fragment key={project.title}>
-                <div className={styles.blockContainer}>
-                  <div className={styles.blockImageContainer}>
-                    <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
-                  </div>
-                  <div className={styles.blockRightColumn}>
-                    <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
-                    <p>{project.description}</p>
+            {videoProjects.map((project, index) =>
+                <Fragment key={project.title}>
+                <div style={{perspective: '1000px'}}>
+                  <div onClick={() => flipBlock('video' + index)} id={"video" + index} className={styles.blockContainer}>
+                    <div className={styles.blockFront}>
+                      <div className={styles.blockImageContainer}>
+                        <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
+                      </div>
+                      <div className={styles.blockRightColumn}>
+                        <div style={{ fontSize: '24px', margin: '20px 0' }}>{project.title}</div>
+                        <p className={styles.blockDescription}>{project.description}</p>
+                      </div>
+                    </div>
+                  <div className={styles.blockBack}>
+                    <p>place holder</p>
                   </div>
                 </div>
-              </Fragment>
+              </div>
+            </Fragment>
             )}
           </div>
           <div className={styles.blockDivider}></div>
+          
+          {/* ----- Resume ----- */}
           <div className={styles.blockTitle} id="blockResumeTitle">Resume</div>
           <div id="blockResume">
             <div className={styles.contactSection}>
