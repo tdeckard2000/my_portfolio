@@ -194,11 +194,13 @@
 }
 
 .resumeOpenIcon {
-  bottom: 172px;
+  bottom: 220px;
   filter: brightness(1000);
-  right: 173px;
+  height: 50px;
+  left: 130px;
   pointer-events: none;
   position: relative;
+  width: 50px;
 }
 
 .resumeSection {
@@ -212,8 +214,10 @@
 }
 
 .resumeTitle {
+  bottom: 10px;
   font-weight: 100;
   margin-top: 15px;
+  position: relative;
   text-align: center;
 }
 

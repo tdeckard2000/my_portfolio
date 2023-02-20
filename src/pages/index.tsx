@@ -25,14 +25,14 @@ export default function Home() {
 
   const showById = (elementId: string) => {
     const element = ref.current;
-    const target = element?.querySelector("#"+elementId) as HTMLElement;
-    console.log("target: ", target)
+    const target = element?.querySelector("#" + elementId) as HTMLElement;
+    target.style.visibility = "visible";
   }
 
   const hideById = (elementId: string) => {
     const element = ref.current;
-    const target = element?.querySelector("#"+elementId) as HTMLElement;
-    console.log("end: ", target)
+    const target = element?.querySelector("#" + elementId) as HTMLDivElement;
+    target.style.visibility = "hidden";
   }
 
   useEffect(() => {
@@ -304,16 +304,16 @@ export default function Home() {
             </div>
             <div className={styles.resumeSection}>
               <div className={styles.resumeContainer}>
-                <div>
-                  <img className={styles.resumeImage} src="Web_Resume.png" alt="My Web Developer Resume" />
-                  <img className={styles.resumeOpenIcon} src="icon_new_window.svg" alt="" />
+                <a style={{ color: 'black', display: 'flex', flexDirection: 'column', textDecoration: 'none' }} href="https://drive.google.com/file/d/1YJUh9MUZ_fn7WPUhIQ7Ci_YgUb8jJ2tG/view?usp=sharing">
+                  <img onMouseEnter={() => showById("webResumeIcon")} onMouseLeave={() => hideById("webResumeIcon")} className={styles.resumeImage} src="Web_Resume.png" alt="My Web Developer Resume" />
+                  <img className={styles.resumeOpenIcon} id="webResumeIcon" src="icon_new_window.svg" alt="" />
                   <div className={styles.resumeTitle}>Web Developer Resume</div>
-                </div>
-                <div>
+                </a>
+                <a style={{ color: 'black', display: 'flex', flexDirection: 'column', textDecoration: 'none' }} href="https://drive.google.com/file/d/1qWKBHRZ8XyuMDWyUp2CDw88csEZPZUqP/view?usp=share_link">
                   <img onMouseEnter={() => showById("fullResumeIcon")} onMouseLeave={() => hideById("fullResumeIcon")} className={styles.resumeImage} src="Full_Resume.png" alt="My Full Resume" />
                   <img className={styles.resumeOpenIcon} id="fullResumeIcon" src="icon_new_window.svg" alt="" />
                   <div className={styles.resumeTitle}>All Inclusive Resume</div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
