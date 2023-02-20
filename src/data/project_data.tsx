@@ -219,7 +219,7 @@ export const videoProjects = [
         pageLink: ''
     },
     {
-        title: 'Acting & Improv Groups',
+        title: 'Acting',
         image: '',
         imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
         description: '',

@@ -286,6 +286,7 @@ export default function Home() {
           <div id="blockResume">
             <div className={styles.contactSection}>
               <h1 className={styles.linkHover} style={{ left: '13px', position: 'relative' }} onClick={() => { onCopy("Hi Trent Deckard. Let's set up an interview! 💞") }}>Trent Deckard <img src="icon_copy.svg" className={styles.iconNewWindow} style={{ marginBottom: '6px' }} /></h1>
+              {/* <p>Columbus Ohio</p> */}
               <div className={styles.socialLinks}>
                 <h3>Contact</h3>
                 <div className={styles.contactLinks}>
