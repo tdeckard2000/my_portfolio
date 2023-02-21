@@ -87,6 +87,28 @@ export const electronicProjects = [
         imageAdjustments: { objectPosition: "1px -25px", width: '265px' },
         description: '',
         pageLink: ''
+    },
+    {
+        title: 'Always Taking Things Apart',
+        image: 'camera_apart.jpg',
+        imageAdjustments: { objectPosition: "1px -25px", width: '265px' },
+        description: '',
+        pageLink: ''
+    },
+    {
+        title: 'PTS PCB Repair',
+        image: 'pts_solder.jpg',
+        imageAdjustments: { objectPosition: "1px -25px", width: '265px' },
+        description: `For two years, I diagnosed and repaired PCBs using thermal imaging camera, microscope, hot air
+        rework station, and soldering iron. I kept detailed records of all repairs. Note: Image is from PTS promotional video.`,
+        pageLink: ''
+    },
+    {
+        title: 'PTS Laser Printer Repair',
+        image: 'pts_printer.jpg',
+        imageAdjustments: { objectPosition: "1px -25px", width: '265px' },
+        description: `For one year, I diagnosed and repaired Lexmark laserjet printers. I kept detailed records of all repairs. Note: Image is from PTS promotional video.`,
+        pageLink: ''
     }
 ]
 
@@ -114,7 +136,7 @@ export const modelingProjects = [
     },
     {
         title: 'A Head of Myself',
-        image: '',
+        image: 'a_head_of_myself.jpg',
         imageAdjustments: { objectPosition: "-44px -55px", width: '325px' },
         description: '',
         pageLink: ''
@@ -156,9 +178,11 @@ export const modelingProjects = [
     },
     {
         title: 'Hair Trigger ROV Claw',
-        image: '',
+        image: 'claw.jpg',
         imageAdjustments: { objectPosition: "-1px -25px", width: '267px' },
-        description: '',
+        description: `Created for ROV underwater drone applications, specifically the QYSEA FIFISH. 
+        The claw uses a hair-trigger and rubber band to grab items without the need 
+        for motors. It is designed to release if the drone becomes stuck.`,
         pageLink: ''
     },    
     {
@@ -221,7 +245,7 @@ export const videoProjects = [
         title: 'Doggie Dinners Advert',
         image: '',
         imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
-        description: 'I was hired to produce this Kickstarter advert for Doggie Dinners locally sourced organic food.',
+        description: 'I was hired to produce this Kickstarter advert for Doggie Dinners locally sourced organic dog food.',
         pageLink: ''
     },
     {

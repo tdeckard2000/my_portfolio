@@ -93,7 +93,7 @@ export default function Home() {
         scrollTrigger: {
           trigger: element?.querySelector(".titleTop"),
           start: "top top",
-          end: "300px",
+          end: "350",
           scrub: true,
         },
       }
