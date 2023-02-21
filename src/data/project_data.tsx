@@ -89,6 +89,13 @@ export const electronicProjects = [
         pageLink: ''
     },
     {
+        title: 'NextCentury - Hardware Testing',
+        image: 'testing_keithleys.jpg',
+        imageAdjustments: { objectPosition: "0px -17px", width: '266px' },
+        description: '',
+        pageLink: ''
+    },
+    {
         title: 'Always Taking Things Apart',
         image: 'camera_apart.jpg',
         imageAdjustments: { objectPosition: "1px -25px", width: '265px' },
@@ -98,7 +105,7 @@ export const electronicProjects = [
     {
         title: 'PTS PCB Repair',
         image: 'pts_solder.jpg',
-        imageAdjustments: { objectPosition: "1px -25px", width: '265px' },
+        imageAdjustments: { objectPosition: "-21px -11px", width: '293px' },
         description: `For two years, I diagnosed and repaired PCBs using thermal imaging camera, microscope, hot air
         rework station, and soldering iron. I kept detailed records of all repairs. Note: Image is from PTS promotional video.`,
         pageLink: ''
@@ -106,7 +113,7 @@ export const electronicProjects = [
     {
         title: 'PTS Laser Printer Repair',
         image: 'pts_printer.jpg',
-        imageAdjustments: { objectPosition: "1px -25px", width: '265px' },
+        imageAdjustments: { objectPosition: "0px -25px", width: '265px' },
         description: `For one year, I diagnosed and repaired Lexmark laserjet printers. I kept detailed records of all repairs. Note: Image is from PTS promotional video.`,
         pageLink: ''
     }
@@ -143,14 +150,14 @@ export const modelingProjects = [
     },
     {
         title: 'House Mouse VR Game',
-        image: '',
+        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
         imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'Animatronic Dinosaur',
-        image: '',
+        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
         imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
         description: '',
         pageLink: ''
@@ -164,7 +171,7 @@ export const modelingProjects = [
     },
     {
         title: 'Gateway Mascot',
-        image: '',
+        image: 'mascot.jpg',
         imageAdjustments: { objectPosition: "1px -10px", width: '258px' },
         description: '',
         pageLink: ''
@@ -187,7 +194,7 @@ export const modelingProjects = [
     },    
     {
         title: 'NCSS Specialized Screwdriver',
-        image: '',
+        image: 'screwdriver.jpg',
         imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
         description: '',
         pageLink: ''
@@ -214,7 +221,7 @@ export const videoProjects = [
     },
     {
         title: 'US Forest Service',
-        image: '',
+        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
         imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
         description: `Through the Student Conservation Association and AmeriCorps, I worked as a Video Producer and Surveyor 
         at the Mt. Hood National Forest in Oregon.`,
@@ -222,14 +229,14 @@ export const videoProjects = [
     },
     {
         title: 'The Limestone Post',
-        image: '',
+        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
         imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
         description: 'I was hired by the Limestone Post to produce videos of local nature preserves, creators, and neighborhoods.',
         pageLink: ''
     },
     {
         title: 'Pitch 6 Belay Glasses Advert',
-        image: '',
+        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
         imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
         description: 'I was hired by engineer Matt Cupal to create a Kickstarter advert for his innovative adjustable belay glasses.',
         pageLink: ''
@@ -243,31 +250,31 @@ export const videoProjects = [
     },
     {
         title: 'Doggie Dinners Advert',
-        image: '',
+        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
         imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
         description: 'I was hired to produce this Kickstarter advert for Doggie Dinners locally sourced organic dog food.',
         pageLink: ''
     },
     {
-        title: 'Documentary Now Finale Extra',
-        image: '',
-        imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
-        description: `I was an extra in the season finale of the Emmy nominated mocumentary series "Documentary Now!" 
-        This episode featured Michael C. Hall, Bobby Moynihan, Helen Mirren, and Kevin Dunn. Directed by Alexander Buono.`,
-        pageLink: ''
-    },
-    {
         title: 'Devin Graham (Super Tramp) Extra',
-        image: '',
-        imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
+        image: 'devin.jpg',
+        imageAdjustments: { objectPosition: "-1px -8px", width: '267px' },
         description: `The director Devin Graham has been an idle of mine for many years. I was fortunate enough to work directly 
         with Devin for a full day of shooting. I was featured in one of his latest videos.`,
         pageLink: ''
     },
     {
+        title: 'Documentary Now Finale Extra',
+        image: 'documentary_now.jpg',
+        imageAdjustments: { objectPosition: "-4px -6px", width: '269px' },
+        description: `I was an extra in the season finale of the Emmy nominated mocumentary series "Documentary Now!" 
+        This episode featured Michael C. Hall, Bobby Moynihan, Helen Mirren, and Kevin Dunn. Directed by Alexander Buono.`,
+        pageLink: ''
+    },
+    {
         title: 'Acting',
-        image: '',
-        imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
+        image: 'green_screen.jpg',
+        imageAdjustments: { objectPosition: "-139px -39px", width: '405px' },
         description: `Due to my strong interest in all things film, I have joined several acting and improv groups. 
         I have been fortunate enough to befriend some amazingly talented film actors, voice actors, stage actors, 
         and foam latex/puppet/prop makers.`,
