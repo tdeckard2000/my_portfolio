@@ -216,7 +216,7 @@ export const videoProjects = [
         image: 'fox_video.jpeg',
         imageAdjustments: { objectPosition: "-1px 1px", width: '300px' },
         description: `My work was played on national television as part of a TV series called "Objectified".
-         This episode featured Mark Cuban`,
+         This episode featured Mark Cuban.`,
         pageLink: ''
     },
     {
