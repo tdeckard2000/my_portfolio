@@ -78,7 +78,6 @@ export default function Home() {
           start: "top top",
           end: "300px",
           scrub: true,
-          markers: true
         },
       }
     );
