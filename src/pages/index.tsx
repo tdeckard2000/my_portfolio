@@ -13,6 +13,7 @@ export default function Home() {
   const ref = useRef<HTMLDivElement>(null);
   const [yPosition, setYPosition] = useState(0);
   const [currentFlippedBlock, setCurrentFlippedBlock] = useState<null | string>(null);
+  const [currentMobileDescription, setCurrentMobileDescription] = useState<null | string>(null);
 
   const onCopy = (value: string) => {
     const element = ref.current;
@@ -38,17 +39,33 @@ export default function Home() {
 
   const flipBlock = (blockId: string) => {
     const element = ref.current;
-    const newBlockClicked = blockId !== currentFlippedBlock;
     if (currentFlippedBlock) {
       const target = element?.querySelector("#" + currentFlippedBlock);
       target?.classList.remove(styles.blockIsFlipped);
       setCurrentFlippedBlock(null);
     }
+    const newBlockClicked = blockId !== currentFlippedBlock;
     if (newBlockClicked) {
       element?.querySelector("#" + blockId)?.classList.add(styles.blockIsFlipped);
       setCurrentFlippedBlock(blockId);
     }
-}
+  }
+
+  const toggleMobileDescription = (descriptionId: string) => {
+    const element = ref.current;
+    if (currentMobileDescription) {
+      //hide description
+      element?.querySelector("#" + currentMobileDescription)?.classList.add(styles.noWrap);
+      setCurrentMobileDescription(null);
+    }
+    const newDescriptionClicked = descriptionId !== currentMobileDescription;
+    if (newDescriptionClicked) {
+      //show description
+      const target = element?.querySelector("#" + descriptionId);
+      target?.classList.remove(styles.noWrap);
+      setCurrentMobileDescription(descriptionId);
+    }
+  }
 
   useEffect(() => {
     const scroll = () => {
@@ -251,6 +268,9 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <div className={styles.mobileProjectTitle}>{project.title}</div>
+                <div onClick={() => toggleMobileDescription("webD" + index)} id={"webD" + index} 
+                className={styles.mobileProjectDescription + ' ' + styles.noWrap}>{project.description}</div>
               </Fragment>
             )}
           </div>
@@ -277,6 +297,9 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <div className={styles.mobileProjectTitle}>{project.title}</div>
+                <div onClick={() => toggleMobileDescription("electronicsD" + index)} id={"electronicsD" + index} 
+                className={styles.mobileProjectDescription + ' ' + styles.noWrap}>{project.description}</div>
               </Fragment>
             )}
           </div>
@@ -286,23 +309,26 @@ export default function Home() {
           <div className={styles.blockTitle} id="blockModelingTitle">3D Modeling</div>
           <div id="blockModeling">
             { modelingProjects.map((project, index) =>
-                 <Fragment key={project.title}>
-                 <div style={{perspective: '1000px'}}>
-                   <div onClick={() => flipBlock('modeling' + index)} id={"modeling" + index} className={styles.blockContainer}>
-                     <div className={styles.blockFront}>
-                       <div className={styles.blockImageContainer}>
-                         <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
-                       </div>
-                       <div className={styles.blockRightColumn}>
-                         <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
-                         <p className={styles.blockDescription}>{project.description}</p>
-                       </div>
-                     </div>
-                   <div className={styles.blockBack}>
-                     <p>place holder</p>
-                   </div>
-                 </div>
-               </div>
+              <Fragment key={project.title}>
+                <div style={{perspective: '1000px'}}>
+                  <div onClick={() => flipBlock('modeling' + index)} id={"modeling" + index} className={styles.blockContainer}>
+                    <div className={styles.blockFront}>
+                      <div className={styles.blockImageContainer}>
+                        <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
+                      </div>
+                      <div className={styles.blockRightColumn}>
+                        <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
+                        <p className={styles.blockDescription}>{project.description}</p>
+                      </div>
+                    </div>
+                  <div className={styles.blockBack}>
+                    <p>place holder</p>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.mobileProjectTitle}>{project.title}</div>
+              <div onClick={() => toggleMobileDescription("modelingD" + index)} id={"modelingD" + index} 
+              className={styles.mobileProjectDescription + ' ' + styles.noWrap}>{project.description}</div>
              </Fragment>
             )}
           </div>
@@ -329,6 +355,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className={styles.mobileProjectTitle}>{project.title}</div>
+              <div onClick={() => toggleMobileDescription("videoD" + index)} id={"videoD" + index} 
+              className={styles.mobileProjectDescription + ' ' + styles.noWrap}>{project.description}</div>
             </Fragment>
             )}
           </div>

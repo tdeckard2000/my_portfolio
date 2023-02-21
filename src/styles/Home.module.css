@@ -168,6 +168,26 @@
   top: 2px;
 }
 
+.mobileProjectTitle {
+  bottom: 40px;
+  display: none;
+  position: relative;
+  text-align: center;
+}
+
+.mobileProjectDescription {
+  bottom: 30px;
+  color: rgb(83, 83, 83);
+  display: none;
+  height: fit-content;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+  width: 265px;
+}
+
 .modalHide {
   transition: visibility .2s, opacity .2s linear;
   opacity: 0;
@@ -219,6 +239,10 @@
   font-size: 20px;
   width: 150px;
   z-index: 2;
+}
+
+.noWrap {
+  white-space: nowrap;
 }
 
 .resumeContainer {
@@ -317,8 +341,6 @@
     max-height: 335px;
   }
 
-  .titleContainer {}
-
   .titleTop {
     font-size: 65px;
   }
@@ -337,6 +359,15 @@
 @media only screen and (max-width: 550px) {
   /* mobile */
 
+  .blockContainer {
+    width: 265px;
+  }
+
+  .blockImageContainer {
+    border-right: none;
+    border-radius: 8px;
+  }
+
   .blockRightColumn {
     display: none;
   }
@@ -349,6 +380,14 @@
   .headerContainer {
     max-height: fit-content;
     flex-direction: column;
+  }
+
+  .mobileProjectTitle {
+    display: block;
+  }
+
+  .mobileProjectDescription {
+    display: block;
   }
 
   .resumeImage {
@@ -379,6 +418,7 @@
     max-width: 100%;
     margin: 0 20px;
     right: 0;
+    text-align: center;
   }
 
   .headshot {
