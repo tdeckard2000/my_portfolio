@@ -224,6 +224,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  overflow: hidden;
   padding: 50px 35px;
 }
 
@@ -241,9 +242,10 @@
   bottom: 220px;
   filter: brightness(1000);
   height: 50px;
-  left: 130px;
+  left: calc(50% - 25px);
   pointer-events: none;
   position: relative;
+  visibility: hidden;
   width: 50px;
 }
 
@@ -331,12 +333,29 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   /* mobile */
+
+  .blockRightColumn {
+    display: none;
+  }
+
+  .blockTitle {
+    background-color: white;
+    text-align: center;
+  }
 
   .headerContainer {
     max-height: fit-content;
     flex-direction: column;
+  }
+
+  .resumeImage {
+    width: 100%;
+  }
+
+  .resumeTitle {
+    bottom: 50px;
   }
 
   .titleContainer {
@@ -371,6 +390,10 @@
 
   .navContainerDesktop {
     display: none;
+  }
+
+  .resumeContainer {
+    flex-direction: column;
   }
 
 }
