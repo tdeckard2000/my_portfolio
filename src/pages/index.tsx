@@ -74,10 +74,11 @@ export default function Home() {
         opacity: 1,
         y: 0,
         scrollTrigger: {
-          trigger: element?.querySelector(".titleBottom"),
+          trigger: element?.querySelector(".titleTop"),
           start: "top top",
-          end: "bottom center",
+          end: "300px",
           scrub: true,
+          markers: true
         },
       }
     );

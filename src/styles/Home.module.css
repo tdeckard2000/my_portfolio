@@ -76,6 +76,7 @@
 
 .blockRightColumn {
   height: 100%;
+  overflow-y: auto;
   margin: 0 50px;
   width: 100%;
 }

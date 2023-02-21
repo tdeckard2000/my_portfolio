@@ -118,9 +118,9 @@ export const modelingProjects = [
         pageLink: ''
     },
     {
-        title: 'Specialized Screwdriver',
+        title: 'A Head of Myself',
         image: '',
-        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        imageAdjustments: { objectPosition: "-44px -55px", width: '325px' },
         description: '',
         pageLink: ''
     },
@@ -146,6 +146,13 @@ export const modelingProjects = [
         pageLink: ''
     },
     {
+        title: 'Gateway Mascot',
+        image: '',
+        imageAdjustments: { objectPosition: "1px -10px", width: '258px' },
+        description: '',
+        pageLink: ''
+    },
+    {
         title: 'Cat Deterrent Housing',
         image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/6.jpg',
         imageAdjustments: { objectPosition: "-1px -25px", width: '267px' },
@@ -158,6 +165,13 @@ export const modelingProjects = [
         imageAdjustments: { objectPosition: "-1px -25px", width: '267px' },
         description: '',
         pageLink: ''
+    },    
+    {
+        title: 'NCSS Specialized Screwdriver',
+        image: '',
+        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        description: '',
+        pageLink: ''
     },
 ]
 
@@ -166,70 +180,78 @@ export const videoProjects = [
         title: 'Recognition',
         image: 'newspaper.jpeg',
         imageAdjustments: { objectPosition: "-29px -9px", width: '321px' },
-        description: '',
+        description: `I received recognition for my video production business work "Interesting Ted Videography LLC" 
+        and my YouTube channel of the same name, receiving 2.2 Million views and counting. Much of my work was inspired 
+        by director Devin Graham, who I later was fortunate enough to work with.`,
         pageLink: ''
     },
     {
         title: 'On TV',
         image: 'fox_video.jpeg',
         imageAdjustments: { objectPosition: "-1px 1px", width: '300px' },
-        description: '',
+        description: `My work was played on national television as part of a TV series called "Objectified".
+         This episode featured Mark Cuban`,
         pageLink: ''
     },
     {
         title: 'US Forest Service',
         image: '',
         imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
-        description: '',
+        description: `Through the Student Conservation Association and AmeriCorps, I worked as a Video Producer and Surveyor 
+        at the Mt. Hood National Forest in Oregon.`,
         pageLink: ''
     },
     {
         title: 'The Limestone Post',
         image: '',
         imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
-        description: '',
+        description: 'I was hired by the Limestone Post to produce videos of local nature preserves, creators, and neighborhoods.',
         pageLink: ''
     },
     {
         title: 'Pitch 6 Belay Glasses Advert',
         image: '',
         imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
-        description: '',
+        description: 'I was hired by engineer Matt Cupal to create a Kickstarter advert for his innovative adjustable belay glasses.',
         pageLink: ''
     },
     {
         title: "Stong's Bread Advert",
         image: 'https://i.ytimg.com/vi/gCD0lYrGNG0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWn4Y5bPfCmSma2bVMSq3tvA4Z6g',
         imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
-        description: '',
+        description: `I created a promotional video for Matthew Stong's bread company. During this shoot I ate lots of bread.`,
         pageLink: ''
     },
     {
         title: 'Doggie Dinners Advert',
         image: '',
         imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
-        description: '',
+        description: 'I was hired to produce this Kickstarter advert for Doggie Dinners locally sourced organic food.',
         pageLink: ''
     },
     {
         title: 'Documentary Now Finale Extra',
         image: '',
         imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
-        description: '',
+        description: `I was an extra in the season finale of the Emmy nominated mocumentary series "Documentary Now!" 
+        This episode featured Michael C. Hall, Bobby Moynihan, Helen Mirren, and Kevin Dunn. Directed by Alexander Buono.`,
         pageLink: ''
     },
     {
         title: 'Devin Graham (Super Tramp) Extra',
         image: '',
         imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
-        description: '',
+        description: `The director Devin Graham has been an idle of mine for many years. I was fortunate enough to work directly 
+        with Devin for a full day of shooting. I was featured in one of his latest videos.`,
         pageLink: ''
     },
     {
         title: 'Acting',
         image: '',
         imageAdjustments: { objectPosition: "-51px -8px", width: '405px' },
-        description: '',
+        description: `Due to my strong interest in all things film, I have joined several acting and improv groups. 
+        I have been fortunate enough to befriend some amazingly talented film actors, voice actors, stage actors, 
+        and foam latex/puppet/prop makers.`,
         pageLink: ''
     },
 ]
