@@ -169,6 +169,33 @@
   top: 2px;
 }
 
+.mobileDirections {
+  color: gray;
+  display: none;
+  margin-top: 20px;
+  margin: 50px auto 0;
+  padding: 20px;
+  text-align: center;
+  width: fit-content;
+}
+
+.mobileDirectionsArrow {
+  animation: MoveUpDown 1.2s linear infinite;
+  animation-timing-function: ease-in-out;
+  margin-top: 50px;
+  opacity: 0.35;
+  position: relative;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
+}
+
 .mobileProjectTitle {
   bottom: 40px;
   display: none;
@@ -366,6 +393,7 @@
   }
 
   .blockContainer {
+    box-shadow: 0 1px 5px #dbdbdb;
     width: 265px;
   }
 
@@ -390,6 +418,10 @@
   .headerContainer {
     max-height: fit-content;
     flex-direction: column;
+  }
+
+  .mobileDirections {
+    display: block;
   }
 
   .mobileProjectTitle {

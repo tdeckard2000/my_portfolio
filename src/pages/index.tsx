@@ -196,6 +196,25 @@ export default function Home() {
     );
   }, []);
 
+  useEffect(() => {
+    const element = ref.current;
+    gsap.to(
+      [
+        element?.querySelector("#mobileDirections") as HTMLDivElement,
+      ],
+      {
+        opacity: 0,
+        y: 20,
+        scrollTrigger: {
+          trigger: element?.querySelector("#mobileDirections"),
+          start: "top 50%",
+          end: 'top 20%',
+          scrub: true,
+        },
+      }
+    );
+  }, []);
+
   return (
     <>
       <Head>
@@ -238,6 +257,12 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.body}>
+
+          <div id="mobileDirections" className={styles.mobileDirections}>
+            <div>Tap Image or Description to learn more</div>
+            <img className={styles.mobileDirectionsArrow} src="arrow_down.svg" alt="" />
+          </div>
+
           <div className={styles.navContainerDesktop}
             style={{ bottom: yPosition / 4 + "px" }}>
             <a style={{ textDecoration: 'none' }} href="#blockWebDevTitle"><span>Web</span></a>
@@ -246,6 +271,7 @@ export default function Home() {
             <a style={{ textDecoration: 'none' }} href="#blockVideoTitle"><span>Video</span></a>
             <a style={{ textDecoration: 'none' }} href="#blockResumeTitle"><span>Resume</span></a>
           </div>
+
 
           {/* ----- Web Development ----- */}
           <div className={styles.blockTitle} id="blockWebDevTitle">Web Development</div>
