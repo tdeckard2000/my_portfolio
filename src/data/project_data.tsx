@@ -17,8 +17,8 @@ export const webDevelopmentProjects = [
     },
     {
         title: 'Meter Wiring Guide Editor',
-        image: '',
-        imageAdjustments: { objectPosition: "-4px -11px", width: '274px' },
+        image: 'meter_guide_edit.png',
+        imageAdjustments: { objectPosition: "-4px -1px", width: '274px' },
         description: '',
         pageLink: ''
     },
@@ -164,15 +164,22 @@ export const modelingProjects = [
     },
     {
         title: 'House Mouse VR Game',
-        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
-        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        image: 'house_mouse.jpg',
+        imageAdjustments: { objectPosition: "-13px 1px", width: '287px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'Animatronic Dinosaur',
-        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
-        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        image: 'dino.png',
+        imageAdjustments: { objectPosition: "2px 1px", width: '264px' },
+        description: '',
+        pageLink: ''
+    },
+    {
+        title: 'Cat Deterrent Housing',
+        image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/6.jpg',
+        imageAdjustments: { objectPosition: "-1px -34px", width: '267px' },
         description: '',
         pageLink: ''
     },
@@ -184,32 +191,32 @@ export const modelingProjects = [
         pageLink: ''
     },
     {
-        title: 'Gateway Mascot',
-        image: 'mascot.jpg',
-        imageAdjustments: { objectPosition: "1px -10px", width: '258px' },
-        description: '',
-        pageLink: ''
-    },
-    {
-        title: 'Cat Deterrent Housing',
-        image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/6.jpg',
-        imageAdjustments: { objectPosition: "-1px -25px", width: '267px' },
-        description: '',
-        pageLink: ''
-    },
-    {
         title: 'Hair Trigger ROV Claw',
         image: 'claw.jpg',
-        imageAdjustments: { objectPosition: "-1px -25px", width: '267px' },
+        imageAdjustments: { objectPosition: "7px -16px", width: '242px' },
         description: `Created for ROV underwater drone applications, specifically the QYSEA FIFISH. 
         The claw uses a hair-trigger and rubber band to grab items without the need 
         for motors. It is designed to release if the drone becomes stuck.`,
         pageLink: ''
-    },    
+    },
+    {
+        title: 'Gateway Mascot',
+        image: 'mascot.jpg',
+        imageAdjustments: { objectPosition: "0px -25px", width: '267px' },
+        description: '',
+        pageLink: ''
+    },
+    {
+        title: 'Razor Guard',
+        image: 'razor_guard.jpg',
+        imageAdjustments: { objectPosition: "-74px -63px", width: '373px' },
+        description: ``,
+        pageLink: ''
+    },        
     {
         title: 'NCSS Specialized Screwdriver',
         image: 'screwdriver.jpg',
-        imageAdjustments: { objectPosition: "-33px 1px", width: '309px' },
+        imageAdjustments: { objectPosition: "-33px -30px", width: '309px' },
         description: '',
         pageLink: ''
     },
