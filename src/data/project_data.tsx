@@ -98,7 +98,7 @@ export const electronicProjects = [
     {
         title: 'NextCentury - Technical Support',
         image: 'tech_support.jpg',
-        imageAdjustments: { objectPosition: "0px -17px", width: '266px' },
+        imageAdjustments: { objectPosition: "0px -6px", width: '266px' },
         description: '',
         pageLink: ''
     },
@@ -137,7 +137,7 @@ export const modelingProjects = [
     {
         title: 'RF Logger Housing',
         image: 'Rf_Logger.png',
-        imageAdjustments: { objectPosition: "-12px -19px", width: '283px' },
+        imageAdjustments: { objectPosition: "3px -16px", width: '271px' },
         description: '',
         pageLink: ''
     },
