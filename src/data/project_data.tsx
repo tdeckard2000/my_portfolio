@@ -11,28 +11,35 @@ export const webDevelopmentProjects = [
     {
         title: 'Meter Wiring Guide',
         image: 'https://raw.githubusercontent.com/tdeckard2000/wiringGuide/main/images/Example.png',
-        imageAdjustments: { objectPosition: "-5px -48px", width: '532px' },
+        imageAdjustments: { objectPosition: "-4px -11px", width: '274px' },
+        description: '',
+        pageLink: ''
+    },
+    {
+        title: 'Meter Wiring Guide Editor',
+        image: '',
+        imageAdjustments: { objectPosition: "-4px -11px", width: '274px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'Yolo Logan!',
         image: 'https://raw.githubusercontent.com/tdeckard2000/YoloLogan/master/images/example.png',
-        imageAdjustments: { objectPosition: "-54px 10px", width: '379px' },
+        imageAdjustments: { objectPosition: "-1px 6px", width: '272px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'Ted Counter',
         image: 'https://raw.githubusercontent.com/tdeckard2000/TedCounter/master/IMG_0729.jpg',
-        imageAdjustments: { objectPosition: "-2px -30px", width: '274px' },
+        imageAdjustments: { objectPosition: "-2px -33px", width: '270px' },
         description: ``,
         pageLink: ''
     },
     {
         title: 'Support Ticket Dashboard',
         image: 'https://raw.githubusercontent.com/tdeckard2000/Support-Ticket-Dashboard/master/images/example.png',
-        imageAdjustments: { objectPosition: "-17px -3px", width: '537px' },
+        imageAdjustments: { objectPosition: "-9px -1px", width: '275px' },
         description: '',
         pageLink: ''
     },
@@ -84,7 +91,7 @@ export const electronicProjects = [
     {
         title: 'Cat Fan Deterrent',
         image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/7.jpg',
-        imageAdjustments: { objectPosition: "1px -25px", width: '265px' },
+        imageAdjustments: { objectPosition: "0px -39px", width: '265px' },
         description: '',
         pageLink: ''
     },
@@ -103,13 +110,6 @@ export const electronicProjects = [
         pageLink: ''
     },
     {
-        title: 'Always Taking Things Apart',
-        image: 'camera_apart.jpg',
-        imageAdjustments: { objectPosition: "1px -25px", width: '265px' },
-        description: '',
-        pageLink: ''
-    },
-    {
         title: 'PTS Electronics PCB Repair',
         image: 'pts_solder.jpg',
         imageAdjustments: { objectPosition: "-21px -11px", width: '293px' },
@@ -120,10 +120,17 @@ export const electronicProjects = [
     {
         title: 'PTS Electronics Laser Printer Repair',
         image: 'pts_printer.jpg',
-        imageAdjustments: { objectPosition: "0px -25px", width: '265px' },
+        imageAdjustments: { objectPosition: "0px -25px", width: '267px' },
         description: `For one year, I diagnosed and repaired Lexmark laserjet printers. I kept detailed records of all repairs. Note: Image is from PTS promotional video.`,
         pageLink: ''
-    }
+    },
+    {
+        title: 'Tinkering Tendencies',
+        image: 'grey_dog.jpg',
+        imageAdjustments: { objectPosition: "1px -25px", width: '265px'},
+        description: '',
+        pageLink: ''
+    },
 ]
 
 export const modelingProjects = [
