@@ -96,6 +96,13 @@ export const electronicProjects = [
         pageLink: ''
     },
     {
+        title: 'NextCentury - Technical Support',
+        image: 'tech_support.jpg',
+        imageAdjustments: { objectPosition: "0px -17px", width: '266px' },
+        description: '',
+        pageLink: ''
+    },
+    {
         title: 'Always Taking Things Apart',
         image: 'camera_apart.jpg',
         imageAdjustments: { objectPosition: "1px -25px", width: '265px' },
@@ -103,7 +110,7 @@ export const electronicProjects = [
         pageLink: ''
     },
     {
-        title: 'PTS PCB Repair',
+        title: 'PTS Electronics PCB Repair',
         image: 'pts_solder.jpg',
         imageAdjustments: { objectPosition: "-21px -11px", width: '293px' },
         description: `For two years, I diagnosed and repaired PCBs using thermal imaging camera, microscope, hot air
@@ -111,7 +118,7 @@ export const electronicProjects = [
         pageLink: ''
     },
     {
-        title: 'PTS Laser Printer Repair',
+        title: 'PTS Electronics Laser Printer Repair',
         image: 'pts_printer.jpg',
         imageAdjustments: { objectPosition: "0px -25px", width: '265px' },
         description: `For one year, I diagnosed and repaired Lexmark laserjet printers. I kept detailed records of all repairs. Note: Image is from PTS promotional video.`,
