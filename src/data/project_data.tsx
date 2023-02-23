@@ -14,7 +14,10 @@ export const webDevelopmentProjects = [
         title: 'Meter Wiring Guide',
         image: 'https://raw.githubusercontent.com/tdeckard2000/wiringGuide/main/images/Example.png',
         imageAdjustments: { objectPosition: "-2px -3px", width: '269px' },
-        description: '',
+        description: `Originally designed for NextCentury, this app neatly displays a large list of meters from a plethora of manufacturers. 
+        Users can quickly determine which NextCentury product is compatible with their meter and view a unique wiring diagram. Meters are easily 
+        found using the utility filter or search bar. Internal users can add public or private notes to each meter model. The app is compatible 
+        with desktop and mobile displays.`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/wiringGuide'},
             {name: 'Visit Website', url: 'http://wireguide.herokuapp.com/#/'},
@@ -24,7 +27,8 @@ export const webDevelopmentProjects = [
         title: 'Meter Wiring Guide Editor',
         image: 'meter_guide_edit.png',
         imageAdjustments: { objectPosition: "-6px -1px", width: '277px' },
-        description: '',
+        description: `This is a dedicated website for easily adding or modifying meter models and manufacturers listed on the Meter Wiring Guide 
+        (listed above). The app bundles CRUD operations into a slick, easy to use user interface.`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/wiringGuide'},
             {name: 'Visit Website', url: 'https://wireguide.herokuapp.com/#/edit'},
@@ -34,7 +38,9 @@ export const webDevelopmentProjects = [
         title: 'Yolo Logan!',
         image: 'https://raw.githubusercontent.com/tdeckard2000/YoloLogan/master/images/example.png',
         imageAdjustments: { objectPosition: "-1px 6px", width: '272px' },
-        description: '',
+        description: `A website for Logan locals to find and submit events, meetup groups, and community resources. This website uses Open Layers 
+        map and Census Geocoder API to record and display event locations on an interactive map. Search for events using the search bar, or find 
+        what you need using the event filter. Think the name is silly? Me too.`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/YoloLogan'},
             {name: 'Visit Website', url: 'https://yolologan.herokuapp.com/'},
@@ -58,7 +64,8 @@ export const webDevelopmentProjects = [
         title: 'Support Ticket Dashboard',
         image: 'https://raw.githubusercontent.com/tdeckard2000/Support-Ticket-Dashboard/master/images/example.png',
         imageAdjustments: { objectPosition: "-9px -1px", width: '275px' },
-        description: '',
+        description: `A personal project created as a proof of concept for reporting and handling various types of support tickets. 
+        Existing users can be assigned to each ticket. Each ticket can be tagged as urgent or marked as completed.`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/Support-Ticket-Dashboard'},
             {name: 'Visit Website', url: 'https://support-tickets-dashboard.herokuapp.com/'},
@@ -68,8 +75,8 @@ export const webDevelopmentProjects = [
         title: 'Rate-A-Coworker 2.0',
         image: 'rate_coworker.png',
         imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
-        description: `I created Rate-A-Coworker as part of a work learning project. I thought what better way to bring 
-        coworkers together than to rate each other on their abilities and other randomness. All in good fun : )`,
+        description: `I created Rate-A-Coworker as part of an at-work learning project. I thought what better way to bring 
+        coworkers together than to rate each other on their abilities and other randomness.`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/bestCoworker'},
             {name: 'Visit Website', url: 'https://rateacoworker.herokuapp.com/'},
@@ -79,7 +86,8 @@ export const webDevelopmentProjects = [
         title: 'Fancy To-Do List',
         image: 'todo.jpg',
         imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
-        description: '',
+        description: `A simple public todo list. Users can add or delete items from existing lists or create new lists. 
+        It's fancy because it does a little more than your typical boiler-plate list.`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/ToDo-List'},
             {name: 'Visit Website', url: 'https://advanced-todo-list.herokuapp.com/'},
@@ -109,7 +117,7 @@ export const webDevelopmentProjects = [
         title: 'Portfolio Site',
         image: 'endeavors.jpg',
         imageAdjustments: { objectPosition: "0px -2px", width: '265px' },
-        description: "You're looking at it. Just a confirmation that I did indeed make this.",
+        description: `This is the site you're on now. Since it's part of my portfolio, I felt it belonged here.`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/my_portfolio'},
         ]
