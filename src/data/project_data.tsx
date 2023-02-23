@@ -117,7 +117,7 @@ export const webDevelopmentProjects = [
         title: 'Portfolio Site',
         image: 'endeavors.jpg',
         imageAdjustments: { objectPosition: "0px -2px", width: '265px' },
-        description: `This is the site you're on now. Since it's part of my portfolio, I felt it belonged here.`,
+        description: `This is the site you're on now. I felt it belonged here.`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/my_portfolio'},
         ]
