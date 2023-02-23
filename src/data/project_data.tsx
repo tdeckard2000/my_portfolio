@@ -68,7 +68,8 @@ export const webDevelopmentProjects = [
         title: 'Rate-A-Coworker 2.0',
         image: 'rate_coworker.png',
         imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
-        description: '',
+        description: `I created Rate-A-Coworker as part of a work learning project. I thought what better way to bring 
+        coworkers together than to rate each other on their abilities and other randomness. All in good fun : )`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/bestCoworker'},
             {name: 'Visit Website', url: 'https://rateacoworker.herokuapp.com/'},
@@ -88,10 +89,20 @@ export const webDevelopmentProjects = [
         title: 'Simon Says Game',
         image: 'simon_says.jpg',
         imageAdjustments: { objectPosition: "-5px -7px", width: '286px' },
-        description: '',
+        description: 'A simple game I created early in my Web Dev career to better my development knowledge.',
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/Simon-Says-Game'},
             {name: 'Visit Website', url: 'https://tdeckard2000.github.io/Simon-Says-Game/'},
+        ]
+    },
+    {
+        title: 'My Local Meal',
+        image: 'my_local_meal.jpeg',
+        imageAdjustments: { objectPosition: "0 0", width: '270px' },
+        description: `My very first toe-dip into web development. I regularly attended a coding meetup group and found myself leading most 
+        aspects of this project. I sketched the UI, designed the logo, and build much of the front end.`,
+        links: [
+            {name: 'Visit Website', url: 'https://mylocalmeal.com/'},
         ]
     },
     {
@@ -101,7 +112,6 @@ export const webDevelopmentProjects = [
         description: "You're looking at it. Just a confirmation that I did indeed make this.",
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/my_portfolio'},
-            {name: 'You Are Here', url: 'https://corgiorgy.com/'},
         ]
     },
 ];
