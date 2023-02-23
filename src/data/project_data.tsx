@@ -44,7 +44,11 @@ export const webDevelopmentProjects = [
         title: 'Ted Counter',
         image: 'https://raw.githubusercontent.com/tdeckard2000/TedCounter/master/IMG_0729.jpg',
         imageAdjustments: { objectPosition: "-2px -33px", width: '270px' },
-        description: ``,
+        description: `Ted Counter stands out from other nutrition counting apps due to its simplicity and its ability to fit 
+        a user's specific nutritional interests. The app adjusts its layout to accommodate all preferences and is responsive to a wide range 
+        of display sizes. Add saved items with just two taps, edit food items, set your own nutrition goals, view charts, and more. 
+        The app tracks the time of each added food item and automatically adjusts to each user's time zone. Create an account, or use the demo 
+        account: demo@gmail.com / demoPass`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/TedCounter'},
             {name: 'Visit Website', url: 'https://www.tedcounter.com/'},
@@ -107,7 +111,10 @@ export const electronicProjects = [
         title: "Rex 'Battle Bot' R/C",
         image: 'rex.GIF',
         imageAdjustments: { objectPosition: "-52px -27px", width: '400px' },
-        description: '',
+        description: `Rex is a 100 pound, invertible, chain-driven, BattleBots-inspired remote controlled 
+        'robot' capable of hauling hundreds of pounds. Rex is powered by two 24v motors, two sealed 12v batteries, and utilizes a 
+        Sabertooth 2X25 V2 speed controller. Rex was designed through trial and error with parts sourced from the local junkyard, 
+        hardware stores, and pawn shops.`,
         links: [
             {name: 'More Images', url: 'https://photos.app.goo.gl/xjzbpfbsNT3VLU6q7'},
             {name: 'Main Video', url: 'https://youtu.be/LZV-zBFLPfQ'},
@@ -118,17 +125,26 @@ export const electronicProjects = [
         title: 'Door Knock to Unlock',
         image: 'https://raw.githubusercontent.com/tdeckard2000/door_knock_unlock_arduino/main/images/1.JPG',
         imageAdjustments: { objectPosition: "-17px -20px", width: '309px' },
-        description: '',
+        description: `Using an Arduino Nano, accelerometer, a servo, and a 3.7v LiPo, I can unlock my door by knocking a specific combination.
+        When a potential door-knock is received, the Arduino first distinguishes between noise and an intentional knock, stores the
+        knocks in an array, then compares the array to a predetermined knock pattern. To preserve battery, a transistor is used to cut 
+        power from the Servo when idle.`,
         links: [
             {name: 'More Images', url: 'https://photos.app.goo.gl/oxHwA6S1C5yFPQns8'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/door_knock_unlock_arduino'}
         ]
     },
     {
         title: 'Cat Fan Deterrent',
         image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/7.jpg',
         imageAdjustments: { objectPosition: "0px -39px", width: '265px' },
-        description: '',
-        pageLink: ''
+        description: `I love animals as much as the next guy, but this cat (we’ll call her Butt Head) loves to knock over my plants, 
+        spill water on my desk, and leave behind breadcrumbs of clingy fur. Introducing the Cat Fan. Using an Arduino 
+        nano, a motion sensor, 5v motor, mosfet, some 3D modeling and a 3D printer, the Cat Fan turns on anytime
+        Motion is detected nearby, scaring the cat away! This system is 100% effective 20% of the time.`,
+        links: [
+            {name: 'GitHub / More Images', url: 'https://github.com/tdeckard2000/cat_fan_deterrent'}
+        ]
     },
     {
         title: 'NextCentury - Hardware Testing',
@@ -228,9 +244,9 @@ export const modelingProjects = [
         title: 'Cat Deterrent Housing',
         image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/6.jpg',
         imageAdjustments: { objectPosition: "-1px -34px", width: '267px' },
-        description: '',
+        description: 'A simple housing I modeled and printed for the Cat Fan. (see project above)',
         links: [
-            {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/756eb34697a8926a1aceca8f/w/3900260f14349326b5bdd855/e/5020d39ec5eeccbf33ab53ea?renderMode=0&uiState=63f6fcdb1734342db4cffd48'},
+            {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/11f429975ad44917112c4046/w/d76f6b087f5e9f8915322282/e/3e19c087b44d2958310c073c?renderMode=0&uiState=63f7be2e6ceb9333c0652243'},
         ]
     },
     {

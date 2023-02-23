@@ -57,6 +57,10 @@
   width: 170px;
 }
 
+.blockBackButton:hover {
+  background-color: #dcdcdc;
+}
+
 .blockDescription {
   color: #323232;
   font-size: 14px;
@@ -414,10 +418,6 @@
 
   .blockRightColumn {
     display: none;
-  }
-
-  .blockIsFlipped {
-    /* transform: rotateY(180deg); */
   }
 
   .blockTitle {
