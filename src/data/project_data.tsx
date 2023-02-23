@@ -157,8 +157,8 @@ export const electronicProjects = [
         image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/7.jpg',
         imageAdjustments: { objectPosition: "0px -39px", width: '265px' },
         description: `I love animals as much as the next guy, but this cat (we’ll call her Butt Head) loves to knock over my plants, 
-        spill water on my desk, and leave behind breadcrumbs of clingy fur. Introducing the Cat Fan. Using an Arduino 
-        nano, a motion sensor, 5v motor, mosfet, some 3D modeling and a 3D printer, the Cat Fan turns on anytime
+        spill water on my desk, and leave behind breadcrumbs of clingy fur. Introducing the Cat Fan™. Using an Arduino 
+        nano, a motion sensor, 5v motor, mosfet, some 3D modeling and a 3D printer, the Cat Fan™ turns on when
         Motion is detected nearby, scaring the cat away! This system is 100% effective 20% of the time.`,
         links: [
             {name: 'GitHub / More Images', url: 'https://github.com/tdeckard2000/cat_fan_deterrent'}
@@ -190,7 +190,8 @@ export const electronicProjects = [
         title: 'PTS Electronics Laser Printer Repair',
         image: 'pts_printer.jpg',
         imageAdjustments: { objectPosition: "0px -25px", width: '267px' },
-        description: `For one year, I diagnosed and repaired Lexmark laserjet printers. I kept detailed records of all repairs. Note: Image is from PTS promotional video.`,
+        description: `For one year, I diagnosed and repaired Lexmark laserjet printers. I kept detailed records of all repairs. Note: 
+        Image is from PTS promotional video.`,
         pageLink: ''
     },
     {
@@ -207,7 +208,11 @@ export const modelingProjects = [
         title: 'Giant Articulating Display Wall',
         image: 'meter_wall.jpeg',
         imageAdjustments: { objectPosition: "-12px -19px", width: '283px' },
-        description: '',
+        description: `I designed, 3D modeled, and helped build this large 16 x 11 foot product wall. The wall operates as a central product 
+        display for the office and has been an essential tool for testing new products during the production lifecycle. It features an automated 
+        airflow system, heavy articulating panels, integrated display, illuminated color-changing logo, and a patch panel for testing signal 
+        propagation distances. I researched and purchased tools and materials for the build and referenced the 3D model for precise measurements 
+        during construction.`,
         links: [
             {name: 'More Images', url: 'https://photos.app.goo.gl/LEHdTCXZhBEfC8Xb6'},
             {name: 'View Assembled Model', url: 'https://app.sketchup.com/share/tc/northAmerica/0J36uBVCO6I?stoken=UGQn4AU38ZMWFg59rI_E6y574e8ZdbrDcHabGEcLKhXEdvd73HngrruQe9N6mPVJ&source=web'},
@@ -217,7 +222,9 @@ export const modelingProjects = [
         title: 'RF Logger Housing',
         image: 'Rf_Logger.png',
         imageAdjustments: { objectPosition: "3px -16px", width: '271px' },
-        description: '',
+        description: `Created for the testing team, this housing is a slim version of the original. The PCB, having been repurposed from another 
+        product, could easily be stripped down to fit into a small housing. I made several of these for our testing and development teams. 
+        They can be found in various tool boxes around the office.`,
         links: [
             {name: 'View Exploded Model', url: 'https://cad.onshape.com/documents/2f89c86dd48c723ad8125ea1/w/1b60cbc0a8cfeb23017075d0/e/112e0b484756827f57c30b54?renderMode=0&uiState=63f6fb94e846e77c0263c9db'},
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/2f89c86dd48c723ad8125ea1/w/1b60cbc0a8cfeb23017075d0/e/dafd14e2134a5123a8b668b8?renderMode=0&uiState=63f6fba7e846e77c0263ca07'},
@@ -227,7 +234,10 @@ export const modelingProjects = [
         title: 'Pulse Generator Housing',
         image: 'pulse_generator.jpeg',
         imageAdjustments: { objectPosition: "-44px -55px", width: '325px' },
-        description: '',
+        description: `A colleague created a Pulse Generator for testing products during the development cycle. The device is fantastic, but 
+        could be cumbersome to use due to the shape of the PCB, the position of the motor, and the exposed contacts that would sometimes short on metal surfaces. 
+        I created a housing for the motor PCB and the display/controller PCB to make for a more user-friendly experience. The circuit boards fit perfectly 
+        and the housings simply snap together.`,
         links: [
             {name: 'View Exploded Model', url: 'https://cad.onshape.com/documents/a373224f1e3a9af2d0bd5648/w/67b157fe9d05ef9aed2ace02/e/47936c6c247692c41f498abf?renderMode=0&uiState=63f6fc4c1f9b5520c2996ece'},
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/a373224f1e3a9af2d0bd5648/w/67b157fe9d05ef9aed2ace02/e/e79c47fd7f170aaa88dae507?renderMode=0&uiState=63f6fc441f9b5520c2996ec6'},
@@ -237,13 +247,17 @@ export const modelingProjects = [
         title: 'A Head of Myself',
         image: 'a_head_of_myself.jpg',
         imageAdjustments: { objectPosition: "-44px -55px", width: '325px' },
-        description: '',
+        description: `Using my iPhone's front-facing camera, I was able to scan my head, clean up the model, and then print it on a 3D printer. 
+        This seems to be a more common thing to do now-a-days, but I did it before it was more main-stream and still cool. A coworker and I later 
+        used this model to create a clay impression and mold a silicon model. Fun times.`,
     },
     {
         title: 'House Mouse VR Game',
         image: 'house_mouse.jpg',
         imageAdjustments: { objectPosition: "-13px 1px", width: '287px' },
-        description: '',
+        description: `Taking the place of a mouse, you explore a large furnished house, yard, and graveyard for hidden cheese. The game features many 
+        detailed objects, animations, and hidden places to explore. Sadly all of the assets to this game have been lost to history. The game could be 
+        found on early VR gaming websites, had a short article written about it, and was reviewed on YouTube.`,
         links: [
             {name: 'More Images', url: 'https://photos.app.goo.gl/p7um9Ti5WavJzmag7'}
         ]
@@ -252,7 +266,10 @@ export const modelingProjects = [
         title: 'Animatronic Dinosaur',
         image: 'dino.png',
         imageAdjustments: { objectPosition: "0px -5px", width: '264px' },
-        description: '',
+        description: `Being a big fan of Stan Winston studios' work and theme park attractions, I have had a love for animatronics for a long time. 
+        I just think they're so cool. This is my first attempt at an animatronic Compy dinosaur. My plan was to use servo motors, 
+        bowden cable, and bowden tube to articulate the tail, legs, and head. I would then 3D Print a negative of the shell and mold a foam latex 
+        skin. It became clear that the small servos were not strong enough.`,
         links: [
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/756eb34697a8926a1aceca8f/w/3900260f14349326b5bdd855/e/5020d39ec5eeccbf33ab53ea?renderMode=0&uiState=63f6fcdb1734342db4cffd48'},
             {name: 'View Articulating Legs', url: 'https://cad.onshape.com/documents/756eb34697a8926a1aceca8f/w/3900260f14349326b5bdd855/e/9c724dba115c5a749381616d?renderMode=0&uiState=63f6fcf71734342db4cffd4f'},
