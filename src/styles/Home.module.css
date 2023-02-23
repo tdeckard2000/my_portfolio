@@ -35,18 +35,26 @@
 .blockBack {
   align-items: center;
   backface-visibility: hidden;
-  background-color: rgb(165, 165, 165);
+  background-color: #646464;
   border-radius: 8px;
-  color: black;
-  text-decoration: none;
   display: flex;
   flex-direction: row;
   height: 160px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   position: absolute;
   transform: rotateX(180deg);
   width: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
+}
+
+.blockBackButton {
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: block;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  width: 170px;
 }
 
 .blockDescription {
@@ -391,7 +399,7 @@
   /* mobile and small display*/
 
   .blockBack {
-    /* transform: rotateY(180deg); */
+    flex-direction: column;
   }
 
   .blockContainer {

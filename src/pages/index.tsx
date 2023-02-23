@@ -290,12 +290,10 @@ export default function Home() {
                       </div>
                     </div>
                     <div className={styles.blockBack}>
-                      <div>
-                        <a style={{color: 'black', textDecoration: 'none'}} href="">Github</a>
-                      </div>
-                      <div>
-                        <a style={{color: 'black', textDecoration: 'none'}} href="">View Project</a>
-                      </div>
+                      { project.links?.map((link) => 
+                        <a className={styles.blockBackButton} target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url} >{link.name}</a>
+                      )}
+                      <div style={{color: 'white', display: project.links?.length ? 'none' : 'initial'}}>Sorry, no content yet.</div>
                     </div>
                   </div>
                 </div>
@@ -324,7 +322,10 @@ export default function Home() {
                         </div>
                       </div>
                     <div className={styles.blockBack}>
-                      <p>place holder</p>
+                      { project.links?.map((link) => 
+                        <a className={styles.blockBackButton} target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url} >{link.name}</a>
+                      )}
+                      <div style={{color: 'white', display: project.links?.length ? 'none' : 'initial'}}>Sorry, no content yet.</div>
                     </div>
                   </div>
                 </div>
@@ -353,7 +354,10 @@ export default function Home() {
                       </div>
                     </div>
                   <div className={styles.blockBack}>
-                    <p>place holder</p>
+                    { project.links?.map((link) => 
+                      <a className={styles.blockBackButton} target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url} >{link.name}</a>
+                    )}
+                    <div style={{color: 'white', display: project.links?.length ? 'none' : 'initial'}}>Sorry, no content yet.</div>
                   </div>
                 </div>
               </div>
@@ -382,7 +386,10 @@ export default function Home() {
                       </div>
                     </div>
                   <div className={styles.blockBack}>
-                    <p>place holder</p>
+                    { project.links?.map((link) => 
+                      <a className={styles.blockBackButton} target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url} >{link.name}</a>
+                    )}
+                    <div style={{color: 'white', display: project.links?.length ? 'none' : 'initial'}}>Sorry, no content yet.</div>
                   </div>
                 </div>
               </div>
