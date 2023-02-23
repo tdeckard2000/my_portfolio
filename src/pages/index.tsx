@@ -290,8 +290,9 @@ export default function Home() {
                       </div>
                     </div>
                     <div className={styles.blockBack}>
-                      { project.links?.map((link) => 
-                        <a className={styles.blockBackButton} target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url} >{link.name}</a>
+                      {project.links?.map((link, linkIndex) => 
+                        <a key={project.title + linkIndex} className={styles.blockBackButton} 
+                        target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url}>{link.name}</a>
                       )}
                       <div style={{color: 'white', display: project.links?.length ? 'none' : 'initial'}}>Sorry, no content yet.</div>
                     </div>
@@ -322,8 +323,9 @@ export default function Home() {
                         </div>
                       </div>
                     <div className={styles.blockBack}>
-                      { project.links?.map((link) => 
-                        <a className={styles.blockBackButton} target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url} >{link.name}</a>
+                      {project.links?.map((link, linkIndex) => 
+                        <a key={project.title + linkIndex} className={styles.blockBackButton} 
+                        target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url}>{link.name}</a>
                       )}
                       <div style={{color: 'white', display: project.links?.length ? 'none' : 'initial'}}>Sorry, no content yet.</div>
                     </div>
@@ -354,8 +356,9 @@ export default function Home() {
                       </div>
                     </div>
                   <div className={styles.blockBack}>
-                    { project.links?.map((link) => 
-                      <a className={styles.blockBackButton} target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url} >{link.name}</a>
+                    {project.links?.map((link, linkIndex) => 
+                      <a key={project.title + linkIndex} className={styles.blockBackButton} 
+                      target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url}>{link.name}</a>
                     )}
                     <div style={{color: 'white', display: project.links?.length ? 'none' : 'initial'}}>Sorry, no content yet.</div>
                   </div>
@@ -386,8 +389,9 @@ export default function Home() {
                       </div>
                     </div>
                   <div className={styles.blockBack}>
-                    { project.links?.map((link) => 
-                      <a className={styles.blockBackButton} target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url} >{link.name}</a>
+                    {project.links?.map((link, linkIndex) => 
+                      <a key={project.title + linkIndex} className={styles.blockBackButton} 
+                      target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url}>{link.name}</a>
                     )}
                     <div style={{color: 'white', display: project.links?.length ? 'none' : 'initial'}}>Sorry, no content yet.</div>
                   </div>
