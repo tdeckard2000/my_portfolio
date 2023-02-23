@@ -11,14 +11,14 @@ export const webDevelopmentProjects = [
     {
         title: 'Meter Wiring Guide',
         image: 'https://raw.githubusercontent.com/tdeckard2000/wiringGuide/main/images/Example.png',
-        imageAdjustments: { objectPosition: "-4px -11px", width: '274px' },
+        imageAdjustments: { objectPosition: "-2px -3px", width: '269px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'Meter Wiring Guide Editor',
         image: 'meter_guide_edit.png',
-        imageAdjustments: { objectPosition: "-4px -1px", width: '274px' },
+        imageAdjustments: { objectPosition: "-6px -1px", width: '277px' },
         description: '',
         pageLink: ''
     },
@@ -45,29 +45,29 @@ export const webDevelopmentProjects = [
     },
     {
         title: 'Rate-A-Coworker 2.0',
-        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
-        imageAdjustments: { objectPosition: "-27px 1px", width: '330px' },
+        image: 'rate_coworker.png',
+        imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'Fancy To-Do List',
-        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
-        imageAdjustments: { objectPosition: "-27px 1px", width: '330px' },
+        image: 'todo.jpg',
+        imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'Simon Says Game',
-        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
-        imageAdjustments: { objectPosition: "-27px 1px", width: '330px' },
+        image: 'simon_says.jpg',
+        imageAdjustments: { objectPosition: "-5px -7px", width: '286px' },
         description: '',
         pageLink: ''
     },
     {
         title: 'Portfolio Site',
-        image: 'https://media.istockphoto.com/id/1303510161/photo/abstract-empty-room.jpg?s=612x612&w=0&k=20&c=tfKPp0pwOyXNvuRZwWryADl9jdtEFltX2Cc-C2qFfY8=',
-        imageAdjustments: { objectPosition: "-27px 1px", width: '330px' },
+        image: 'endeavors.jpg',
+        imageAdjustments: { objectPosition: "0px -2px", width: '265px' },
         description: "You're looking at it. Just a confirmation that I did indeed make this.",
         pageLink: ''
     },
@@ -172,7 +172,7 @@ export const modelingProjects = [
     {
         title: 'Animatronic Dinosaur',
         image: 'dino.png',
-        imageAdjustments: { objectPosition: "2px 1px", width: '264px' },
+        imageAdjustments: { objectPosition: "0px -5px", width: '264px' },
         description: '',
         pageLink: ''
     },

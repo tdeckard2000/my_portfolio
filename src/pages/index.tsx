@@ -290,7 +290,12 @@ export default function Home() {
                       </div>
                     </div>
                     <div className={styles.blockBack}>
-                      <p>place holder</p>
+                      <div>
+                        <a style={{color: 'black', textDecoration: 'none'}} href="">Github</a>
+                      </div>
+                      <div>
+                        <a style={{color: 'black', textDecoration: 'none'}} href="">View Project</a>
+                      </div>
                     </div>
                   </div>
                 </div>
