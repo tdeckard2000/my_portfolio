@@ -165,17 +165,26 @@ export const electronicProjects = [
         ]
     },
     {
-        title: 'NextCentury - Hardware Testing',
+        title: 'Hardware & Software Testing Position',
         image: 'testing_keithleys.jpg',
         imageAdjustments: { objectPosition: "0px -17px", width: '266px' },
         description: '',
         pageLink: ''
     },
     {
-        title: 'NextCentury - Technical Support',
+        title: 'Technical Support Position',
         image: 'tech_support.jpg',
         imageAdjustments: { objectPosition: "0px -6px", width: '266px' },
         description: '',
+        pageLink: ''
+    },
+    {
+        title: `Grandma's Computer Service LLC`,
+        image: 'computer_service.png',
+        imageAdjustments: { objectPosition: "-24px -54px", width: '334px' },
+        description: `A small business I ran while in college. With the original intent of catering to older generations 
+        and their computer issues, Grandma's Computer Service offered general in-home computer services for a wide variety 
+        of clientele.`,
         pageLink: ''
     },
     {
@@ -196,9 +205,12 @@ export const electronicProjects = [
     },
     {
         title: 'Tinkering Tendencies',
-        image: 'grey_dog.jpg',
-        imageAdjustments: { objectPosition: "1px -25px", width: '265px'},
-        description: '',
+        image: 'trent_car_part.jpeg',
+        imageAdjustments: { objectPosition: "1px -11px", width: '265px'},
+        description: `I have always loved taking things apart to see how they tick. From the age of 10 I was pulling apart old 
+        portable televisions, radios, phones, everything. This curiosity continues today. I do a little bit of everything, from 
+        general car repair to electronics repair and 'handyman' tasks. Largely stemming from my eagerness to learn and grow, 
+        I pride myself in being able to figure out just about anything.`,
         pageLink: ''
     },
 ]
@@ -346,7 +358,7 @@ export const modelingProjects = [
 
 export const videoProjects = [
     {
-        title: 'Recognition',
+        title: 'Interesting Ted Videography LLC',
         image: 'newspaper.jpeg',
         imageAdjustments: { objectPosition: "-29px -9px", width: '321px' },
         description: `I received recognition for my video production business work "Interesting Ted Videography LLC" 
