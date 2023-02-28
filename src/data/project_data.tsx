@@ -128,18 +128,18 @@ export const electronicProjects = [
         title: 'NextCentury Hardware & Software Testing',
         image: 'testing_keithleys.jpg',
         imageAdjustments: { objectPosition: "0px -17px", width: '266px' },
-        description: `I developed hundreds of hardware and software testing procedures and authored dozens of internal wikis and 
+        description: `I developed hundreds of hardware and software testing procedures and authored dozens of wikis and 
         starter guides. I used a wide range of advanced tools including accelerated UV chamber, plasma wand, 
-        temperature chamber, Keithley multimeter, weather chamber, Saleae logic analyzer, RF chamber, and RF scanner. I tested products 
-        throughout their development lifecycle, ensuring no bugs or defects made it to mass production. Products were not released without my go-ahead.`,
+        temperature chamber, Keithley multimeter, weather chamber, Saleae logic analyzer, RF chamber, RF scanner and vacuum chamber. I tested products 
+        through the development lifecycle, ensuring no bugs or defects made it to mass production. Products were not released without my go-ahead.`,
         pageLink: ''
     },
     {
         title: 'NextCentury Technical Support',
         image: 'tech_support.jpg',
         imageAdjustments: { objectPosition: "0px -6px", width: '266px' },
-        description: `I was first hired on to NextCentury as a technical support member. I helped customers troubleshoot issues with products and 
-        installation. I answered calls, gave live trainings, held sales meetings, and traveled all over the United States and Canada.`,
+        description: `I was first hired on to NextCentury as a technical support member. I helped customers troubleshoot advanced technical issues with 
+        products and integration. I assisted via phone and on site, traveling around the United States and Canada.`,
         pageLink: ''
     },
     {
@@ -303,8 +303,11 @@ export const modelingProjects = [
         title: 'GoPro Anchor Mount V1',
         image: 'gopro_v1.png',
         imageAdjustments: { objectPosition: "1px -10px", width: '258px' },
-        description: '',
+        description: `Having a mild fascination with the underwater world, I decided I wanted to attach my GoPro to my paddleboard anchor. I fashioned 
+        this mount for my camera and a dive light. I lowered the anchor 80 feet into the crystal-clear Bear Lake of northern Utah. This 
+        is the first iteration of the design which I found placed too much vertical stress on the anchor rope.`,
         links: [
+            {name: 'More Images', url: 'https://photos.app.goo.gl/Pp62jy9E6BWZYRXR8'},
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/4adf53283e2faa43bfa89f07/w/861b295a2aa8328193d961bc/e/e06b290c4b54bd9e77b021c5?renderMode=0&uiState=63f6fdee1cdd6e53c31de9d9'},
         ]
     },
@@ -312,10 +315,13 @@ export const modelingProjects = [
         title: 'GoPro Anchor Mount V2',
         image: 'GoPro_Anchor.png',
         imageAdjustments: { objectPosition: "1px -10px", width: '258px' },
-        description: '',
+        description: `The second iteration of the design faired much better. Distributing the weight of the camera and dive light more evenly across 
+        the anchor rope allowed for a more secure and more predictable camera angle. These underwater explorations eventually lead me to earning an 
+        SSI open water scuba certification.`,
         links: [
-            {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/1b505a1739745e94282fc752/w/67cbd1b1dab052a216dc6c95/e/e4b461ed6c6f801ff5df573f?renderMode=0&uiState=63f6fe40e47dd059a64770c6'},
+            {name: 'More Images', url: 'https://photos.app.goo.gl/Pp62jy9E6BWZYRXR8'},
             {name: 'Thingiverse', url: 'https://www.thingiverse.com/thing:5451179'},
+            {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/1b505a1739745e94282fc752/w/67cbd1b1dab052a216dc6c95/e/e4b461ed6c6f801ff5df573f?renderMode=0&uiState=63f6fe40e47dd059a64770c6'},
         ]
     },
     {
