@@ -5,7 +5,7 @@ export const webDevelopmentProjects = [
         imageAdjustments: { objectPosition: "-1px 3px", width: '372px' },
         description: `I worked at NextCentury for four years. I worked as a Full Stack Web Developer during 
         my final year. I was a lead software and hardware tester for 2 years and a technical support
-        for 1 year. The company had just 8 members when I joined.`,
+        for 1 year. The company had just 8 members when I joined. • Angular, MongoDB, Node.js, TypeScript`,
         links: [
             {name: 'Company Page', url: 'https://www.nextcenturymeters.com/'},
         ]
@@ -17,7 +17,7 @@ export const webDevelopmentProjects = [
         description: `Originally designed for NextCentury, this app neatly displays a large list of meters from a plethora of manufacturers. 
         Users can quickly determine which NextCentury product is compatible with their meter and view a unique wiring diagram. Meters are easily 
         found using the utility filter or search bar. Internal users can add public or private notes to each meter model. The app is compatible 
-        with desktop and mobile displays.`,
+        with desktop and mobile displays. • Angular, MongoDB, Node.js, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/wiringGuide'},
             {name: 'Visit Website', url: 'http://wireguide.herokuapp.com/#/'},
@@ -28,7 +28,7 @@ export const webDevelopmentProjects = [
         image: 'meter_guide_edit.png',
         imageAdjustments: { objectPosition: "-6px -1px", width: '277px' },
         description: `This is a dedicated website for easily adding or modifying meter models and manufacturers listed on the Meter Wiring Guide 
-        (listed above). The app bundles CRUD operations into a slick, easy to use user interface.`,
+        (listed above). The app bundles CRUD operations into a slick, easy to use user interface. • Angular, MongoDB, Node.js, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/wiringGuide'},
             {name: 'Visit Website', url: 'https://wireguide.herokuapp.com/#/edit'},
@@ -40,7 +40,7 @@ export const webDevelopmentProjects = [
         imageAdjustments: { objectPosition: "-1px 6px", width: '272px' },
         description: `A website for Logan locals to find and submit events, meetup groups, and community resources. This website uses Open Layers 
         map and Census Geocoder API to record and display event locations on an interactive map. Search for events using the search bar, or find 
-        what you need using the event filter. Think the name is silly? Me too.`,
+        what you need using the event filter. Think the name is silly? Me too. • Angular, Express, MongoDB, Node.js, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/YoloLogan'},
             {name: 'Visit Website', url: 'https://yolologan.herokuapp.com/'},
@@ -53,8 +53,7 @@ export const webDevelopmentProjects = [
         description: `Ted Counter stands out from other nutrition counting apps due to its simplicity and its ability to fit 
         a user's specific nutritional interests. The app adjusts its layout to accommodate all preferences and is responsive to a wide range 
         of display sizes. Add saved items with just two taps, edit food items, set your own nutrition goals, view charts, and more. 
-        The app tracks the time of each added food item and automatically adjusts to each user's time zone. Create an account, or use the demo 
-        account: demo@gmail.com / demoPass`,
+        Demo account: demo@gmail.com / demoPass • EJS, Express, JavaScript, jQuery, MongoDB, Node.js`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/TedCounter'},
             {name: 'Visit Website', url: 'https://www.tedcounter.com/'},
@@ -65,7 +64,7 @@ export const webDevelopmentProjects = [
         image: 'https://raw.githubusercontent.com/tdeckard2000/Support-Ticket-Dashboard/master/images/example.png',
         imageAdjustments: { objectPosition: "-9px -1px", width: '275px' },
         description: `A personal project created as a proof of concept for reporting and handling various types of support tickets. 
-        Existing users can be assigned to each ticket. Each ticket can be tagged as urgent or marked as completed.`,
+        Existing users can be assigned to each ticket. Each ticket can be tagged as urgent or marked as completed. • Angular, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/Support-Ticket-Dashboard'},
             {name: 'Visit Website', url: 'https://support-tickets-dashboard.herokuapp.com/'},
@@ -76,7 +75,7 @@ export const webDevelopmentProjects = [
         image: 'rate_coworker.png',
         imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
         description: `I created Rate-A-Coworker as part of an at-work learning project. I thought what better way to bring 
-        coworkers together than to rate each other on their abilities and other randomness.`,
+        coworkers together than to rate each other on their abilities and other randomness. • Angular Express, MongoDB, Node.js, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/bestCoworker'},
             {name: 'Visit Website', url: 'https://rateacoworker.herokuapp.com/'},
@@ -87,7 +86,7 @@ export const webDevelopmentProjects = [
         image: 'todo.jpg',
         imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
         description: `A simple public todo list. Users can add or delete items from existing lists or create new lists. 
-        It's fancy because it does a little more than your typical boiler-plate list.`,
+        It's fancy because it does a little more than your typical boiler-plate list. • Express, JavaScript, jQuery, MongoDB, Node.js`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/ToDo-List'},
             {name: 'Visit Website', url: 'https://advanced-todo-list.herokuapp.com/'},
@@ -97,7 +96,7 @@ export const webDevelopmentProjects = [
         title: 'Simon Says Game',
         image: 'simon_says.jpg',
         imageAdjustments: { objectPosition: "-5px -7px", width: '286px' },
-        description: 'A simple game I created early in my Web Dev career to better my development knowledge.',
+        description: 'A simple game I created early in my Web Dev career to better my development knowledge. • JavaScript, jQuery',
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/Simon-Says-Game'},
             {name: 'Visit Website', url: 'https://tdeckard2000.github.io/Simon-Says-Game/'},
@@ -108,7 +107,7 @@ export const webDevelopmentProjects = [
         image: 'my_local_meal.jpeg',
         imageAdjustments: { objectPosition: "0 0", width: '270px' },
         description: `My very first toe-dip into web development. I regularly attended a coding meetup group and found myself leading most 
-        aspects of this project. I sketched the UI, designed the logo, and build much of the front end.`,
+        aspects of this project. I sketched the UI, designed the logo, and build much of the front end. • Django, JavaScript, jQuery, MongoDB`,
         links: [
             {name: 'Visit Website', url: 'https://mylocalmeal.com/'},
         ]
@@ -117,7 +116,7 @@ export const webDevelopmentProjects = [
         title: 'Portfolio Site',
         image: 'endeavors.jpg',
         imageAdjustments: { objectPosition: "0px -2px", width: '265px' },
-        description: `This is the site you're on now. I felt it belonged here.`,
+        description: `This is the site you are on now. I felt it belonged here. • Express, MongoDB, Node.js, React, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/my_portfolio'},
         ]
@@ -125,6 +124,24 @@ export const webDevelopmentProjects = [
 ];
 
 export const electronicProjects = [
+    {
+        title: 'NextCentury Hardware & Software Testing',
+        image: 'testing_keithleys.jpg',
+        imageAdjustments: { objectPosition: "0px -17px", width: '266px' },
+        description: `I developed hundreds of hardware and software testing procedures and authored dozens of internal wikis and 
+        starter guides. I used a wide range of advanced tools including accelerated UV chamber, plasma wand, 
+        temperature chamber, Keithley multimeter, weather chamber, Saleae logic analyzer, RF chamber, and RF scanner. I tested products 
+        throughout their development lifecycle, ensuring no bugs or defects made it to mass production. Products were not released without my go-ahead.`,
+        pageLink: ''
+    },
+    {
+        title: 'NextCentury Technical Support',
+        image: 'tech_support.jpg',
+        imageAdjustments: { objectPosition: "0px -6px", width: '266px' },
+        description: `I was first hired on to NextCentury as a technical support member. I helped customers troubleshoot issues with products and 
+        installation. I answered calls, gave live trainings, held sales meetings, and traveled all over the United States and Canada.`,
+        pageLink: ''
+    },
     {
         title: "Rex 'Battle Bot' R/C",
         image: 'rex.GIF',
@@ -165,20 +182,6 @@ export const electronicProjects = [
         ]
     },
     {
-        title: 'Hardware & Software Testing Position',
-        image: 'testing_keithleys.jpg',
-        imageAdjustments: { objectPosition: "0px -17px", width: '266px' },
-        description: '',
-        pageLink: ''
-    },
-    {
-        title: 'Technical Support Position',
-        image: 'tech_support.jpg',
-        imageAdjustments: { objectPosition: "0px -6px", width: '266px' },
-        description: '',
-        pageLink: ''
-    },
-    {
         title: `Grandma's Computer Service LLC`,
         image: 'computer_service.png',
         imageAdjustments: { objectPosition: "-24px -54px", width: '334px' },
@@ -190,8 +193,8 @@ export const electronicProjects = [
     {
         title: 'PTS Electronics PCB Repair',
         image: 'pts_solder.jpg',
-        imageAdjustments: { objectPosition: "-21px -11px", width: '293px' },
-        description: `For two years, I diagnosed and repaired PCBs using thermal imaging camera, microscope, hot air
+        imageAdjustments: { objectPosition: "-3px -8px", width: '271px' },
+        description: `For two years, I diagnosed and repaired smartphone PCBs using thermal imaging camera, microscope, hot air
         rework station, and soldering iron. I kept detailed records of all repairs. Note: Image is from PTS promotional video.`,
         pageLink: ''
     },
@@ -330,7 +333,7 @@ export const modelingProjects = [
         title: 'Gateway Mascot',
         image: 'mascot.jpg',
         imageAdjustments: { objectPosition: "0px -25px", width: '267px' },
-        description: '',
+        description: `I was asked to create a personified toy model of a NextCentury product with a hidden door. This was used for a large work celebration.`,
         links: [
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/d0b070538f05d8fc6299bb2c/w/344070c303831e0759ed51cf/e/4fc06dc84581f6240e85c986?renderMode=0&uiState=63f700e880305060322382f1'},
             {name: 'Viewed Opened Model', url: 'https://cad.onshape.com/documents/d0b070538f05d8fc6299bb2c/w/344070c303831e0759ed51cf/e/cee28b323da0595e2b6b5d2b?renderMode=0&uiState=63f700fe80305060322382f9'}
@@ -340,7 +343,8 @@ export const modelingProjects = [
         title: 'Razor Guard',
         image: 'razor_guard.jpg',
         imageAdjustments: { objectPosition: "-74px -63px", width: '373px' },
-        description: ``,
+        description: `My razor didn't offer the guard size I needed, so I decided to make my own. It fits 
+        perfectly on the razor with a "snap".`,
         links: [
             {name: 'View Model', url: 'https://cad.onshape.com/documents/e90dc898bdc3019f235810ac/w/6d7d75c286c4773a91e017b5/e/f7bb3d0e8aee8926836bec2b?renderMode=0&uiState=63f7072080305060322386d7'}
         ]
@@ -349,7 +353,8 @@ export const modelingProjects = [
         title: 'NCSS Specialized Screwdriver',
         image: 'screwdriver.jpg',
         imageAdjustments: { objectPosition: "-33px -30px", width: '309px' },
-        description: '',
+        description: `One of my most used creations, this screwdriver makes it easy to open NextCentury's line of 
+        waterproof products. Many copies of these are floating around the office and in our remote manufacturing facility.`,
         links: [
             {name: 'View Exploded Model', url: 'https://cad.onshape.com/documents/e0353ae829facfd73a72e514/w/60384add30f278f16a5c2680/e/f6d014956cdde2a1b876a6f9?renderMode=0&uiState=63f706b41cdd6e53c31df897'}
         ]
