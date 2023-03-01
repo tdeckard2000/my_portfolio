@@ -1,0 +1,15 @@
+.gameContainer {
+    
+}
+
+.keys {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.page {
+    font-family: "poppins", sans-serif;
+    text-align: center;
+  }

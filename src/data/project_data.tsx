@@ -220,7 +220,7 @@ export const electronicProjects = [
 
 export const modelingProjects = [
     {
-        title: 'Giant Articulating Display Wall',
+        title: 'Articulating Display Wall',
         image: 'meter_wall.jpeg',
         imageAdjustments: { objectPosition: "-12px -19px", width: '283px' },
         description: `I designed, 3D modeled, and helped build this large 16 x 11 foot product wall. The wall operates as a central product 
@@ -246,6 +246,19 @@ export const modelingProjects = [
         ]
     },
     {
+        title: 'House Mouse VR Game',
+        image: 'house_mouse.jpg',
+        imageAdjustments: { objectPosition: "-13px 1px", width: '287px' },
+        description: `•• Click to Play •• Taking the place of a mouse, you explore a large furnished house, yard, and graveyard for hidden cheese. The game features many 
+        detailed objects, animations, and hidden places to explore. The game could be found on early VR gaming websites and had a short article written 
+        about it. The game still needs some work, but is playable now right here on your browser. Use arrow keys (or W,A,S,D) to move, mouse to steer, and shift to run.`,
+        links: [
+            {name: 'Play Game 🧀', url:'/houseMouseVr'},
+            {name: 'More Images', url: 'https://photos.app.goo.gl/p7um9Ti5WavJzmag7'},
+            {name: 'View Model', url: 'https://app.sketchup.com/share/tc/northAmerica/h6RfmSx0_is?stoken=vkrRZSG_hC_q_7PAq8n2q8AhBVxacDVqlUXlDMR7IwDBKY8ANI_cpib9apZZWrtW&source=web'},
+        ]
+    },
+    {
         title: 'Pulse Generator Housing',
         image: 'pulse_generator.jpeg',
         imageAdjustments: { objectPosition: "-44px -55px", width: '325px' },
@@ -265,18 +278,6 @@ export const modelingProjects = [
         description: `Using my iPhone's front-facing camera, I was able to scan my head, clean up the model, and then print it on a 3D printer. 
         This seems to be a more common thing to do now-a-days, but I did it before it was more main-stream and still cool. A coworker and I later 
         used this model to create a clay impression and mold a silicon model. Fun times.`,
-    },
-    {
-        title: 'House Mouse VR Game',
-        image: 'house_mouse.jpg',
-        imageAdjustments: { objectPosition: "-13px 1px", width: '287px' },
-        description: `Taking the place of a mouse, you explore a large furnished house, yard, and graveyard for hidden cheese. The game features many 
-        detailed objects, animations, and hidden places to explore. The game could be found on early VR gaming websites and had a short article written 
-        about it. The game still needs some work, but is playable now.`,
-        links: [
-            {name: 'More Images', url: 'https://photos.app.goo.gl/p7um9Ti5WavJzmag7'},
-            {name: 'View Model', url: 'https://app.sketchup.com/share/tc/northAmerica/h6RfmSx0_is?stoken=vkrRZSG_hC_q_7PAq8n2q8AhBVxacDVqlUXlDMR7IwDBKY8ANI_cpib9apZZWrtW&source=web'},
-        ]
     },
     {
         title: 'Animatronic Dinosaur',
