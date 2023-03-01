@@ -1,12 +1,24 @@
 import Head from "next/head";
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "@/styles/HouseMouseVr.module.css";
+import Unity, { UnityContent } from "react-unity-webgl";
 
 export default function HouseMouseVr() {
+  const unityContent = new UnityContent(
+    "HouseMouseVr/Build/HouseMouseForWeb.json",
+    "HouseMouseVr/Build/UnityLoader.js"
+  );
+
+  if (typeof window !== "undefined") {
+    console.log("You are on the browser,You are good to go");
+  } else {
+    console.log("You are on the server,Cannot execute");
+  }
+
   return (
     <>
       <Head>
-        <title>House Mouse VR</title>
+        <title>House Mouse VR | Unity WebGL Player</title>
         <meta
           name="description"
           content="All about Trent's attempts to make interesting things."
@@ -18,7 +30,7 @@ export default function HouseMouseVr() {
         <h1>House Mouse VR</h1>
 
         <div className={styles.gameContainer}>
-          
+          <Unity unityContent={unityContent} />
         </div>
 
         <p>The game will be here</p>
@@ -28,8 +40,16 @@ export default function HouseMouseVr() {
             playable. You can collect 30 cheeses.
           </p>
           <div className={styles.keys}>
-            <img style={{height: '100px', margin: '20px'}} src="wasd_keys.jpg" alt="" />
-            <img style={{height: '50px', margin: '20px'}} src="shift_key.jpg" alt="" />
+            <img
+              style={{ height: "100px", margin: "20px" }}
+              src="wasd_keys.jpg"
+              alt=""
+            />
+            <img
+              style={{ height: "50px", margin: "20px" }}
+              src="shift_key.jpg"
+              alt=""
+            />
           </div>
         </div>
       </main>
