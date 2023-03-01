@@ -1,5 +1,15 @@
-.gameContainer {
-    
+.instructionsModal {
+  background-color: rgb(219, 219, 219);
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 250px;
+  left: calc(50% - 250px);
+  padding: 30px;
+  position: absolute;
+  text-align: center;
+  top: calc(50% - 200px);
+  width: 450px;
+  z-index: 1000;
 }
 
 .keys {
@@ -7,6 +17,22 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.okButton {
+  align-items: center;
+  background-color: rgb(148, 148, 148);
+  border-radius: 4px;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  margin: 30px auto;
+  width: 100px;
+}
+
+.okButton:hover {
+  background-color: rgb(112, 112, 112);
+  cursor: pointer;
 }
 
 .page {
