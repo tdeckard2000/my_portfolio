@@ -1,19 +1,18 @@
 import Head from "next/head";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "@/styles/HouseMouseVr.module.css";
 import Unity, { UnityContent } from "react-unity-webgl";
 
 export default function HouseMouseVr() {
-  const unityContent = new UnityContent(
-    "HouseMouseVr/Build/HouseMouseForWeb.json",
-    "HouseMouseVr/Build/UnityLoader.js"
-  );
+  const [unityContent, setUnityContent] = useState<any>(null);
 
-  if (typeof window !== "undefined") {
-    console.log("You are on the browser,You are good to go");
-  } else {
-    console.log("You are on the server,Cannot execute");
-  }
+  useEffect(() => {
+    const unityContent = new UnityContent(
+      "HouseMouseVr/Build/HouseMouseForWeb.json",
+      "HouseMouseVr/Build/UnityLoader.js"
+    );
+    setUnityContent(unityContent);
+  }, []);
 
   return (
     <>
@@ -28,12 +27,12 @@ export default function HouseMouseVr() {
       </Head>
       <main className={styles.page}>
         <h1>House Mouse VR</h1>
-
-        <div className={styles.gameContainer}>
-          <Unity unityContent={unityContent} />
-        </div>
-
-        <p>The game will be here</p>
+        {unityContent && (
+          <div className={styles.gameContainer}>
+            <p>loaded</p>
+            <Unity unityContent={unityContent} />
+          </div>
+        )}
         <div className={styles.instructions}>
           <p>
             Collect all of the cheese! This game is not complete, but is
