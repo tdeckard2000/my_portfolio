@@ -34,7 +34,7 @@ export default function HouseMouseVr() {
       </Head>
       <main ref={ref} className={styles.page}>
         <div className={styles.instructionsModal} id="instructionsModal">
-          <h1>House Mouse VR (Jennifers Debug Version)</h1>
+          <h1>House Mouse VR</h1>
           <div style={{margin: '20px 0'}}>
             <div>Collect all of the cheese!</div>
             <div>This game is not complete, but all 50 cheeses are collectable.</div>
