@@ -271,10 +271,11 @@ export const modelingProjects = [
         image: 'house_mouse.jpg',
         imageAdjustments: { objectPosition: "-13px 1px", width: '287px' },
         description: `Taking the place of a mouse, you explore a large furnished house, yard, and graveyard for hidden cheese. The game features many 
-        detailed objects, animations, and hidden places to explore. Sadly all of the assets to this game have been lost to history. The game could be 
-        found on early VR gaming websites, had a short article written about it, and was reviewed on YouTube.`,
+        detailed objects, animations, and hidden places to explore. The game could be found on early VR gaming websites and had a short article written 
+        about it. The game still needs some work, but is playable now.`,
         links: [
-            {name: 'More Images', url: 'https://photos.app.goo.gl/p7um9Ti5WavJzmag7'}
+            {name: 'More Images', url: 'https://photos.app.goo.gl/p7um9Ti5WavJzmag7'},
+            {name: 'View Model', url: 'https://app.sketchup.com/share/tc/northAmerica/h6RfmSx0_is?stoken=vkrRZSG_hC_q_7PAq8n2q8AhBVxacDVqlUXlDMR7IwDBKY8ANI_cpib9apZZWrtW&source=web'},
         ]
     },
     {
