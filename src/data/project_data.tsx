@@ -16,8 +16,8 @@ export const webDevelopmentProjects = [
         imageAdjustments: { objectPosition: "-2px -3px", width: '269px' },
         description: `Originally designed for NextCentury, this app neatly displays a large list of meters from a plethora of manufacturers. 
         Users can quickly determine which NextCentury product is compatible with their meter and view a unique wiring diagram. Meters are easily 
-        found using the utility filter or search bar. Internal users can add public or private notes to each meter model. The app is compatible 
-        with desktop and mobile displays. • Angular, MongoDB, Node.js, TypeScript`,
+        found using the utility filter or search bar. Internal users can add public or private notes to each meter model. Responsive to many screen 
+        sizes. • Angular, MongoDB, Node.js, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/wiringGuide'},
             {name: 'Visit Website', url: 'http://wireguide.herokuapp.com/#/'},
@@ -28,7 +28,8 @@ export const webDevelopmentProjects = [
         image: 'meter_guide_edit.png',
         imageAdjustments: { objectPosition: "-6px -1px", width: '277px' },
         description: `This is a dedicated website for easily adding or modifying meter models and manufacturers listed on the Meter Wiring Guide 
-        (listed above). The app bundles CRUD operations into a slick, easy to use user interface. • Angular, MongoDB, Node.js, TypeScript`,
+        (listed above). The app bundles CRUD operations into a slick, easy to use user interface. Responsive to many screen sizes. 
+        • Angular, MongoDB, Node.js, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/wiringGuide'},
             {name: 'Visit Website', url: 'https://wireguide.herokuapp.com/#/edit'},
@@ -40,7 +41,7 @@ export const webDevelopmentProjects = [
         imageAdjustments: { objectPosition: "-1px 6px", width: '272px' },
         description: `A website for Logan locals to find and submit events, meetup groups, and community resources. This website uses Open Layers 
         map and Census Geocoder API to record and display event locations on an interactive map. Search for events using the search bar, or find 
-        what you need using the event filter. Think the name is silly? Me too. • Angular, Express, MongoDB, Node.js, TypeScript`,
+        what you need using the event filter. Responsive to many screen sizes. • Angular, Express, MongoDB, Node.js, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/YoloLogan'},
             {name: 'Visit Website', url: 'https://yolologan.herokuapp.com/'},
@@ -74,8 +75,9 @@ export const webDevelopmentProjects = [
         title: 'Rate-A-Coworker 2.0',
         image: 'rate_coworker.png',
         imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
-        description: `I created Rate-A-Coworker as part of an at-work learning project. I thought what better way to bring 
-        coworkers together than to rate each other on their abilities and other randomness. • Angular Express, MongoDB, Node.js, TypeScript`,
+        description: `I created Rate-A-Coworker as part of an at-work learning project. What better way to bring 
+        coworkers together than to rate each other on unusual skills. All in good fun. Responsive to many screen sizes. 
+        • Angular Express, MongoDB, Node.js, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/bestCoworker'},
             {name: 'Visit Website', url: 'https://rateacoworker.herokuapp.com/'},
@@ -116,7 +118,7 @@ export const webDevelopmentProjects = [
         title: 'Portfolio Site',
         image: 'endeavors.jpg',
         imageAdjustments: { objectPosition: "0px -2px", width: '265px' },
-        description: `This is the site you are on now. I felt it belonged here. • Express, MongoDB, Node.js, React, TypeScript`,
+        description: `This is the site you are on now. I felt it belonged here. Fully responsive to all screen sizes. • Express, MongoDB, Next.js, Node.js, React, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/my_portfolio'},
         ]
