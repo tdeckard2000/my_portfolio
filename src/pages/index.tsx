@@ -250,7 +250,7 @@ export default function Home() {
             <h4 className={styles.titleBottom}>Endeavors</h4>
             <div>
               <p className={styles.titleParagraph}>
-                A comprehensive list of my Web Development, Electronic, 3D
+                An overview of my Web Development, Electronic, 3D
                 Modeling and Video Production projects.
               </p>
             </div>
