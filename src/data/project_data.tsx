@@ -5,7 +5,7 @@ export const webDevelopmentProjects = [
         imageAdjustments: { objectPosition: "-1px 3px", width: '372px' },
         description: `I worked at NextCentury for four years. I worked as a Full Stack Web Developer during 
         my final year. I was a lead software and hardware tester for 2 years and a technical support
-        for 1 year. The company had just 8 members when I joined. • Angular, MongoDB, Node.js, TypeScript`,
+        for 1 year. The company had just 8 members when I joined. • Angular, MongoDB, Node.js, TypeScript, Vue.js, Ionic`,
         links: [
             {name: 'Company Page', url: 'https://www.nextcenturymeters.com/'},
         ]
