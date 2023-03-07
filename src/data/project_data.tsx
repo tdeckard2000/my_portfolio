@@ -77,7 +77,7 @@ export const webDevelopmentProjects = [
         imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
         description: `I created Rate-A-Coworker as part of an at-work learning project. What better way to bring 
         coworkers together than to rate each other on unusual skills. All in good fun. Responsive to many screen sizes. 
-        • Angular Express, MongoDB, Node.js, TypeScript`,
+        • Angular, Express, MongoDB, Node.js, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/bestCoworker'},
             {name: 'Visit Website', url: 'https://rateacoworker.herokuapp.com/'},
