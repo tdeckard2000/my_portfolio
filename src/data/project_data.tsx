@@ -222,6 +222,19 @@ export const electronicProjects = [
 
 export const modelingProjects = [
     {
+        title: 'House Mouse VR Game',
+        image: 'house_mouse.jpg',
+        imageAdjustments: { objectPosition: "-13px 1px", width: '287px' },
+        description: `•• Click to Play •• Taking the place of a mouse, you explore a large furnished house, yard, and graveyard for hidden cheese. The game features many 
+        detailed objects, animations, and hidden places to explore. The game could be found on early VR gaming websites and had a short article written 
+        about it. The game still needs some work, but is playable now right here on your browser. Use arrow keys (or W,A,S,D) to move, mouse to steer, and shift to run.`,
+        links: [
+            {name: 'Play Game 🧀', url:'/houseMouseVr'},
+            {name: 'More Images', url: 'https://photos.app.goo.gl/p7um9Ti5WavJzmag7'},
+            {name: 'View Model', url: 'https://app.sketchup.com/share/tc/northAmerica/h6RfmSx0_is?stoken=vkrRZSG_hC_q_7PAq8n2q8AhBVxacDVqlUXlDMR7IwDBKY8ANI_cpib9apZZWrtW&source=web'},
+        ]
+    },
+    {
         title: 'Articulating Display Wall',
         image: 'meter_wall.jpeg',
         imageAdjustments: { objectPosition: "-12px -19px", width: '283px' },
@@ -245,19 +258,6 @@ export const modelingProjects = [
         links: [
             {name: 'View Exploded Model', url: 'https://cad.onshape.com/documents/2f89c86dd48c723ad8125ea1/w/1b60cbc0a8cfeb23017075d0/e/112e0b484756827f57c30b54?renderMode=0&uiState=63f6fb94e846e77c0263c9db'},
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/2f89c86dd48c723ad8125ea1/w/1b60cbc0a8cfeb23017075d0/e/dafd14e2134a5123a8b668b8?renderMode=0&uiState=63f6fba7e846e77c0263ca07'},
-        ]
-    },
-    {
-        title: 'House Mouse VR Game',
-        image: 'house_mouse.jpg',
-        imageAdjustments: { objectPosition: "-13px 1px", width: '287px' },
-        description: `•• Click to Play •• Taking the place of a mouse, you explore a large furnished house, yard, and graveyard for hidden cheese. The game features many 
-        detailed objects, animations, and hidden places to explore. The game could be found on early VR gaming websites and had a short article written 
-        about it. The game still needs some work, but is playable now right here on your browser. Use arrow keys (or W,A,S,D) to move, mouse to steer, and shift to run.`,
-        links: [
-            {name: 'Play Game 🧀', url:'/houseMouseVr'},
-            {name: 'More Images', url: 'https://photos.app.goo.gl/p7um9Ti5WavJzmag7'},
-            {name: 'View Model', url: 'https://app.sketchup.com/share/tc/northAmerica/h6RfmSx0_is?stoken=vkrRZSG_hC_q_7PAq8n2q8AhBVxacDVqlUXlDMR7IwDBKY8ANI_cpib9apZZWrtW&source=web'},
         ]
     },
     {
