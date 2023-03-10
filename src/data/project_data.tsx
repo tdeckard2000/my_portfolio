@@ -11,6 +11,17 @@ export const webDevelopmentProjects = [
         ]
     },
     {
+        title: 'Lake Shipwrecks',
+        image: 'https://raw.githubusercontent.com/tdeckard2000/lakeShipWrecks/main/images/LakeShipwrecks.JPG',
+        imageAdjustments: { objectPosition: "-1px -1px", width: '269px' },
+        description: `My latest project as of March 9th 2023. The goal is a comprehensive, detailed, interactive map of lake 
+        shipwrecks. The site will initially only cover The Great Lakes. • MapBox, MongoDB, Next.js, Node, React`,
+        links: [
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/lakeShipWrecks'},
+            {name: 'Visit Website', url: 'http://shipwrecks.herokuapp.com/#/'},
+        ]
+    },
+    {
         title: 'Meter Wiring Guide',
         image: 'https://raw.githubusercontent.com/tdeckard2000/wiringGuide/main/images/Example.png',
         imageAdjustments: { objectPosition: "-2px -3px", width: '269px' },
@@ -41,7 +52,7 @@ export const webDevelopmentProjects = [
         imageAdjustments: { objectPosition: "-1px 6px", width: '272px' },
         description: `A website for Logan locals to find and submit events, meetup groups, and community resources. This website uses Open Layers 
         map and Census Geocoder API to record and display event locations on an interactive map. Search for events using the search bar, or find 
-        what you need using the event filter. Responsive to many screen sizes. • Angular, Express, MongoDB, Node.js, TypeScript`,
+        what you need using the event filter. Responsive to many screen sizes. • Angular, Express, MongoDB, Node.js, OpenLayers, TypeScript`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/YoloLogan'},
             {name: 'Visit Website', url: 'https://yolologan.herokuapp.com/'},
