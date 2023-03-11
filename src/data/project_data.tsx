@@ -3,8 +3,8 @@ export const webDevelopmentProjects = [
         title: "NextCentury Submetering Systems",
         image: 'nextCentury.jpeg',
         imageAdjustments: { objectPosition: "-1px 3px", width: '372px' },
-        description: `I worked at NextCentury for four years. I worked as a Full Stack Web Developer during 
-        my final year. I was a lead software and hardware tester for 2 years and a technical support
+        description: `I worked at NextCentury for four years. As a full stack web developer during 
+        my final year, a lead software and hardware tester for 2 years, and a technical support member
         for 1 year. The company had just 8 members when I joined. • Angular, MongoDB, Node.js, TypeScript, Vue.js, Ionic`,
         links: [
             {name: 'Company Page', url: 'https://www.nextcenturymeters.com/'},
@@ -17,8 +17,8 @@ export const webDevelopmentProjects = [
         description: `My latest project as of March 9th 2023. The goal is a comprehensive, detailed, interactive map of lake 
         shipwrecks. The site will initially only cover The Great Lakes. • MapBox, MongoDB, Next.js, Node, React`,
         links: [
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/lakeShipWrecks'},
             {name: 'Visit Website', url: 'http://shipwrecks.herokuapp.com/#/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/lakeShipWrecks'},
         ]
     },
     {
@@ -30,8 +30,8 @@ export const webDevelopmentProjects = [
         found using the utility filter or search bar. Internal users can add public or private notes to each meter model. Responsive to many screen 
         sizes. • Angular, MongoDB, Node.js, TypeScript`,
         links: [
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/wiringGuide'},
             {name: 'Visit Website', url: 'http://wireguide.herokuapp.com/#/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/wiringGuide'},
         ]
     },
     {
@@ -42,8 +42,8 @@ export const webDevelopmentProjects = [
         (listed above). The app bundles CRUD operations into a slick, easy to use user interface. Responsive to many screen sizes. 
         • Angular, MongoDB, Node.js, TypeScript`,
         links: [
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/wiringGuide'},
             {name: 'Visit Website', url: 'https://wireguide.herokuapp.com/#/edit'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/wiringGuide'},
         ]
     },
     {
@@ -54,8 +54,8 @@ export const webDevelopmentProjects = [
         map and Census Geocoder API to record and display event locations on an interactive map. Search for events using the search bar, or find 
         what you need using the event filter. Responsive to many screen sizes. • Angular, Express, MongoDB, Node.js, OpenLayers, TypeScript`,
         links: [
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/YoloLogan'},
             {name: 'Visit Website', url: 'https://yolologan.herokuapp.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/YoloLogan'},
         ]
     },
     {
@@ -67,8 +67,8 @@ export const webDevelopmentProjects = [
         of display sizes. Add saved items with just two taps, edit food items, set your own nutrition goals, view charts, and more. 
         Demo account: demo@gmail.com / demoPass • EJS, Express, JavaScript, jQuery, MongoDB, Node.js`,
         links: [
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/TedCounter'},
             {name: 'Visit Website', url: 'https://www.tedcounter.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/TedCounter'},
         ]
     },
     {
@@ -78,8 +78,8 @@ export const webDevelopmentProjects = [
         description: `A personal project created as a proof of concept for reporting and handling various types of support tickets. 
         Existing users can be assigned to each ticket. Each ticket can be tagged as urgent or marked as completed. • Angular, TypeScript`,
         links: [
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/Support-Ticket-Dashboard'},
             {name: 'Visit Website', url: 'https://support-tickets-dashboard.herokuapp.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/Support-Ticket-Dashboard'},
         ]
     },
     {
@@ -90,8 +90,8 @@ export const webDevelopmentProjects = [
         coworkers together than to rate each other on unusual skills. All in good fun. Responsive to many screen sizes. 
         • Angular, Express, MongoDB, Node.js, TypeScript`,
         links: [
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/bestCoworker'},
             {name: 'Visit Website', url: 'https://rateacoworker.herokuapp.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/bestCoworker'},
         ]
     },
     {
@@ -101,8 +101,8 @@ export const webDevelopmentProjects = [
         description: `A simple public todo list. Users can add or delete items from existing lists or create new lists. 
         It's fancy because it does a little more than your typical boiler-plate list. • Express, JavaScript, jQuery, MongoDB, Node.js`,
         links: [
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/ToDo-List'},
             {name: 'Visit Website', url: 'https://advanced-todo-list.herokuapp.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/ToDo-List'},
         ]
     },
     {
@@ -111,8 +111,8 @@ export const webDevelopmentProjects = [
         imageAdjustments: { objectPosition: "-5px -7px", width: '286px' },
         description: 'A simple game I created early in my Web Dev career to better my development knowledge. • JavaScript, jQuery',
         links: [
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/Simon-Says-Game'},
             {name: 'Visit Website', url: 'https://tdeckard2000.github.io/Simon-Says-Game/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/Simon-Says-Game'},
         ]
     },
     {
