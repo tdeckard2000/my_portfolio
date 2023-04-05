@@ -22,8 +22,8 @@ export const webDevelopmentProjects = [
     },
     {
         title: 'Shipwrecks Map',
-        image: 'https://raw.githubusercontent.com/tdeckard2000/lakeShipWrecks/main/images/LakeShipwrecks.JPG',
-        imageAdjustments: { objectPosition: "-1px -1px", width: '269px' },
+        image: 'https://raw.githubusercontent.com/tdeckard2000/lakeShipWrecks/main/images/shipwrecks.png',
+        imageAdjustments: { objectPosition: "-1px -1px", width: '267px' },
         description: `My latest project as of March 9th 2023. The goal is a comprehensive, detailed, interactive map of 
         shipwrecks. The site will initially only cover The Great Lakes. • MapBox, MongoDB, Next.js, Node, React`,
         links: [
