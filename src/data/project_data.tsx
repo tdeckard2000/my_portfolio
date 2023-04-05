@@ -11,6 +11,16 @@ export const webDevelopmentProjects = [
         ]
     },
     {
+        title: 'Tedly Web Services',
+        image: 'https://raw.githubusercontent.com/tdeckard2000/tedlywebservices/main/photos/exampleImage.JPG',
+        imageAdjustments: { objectPosition: "-1px -1px", width: '267px' },
+        description: `My personal business website. This is a work in progress started on April 5th 2023. • Next.js, Node, React, Midjourney`,
+        links: [
+            {name: 'Visit Website', url: 'https://tedly.herokuapp.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/tedlywebservices'},
+        ]
+    },
+    {
         title: 'Shipwrecks Map',
         image: 'https://raw.githubusercontent.com/tdeckard2000/lakeShipWrecks/main/images/LakeShipwrecks.JPG',
         imageAdjustments: { objectPosition: "-1px -1px", width: '269px' },
