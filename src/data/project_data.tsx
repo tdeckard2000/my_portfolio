@@ -14,7 +14,8 @@ export const webDevelopmentProjects = [
         title: 'Tedly Web Services',
         image: 'https://raw.githubusercontent.com/tdeckard2000/tedlywebservices/main/photos/exampleImage.JPG',
         imageAdjustments: { objectPosition: "-1px -1px", width: '267px' },
-        description: `My personal business website. This is a work in progress started on April 5th 2023. 
+        description: `My personal business website. A modern design to showcase my 
+            skills and attract new clients. 
             I used AI image generation to assist with the design.
             • Next.js, Node, React, Midjourney`,
         links: [
