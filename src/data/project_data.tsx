@@ -14,21 +14,35 @@ export const webDevelopmentProjects = [
         title: 'Tedly Web Services',
         image: 'https://raw.githubusercontent.com/tdeckard2000/tedlywebservices/main/photos/exampleImage.JPG',
         imageAdjustments: { objectPosition: "-1px -1px", width: '267px' },
-        description: `My personal business website. This is a work in progress started on April 5th 2023. • Next.js, Node, React, Midjourney`,
+        description: `My personal business website. This is a work in progress started on April 5th 2023. 
+            I used AI image generation to assist with the design.
+            • Next.js, Node, React, Midjourney`,
         links: [
             {name: 'Visit Website', url: 'https://tedly.herokuapp.com/'},
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/tedlywebservices'},
         ]
     },
     {
-        title: 'Shipwrecks Map',
+        title: 'Interactive Shipwrecks Map',
         image: 'https://raw.githubusercontent.com/tdeckard2000/lakeShipWrecks/main/images/shipwrecks.png',
-        imageAdjustments: { objectPosition: "-1px -1px", width: '267px' },
+        imageAdjustments: { objectPosition: "0px 0px", width: '265px' },
         description: `My latest project as of March 9th 2023. The goal is a comprehensive, detailed, interactive map of 
-        shipwrecks. The site will initially only cover The Great Lakes. • MapBox, MongoDB, Next.js, Node, React`,
+        shipwrecks. The site will initially only cover The Great Lakes. • MapBox, MongoDB, Next.js, Node, React, TypeScript`,
         links: [
             {name: 'Visit Website', url: 'http://shipwrecks.herokuapp.com/#/'},
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/lakeShipWrecks'},
+        ]
+    },
+    {
+        title: 'Coffee Shop',
+        image: 'https://raw.githubusercontent.com/tdeckard2000/simpleShopStore/main/images/exampleSnapshot.JPG',
+        imageAdjustments: { objectPosition: "-1px -1px", width: '267px' },
+        description: `My goal was to create a simple online store of my own to avoiding Shopify fees. This is built to be reusable. 
+        It can easily be added to any other react or NextJs application. All product images are AI generated. Just add Stripe.
+        . • Next.js, Node, React, TypeScript, MidJourney`,
+        links: [
+            {name: 'Visit Website', url: 'http://coffeestore.herokuapp.com/#/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/simpleShopStore'},
         ]
     },
     {
