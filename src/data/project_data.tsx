@@ -96,17 +96,17 @@ export const webDevelopmentProjects = [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/TedCounter'},
         ]
     },
-    {
-        title: 'Support Ticket Dashboard',
-        image: 'https://raw.githubusercontent.com/tdeckard2000/Support-Ticket-Dashboard/master/images/example.png',
-        imageAdjustments: { objectPosition: "-9px -1px", width: '275px' },
-        description: `A personal project created as a proof of concept for reporting and handling various types of support tickets. 
-        Existing users can be assigned to each ticket. Each ticket can be tagged as urgent or marked as completed. • Angular, TypeScript`,
-        links: [
-            {name: 'Visit Website', url: 'https://support-tickets-dashboard.herokuapp.com/'},
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/Support-Ticket-Dashboard'},
-        ]
-    },
+    // {
+    //     title: 'Support Ticket Dashboard',
+    //     image: 'https://raw.githubusercontent.com/tdeckard2000/Support-Ticket-Dashboard/master/images/example.png',
+    //     imageAdjustments: { objectPosition: "-9px -1px", width: '275px' },
+    //     description: `A personal project created as a proof of concept for reporting and handling various types of support tickets. 
+    //     Existing users can be assigned to each ticket. Each ticket can be tagged as urgent or marked as completed. • Angular, TypeScript`,
+    //     links: [
+    //         {name: 'Visit Website', url: 'https://support-tickets-dashboard.herokuapp.com/'},
+    //         {name: 'GitHub', url: 'https://github.com/tdeckard2000/Support-Ticket-Dashboard'},
+    //     ]
+    // },
     {
         title: 'Rate-A-Coworker 2.0',
         image: 'rate_coworker.png',
@@ -119,37 +119,37 @@ export const webDevelopmentProjects = [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/bestCoworker'},
         ]
     },
-    {
-        title: 'Fancy To-Do List',
-        image: 'todo.jpg',
-        imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
-        description: `A simple public todo list. Users can add or delete items from existing lists or create new lists. 
-        It's fancy because it does a little more than your typical boiler-plate list. • Express, JavaScript, jQuery, MongoDB, Node.js`,
-        links: [
-            {name: 'Visit Website', url: 'https://advanced-todo-list.herokuapp.com/'},
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/ToDo-List'},
-        ]
-    },
-    {
-        title: 'Simon Says Game',
-        image: 'simon_says.jpg',
-        imageAdjustments: { objectPosition: "-5px -7px", width: '286px' },
-        description: 'A simple game I created early in my Web Dev career to better my development knowledge. • JavaScript, jQuery',
-        links: [
-            {name: 'Visit Website', url: 'https://tdeckard2000.github.io/Simon-Says-Game/'},
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/Simon-Says-Game'},
-        ]
-    },
-    {
-        title: 'My Local Meal',
-        image: 'my_local_meal.jpeg',
-        imageAdjustments: { objectPosition: "0 0", width: '270px' },
-        description: `My very first toe-dip into web development. I regularly attended a coding meetup group and found myself leading most 
-        aspects of this project. I sketched the UI, designed the logo, and build much of the front end. • Django, JavaScript, jQuery, MongoDB`,
-        links: [
-            {name: 'Visit Website', url: 'https://mylocalmeal.com/'},
-        ]
-    },
+    // {
+    //     title: 'Fancy To-Do List',
+    //     image: 'todo.jpg',
+    //     imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
+    //     description: `A simple public todo list. Users can add or delete items from existing lists or create new lists. 
+    //     It's fancy because it does a little more than your typical boiler-plate list. • Express, JavaScript, jQuery, MongoDB, Node.js`,
+    //     links: [
+    //         {name: 'Visit Website', url: 'https://advanced-todo-list.herokuapp.com/'},
+    //         {name: 'GitHub', url: 'https://github.com/tdeckard2000/ToDo-List'},
+    //     ]
+    // },
+    // {
+    //     title: 'Simon Says Game',
+    //     image: 'simon_says.jpg',
+    //     imageAdjustments: { objectPosition: "-5px -7px", width: '286px' },
+    //     description: 'A simple game I created early in my Web Dev career to better my development knowledge. • JavaScript, jQuery',
+    //     links: [
+    //         {name: 'Visit Website', url: 'https://tdeckard2000.github.io/Simon-Says-Game/'},
+    //         {name: 'GitHub', url: 'https://github.com/tdeckard2000/Simon-Says-Game'},
+    //     ]
+    // },
+    // {
+    //     title: 'My Local Meal',
+    //     image: 'my_local_meal.jpeg',
+    //     imageAdjustments: { objectPosition: "0 0", width: '270px' },
+    //     description: `My very first toe-dip into web development. I regularly attended a coding meetup group and found myself leading most 
+    //     aspects of this project. I sketched the UI, designed the logo, and build much of the front end. • Django, JavaScript, jQuery, MongoDB`,
+    //     links: [
+    //         {name: 'Visit Website', url: 'https://mylocalmeal.com/'},
+    //     ]
+    // },
     {
         title: 'Portfolio Site',
         image: 'endeavors.jpg',
