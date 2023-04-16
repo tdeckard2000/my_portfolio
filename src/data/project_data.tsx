@@ -38,7 +38,7 @@ export const webDevelopmentProjects = [
         title: 'Coffee Shop',
         image: 'https://raw.githubusercontent.com/tdeckard2000/simpleShopStore/main/images/exampleSnapshot.JPG',
         imageAdjustments: { objectPosition: "-1px -1px", width: '267px' },
-        description: `My goal was to create a simple online store of my own to avoiding Shopify fees. This is built to be reusable. 
+        description: `My goal was to create a simple online store of my own to avoid Shopify fees. This is built to be reusable. 
         It can easily be added to any other react or NextJs application. All product images are AI generated. Just add Stripe.
         . • Next.js, Node, React, TypeScript, MidJourney`,
         links: [
