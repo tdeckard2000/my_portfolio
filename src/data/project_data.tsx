@@ -19,7 +19,7 @@ export const webDevelopmentProjects = [
             I used AI image generation to assist with the design.
             • Next.js, Node, React, Midjourney`,
         links: [
-            {name: 'Visit Website', url: 'https://tedly.herokuapp.com/'},
+            {name: 'Visit Website', url: 'https://www.tedlywebservices.com/'},
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/tedlywebservices'},
         ]
     },
