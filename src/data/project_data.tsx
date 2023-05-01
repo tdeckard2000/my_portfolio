@@ -14,8 +14,7 @@ export const webDevelopmentProjects = [
         title: 'Tedly Web Services',
         image: 'https://raw.githubusercontent.com/tdeckard2000/tedlywebservices/main/photos/exampleImage.JPG',
         imageAdjustments: { objectPosition: "-1px -1px", width: '267px' },
-        description: `My personal business website. A modern design to showcase my 
-            skills and attract new clients. 
+        description: `A web development business concept website with a modern design to attract new clients. 
             I used AI image generation to assist with the design.
             • Next.js, Node, React, Midjourney`,
         links: [
@@ -77,7 +76,7 @@ export const webDevelopmentProjects = [
         imageAdjustments: { objectPosition: "-1px 6px", width: '272px' },
         description: `A website for Logan locals to find and submit events, meetup groups, and community resources. This website uses Open Layers 
         map and Census Geocoder API to record and display event locations on an interactive map. Search for events using the search bar, or find 
-        what you need using the event filter. Responsive to many screen sizes. • Angular, Express, MongoDB, Node.js, OpenLayers, TypeScript`,
+        what you need using the event filter. Responsive to many screen sizes. The app is not finished. • Angular, Express, MongoDB, Node.js, OpenLayers, TypeScript`,
         links: [
             {name: 'Visit Website', url: 'https://yolologan.herokuapp.com/'},
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/YoloLogan'},
