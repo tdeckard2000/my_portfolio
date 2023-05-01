@@ -71,18 +71,6 @@ export const webDevelopmentProjects = [
         ]
     },
     {
-        title: 'Yolo Logan!',
-        image: 'https://raw.githubusercontent.com/tdeckard2000/YoloLogan/master/images/example.png',
-        imageAdjustments: { objectPosition: "-1px 6px", width: '272px' },
-        description: `A website for Logan locals to find and submit events, meetup groups, and community resources. This website uses Open Layers 
-        map and Census Geocoder API to record and display event locations on an interactive map. Search for events using the search bar, or find 
-        what you need using the event filter. Responsive to many screen sizes. The app is not finished. • Angular, Express, MongoDB, Node.js, OpenLayers, TypeScript`,
-        links: [
-            {name: 'Visit Website', url: 'https://yolologan.herokuapp.com/'},
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/YoloLogan'},
-        ]
-    },
-    {
         title: 'Ted Counter',
         image: 'https://raw.githubusercontent.com/tdeckard2000/TedCounter/master/IMG_0729.jpg',
         imageAdjustments: { objectPosition: "-2px -33px", width: '270px' },
@@ -93,6 +81,18 @@ export const webDevelopmentProjects = [
         links: [
             {name: 'Visit Website', url: 'https://www.tedcounter.com/'},
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/TedCounter'},
+        ]
+    },
+    {
+        title: 'Yolo Logan!',
+        image: 'https://raw.githubusercontent.com/tdeckard2000/YoloLogan/master/images/example.png',
+        imageAdjustments: { objectPosition: "-1px 6px", width: '272px' },
+        description: `A website for Logan locals to find and submit events, meetup groups, and community resources. This website uses Open Layers 
+        map and Census Geocoder API to record and display event locations on an interactive map. Search for events using the search bar, or find 
+        what you need using the event filter. Responsive to many screen sizes. The app is not finished. • Angular, Express, MongoDB, Node.js, OpenLayers, TypeScript`,
+        links: [
+            {name: 'Visit Website', url: 'https://yolologan.herokuapp.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/YoloLogan'},
         ]
     },
     // {
