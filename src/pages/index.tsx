@@ -334,7 +334,7 @@ export default function Home() {
             <div className={styles.resumeSection}>
               <div className={styles.resumeContainer}>
                 <a style={{ color: 'black', display: 'flex', flexDirection: 'column', textDecoration: 'none' }} href="https://drive.google.com/file/d/1YJUh9MUZ_fn7WPUhIQ7Ci_YgUb8jJ2tG/view?usp=sharing">
-                  <img onMouseEnter={() => showById("webResumeIcon")} onMouseLeave={() => hideById("webResumeIcon")} className={styles.resumeImage} src="Web_Resume_v2.png" alt="My Web Developer Resume" />
+                  <img onMouseEnter={() => showById("webResumeIcon")} onMouseLeave={() => hideById("webResumeIcon")} className={styles.resumeImage} src="Web_Resume_v2.PNG" alt="My Web Developer Resume" />
                   <img className={styles.resumeOpenIcon} id="webResumeIcon" src="icon_new_window.svg" alt="" />
                   <div className={styles.resumeTitle}>View Resume</div>
                 </a>
