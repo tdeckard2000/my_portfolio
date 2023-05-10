@@ -266,10 +266,10 @@ export default function Home() {
           <div className={styles.navContainerDesktop}
             style={{ bottom: yPosition / 4 + "px" }}>
             <a style={{ textDecoration: 'none' }} href="#blockWebDevTitle"><span>Web</span></a>
-            <a style={{ textDecoration: 'none' }} href="#blockElectronicsTitle"><span>Electronics</span></a>
+            <a style={{ textDecoration: 'none' }} href="#blockResumeTitle"><span>Contact</span></a>
             <a style={{ textDecoration: 'none' }} href="#blockModelingTitle"><span>3D Modeling</span></a>
+            <a style={{ textDecoration: 'none' }} href="#blockElectronicsTitle"><span>Electronics</span></a>
             <a style={{ textDecoration: 'none' }} href="#blockVideoTitle"><span>Video</span></a>
-            <a style={{ textDecoration: 'none' }} href="#blockResumeTitle"><span>Resume</span></a>
           </div>
 
 
@@ -304,39 +304,49 @@ export default function Home() {
               </Fragment>
             )}
           </div>
-          <div className={styles.blockDivider}></div>
 
-          {/* ----- Electronics ----- */}
-          <div className={styles.blockTitle} id="blockElectronicsTitle">Electronics</div>
-          <div id="blockElectronics">
-            { electronicProjects.map((project, index) =>
-              <Fragment key={project.title}>
-                  <div style={{perspective: '1000px'}}>
-                    <div onClick={() => flipBlock('electronics' + index)} id={"electronics" + index} className={styles.blockContainer}>
-                      <div className={styles.blockFront}>
-                        <div className={styles.blockImageContainer}>
-                          <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
-                        </div>
-                        <div className={styles.blockRightColumn}>
-                          <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
-                          <p className={styles.blockDescription}>{project.description}</p>
-                        </div>
-                      </div>
-                    <div className={styles.blockBack}>
-                      {project.links?.map((link, linkIndex) => 
-                        <a key={project.title + linkIndex} className={styles.blockBackButton} 
-                        target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url}>{link.name}</a>
-                      )}
-                      <div style={{color: 'white', display: project.links?.length ? 'none' : 'initial'}}>Sorry, no content yet.</div>
-                    </div>
-                  </div>
+          <div className={styles.blockDivider}></div>
+          
+          {/* ----- Resume ----- */}
+          <div className={styles.blockTitle} id="blockResumeTitle">Contact</div>
+          <div id="blockResume">
+            <div className={styles.contactSection}>
+              <h1 className={styles.linkHover} style={{ left: '13px', position: 'relative' }} onClick={() => { onCopy("Hi Trent Deckard. Let's set up an interview! ☕️") }}>
+                Trent Deckard
+              <img src="icon_copy.svg" className={styles.iconNewWindow} style={{ marginBottom: '6px' }} /></h1>
+              <h3>Full Stack Developer - Columbus, Ohio</h3>
+              <div className={styles.socialLinks}>
+                <h3>Contact</h3>
+                <div className={styles.contactLinks}>
+                  <div className={styles.linkHover} onClick={() => { onCopy("812-360-5563") }}>812-360-5563 <img src="icon_copy.svg" className={styles.iconNewWindow} /></div>
+                  <div className={styles.linkHover} onClick={() => { onCopy("tredeckard@gmail.com") }}>tredeckard@gmail.com <img src="icon_copy.svg" className={styles.iconNewWindow} /></div>
                 </div>
-                <div className={styles.mobileProjectTitle}>{project.title}</div>
-                <div onClick={() => toggleMobileDescription("electronicsD" + index)} id={"electronicsD" + index} 
-                className={styles.mobileProjectDescription + ' ' + styles.noWrap}>{project.description}</div>
-              </Fragment>
-            )}
+              </div>
+              <div>
+                <h3>Social Media</h3>
+                <div className={styles.socialLinks}>
+                  <a className={styles.linkHover} href="http://linkedin.com/in/trentdeckard" target="_blank" rel="noreferrer">LinkedIn <img src="icon_new_window.svg" className={styles.iconNewWindow} /></a>
+                  <a className={styles.linkHover} href="https://github.com/tdeckard2000" target="_blank" rel="noreferrer">GitHub <img src="icon_new_window.svg" className={styles.iconNewWindow} /></a>
+                  {/* <a className={styles.linkHover} href="http://youtube.com/interestingted" target="_blank" rel="noreferrer">YouTube <img src="icon_new_window.svg" className={styles.iconNewWindow} /></a> */}
+                </div>
+              </div>
+            </div>
+            <div className={styles.resumeSection}>
+              <div className={styles.resumeContainer}>
+                <a style={{ color: 'black', display: 'flex', flexDirection: 'column', textDecoration: 'none' }} href="https://drive.google.com/file/d/1YJUh9MUZ_fn7WPUhIQ7Ci_YgUb8jJ2tG/view?usp=sharing">
+                  <img onMouseEnter={() => showById("webResumeIcon")} onMouseLeave={() => hideById("webResumeIcon")} className={styles.resumeImage} src="Web_Resume_v2.png" alt="My Web Developer Resume" />
+                  <img className={styles.resumeOpenIcon} id="webResumeIcon" src="icon_new_window.svg" alt="" />
+                  <div className={styles.resumeTitle}>View Resume</div>
+                </a>
+                {/* <a style={{ color: 'black', display: 'flex', flexDirection: 'column', textDecoration: 'none' }} href="https://drive.google.com/file/d/1qWKBHRZ8XyuMDWyUp2CDw88csEZPZUqP/view?usp=share_link">
+                  <img onMouseEnter={() => showById("fullResumeIcon")} onMouseLeave={() => hideById("fullResumeIcon")} className={styles.resumeImage} src="Full_Resume.png" alt="My Full Resume" />
+                  <img className={styles.resumeOpenIcon} id="fullResumeIcon" src="icon_new_window.svg" alt="" />
+                  <div className={styles.resumeTitle}>All Inclusive Resume</div>
+                </a> */}
+              </div>
+            </div>
           </div>
+
           <div className={styles.blockDivider}></div>
 
           {/* ----- 3D Modeling ----- */}
@@ -370,6 +380,41 @@ export default function Home() {
              </Fragment>
             )}
           </div>
+
+          <div className={styles.blockDivider}></div>
+
+          {/* ----- Electronics ----- */}
+          <div className={styles.blockTitle} id="blockElectronicsTitle">Electronics</div>
+          <div id="blockElectronics">
+            { electronicProjects.map((project, index) =>
+              <Fragment key={project.title}>
+                  <div style={{perspective: '1000px'}}>
+                    <div onClick={() => flipBlock('electronics' + index)} id={"electronics" + index} className={styles.blockContainer}>
+                      <div className={styles.blockFront}>
+                        <div className={styles.blockImageContainer}>
+                          <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
+                        </div>
+                        <div className={styles.blockRightColumn}>
+                          <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
+                          <p className={styles.blockDescription}>{project.description}</p>
+                        </div>
+                      </div>
+                    <div className={styles.blockBack}>
+                      {project.links?.map((link, linkIndex) => 
+                        <a key={project.title + linkIndex} className={styles.blockBackButton} 
+                        target="_blank" rel="noreferrer" style={{color: 'black', textDecoration: 'none'}} href={link.url}>{link.name}</a>
+                      )}
+                      <div style={{color: 'white', display: project.links?.length ? 'none' : 'initial'}}>Sorry, no content yet.</div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.mobileProjectTitle}>{project.title}</div>
+                <div onClick={() => toggleMobileDescription("electronicsD" + index)} id={"electronicsD" + index} 
+                className={styles.mobileProjectDescription + ' ' + styles.noWrap}>{project.description}</div>
+              </Fragment>
+            )}
+          </div>
+          
           <div className={styles.blockDivider}></div>
 
           {/* ----- Video Production ----- */}
@@ -402,45 +447,6 @@ export default function Home() {
               className={styles.mobileProjectDescription + ' ' + styles.noWrap}>{project.description}</div>
             </Fragment>
             )}
-          </div>
-          <div className={styles.blockDivider}></div>
-          
-          {/* ----- Resume ----- */}
-          <div className={styles.blockTitle} id="blockResumeTitle">Resume</div>
-          <div id="blockResume">
-            <div className={styles.contactSection}>
-              <h1 className={styles.linkHover} style={{ left: '13px', position: 'relative' }} onClick={() => { onCopy("Hi Trent Deckard. Let's set up an interview! 💞") }}>Trent Deckard <img src="icon_copy.svg" className={styles.iconNewWindow} style={{ marginBottom: '6px' }} /></h1>
-              {/* <p>Columbus Ohio</p> */}
-              <div className={styles.socialLinks}>
-                <h3>Contact</h3>
-                <div className={styles.contactLinks}>
-                  <div className={styles.linkHover} onClick={() => { onCopy("812-360-5563") }}>812-360-5563 <img src="icon_copy.svg" className={styles.iconNewWindow} /></div>
-                  <div className={styles.linkHover} onClick={() => { onCopy("tredeckard@gmail.com") }}>tredeckard@gmail.com <img src="icon_copy.svg" className={styles.iconNewWindow} /></div>
-                </div>
-              </div>
-              <div>
-                <h3>Social Media</h3>
-                <div className={styles.socialLinks}>
-                  <a className={styles.linkHover} href="http://linkedin.com/in/trentdeckard" target="_blank" rel="noreferrer">LinkedIn <img src="icon_new_window.svg" className={styles.iconNewWindow} /></a>
-                  <a className={styles.linkHover} href="https://github.com/tdeckard2000" target="_blank" rel="noreferrer">GitHub <img src="icon_new_window.svg" className={styles.iconNewWindow} /></a>
-                  <a className={styles.linkHover} href="http://youtube.com/interestingted" target="_blank" rel="noreferrer">YouTube <img src="icon_new_window.svg" className={styles.iconNewWindow} /></a>
-                </div>
-              </div>
-            </div>
-            <div className={styles.resumeSection}>
-              <div className={styles.resumeContainer}>
-                <a style={{ color: 'black', display: 'flex', flexDirection: 'column', textDecoration: 'none' }} href="https://drive.google.com/file/d/1YJUh9MUZ_fn7WPUhIQ7Ci_YgUb8jJ2tG/view?usp=sharing">
-                  <img onMouseEnter={() => showById("webResumeIcon")} onMouseLeave={() => hideById("webResumeIcon")} className={styles.resumeImage} src="Web_Resume.png" alt="My Web Developer Resume" />
-                  <img className={styles.resumeOpenIcon} id="webResumeIcon" src="icon_new_window.svg" alt="" />
-                  <div className={styles.resumeTitle}>Web Developer Resume</div>
-                </a>
-                <a style={{ color: 'black', display: 'flex', flexDirection: 'column', textDecoration: 'none' }} href="https://drive.google.com/file/d/1qWKBHRZ8XyuMDWyUp2CDw88csEZPZUqP/view?usp=share_link">
-                  <img onMouseEnter={() => showById("fullResumeIcon")} onMouseLeave={() => hideById("fullResumeIcon")} className={styles.resumeImage} src="Full_Resume.png" alt="My Full Resume" />
-                  <img className={styles.resumeOpenIcon} id="fullResumeIcon" src="icon_new_window.svg" alt="" />
-                  <div className={styles.resumeTitle}>All Inclusive Resume</div>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </main>

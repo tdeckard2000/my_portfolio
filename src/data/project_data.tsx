@@ -118,37 +118,37 @@ export const webDevelopmentProjects = [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/bestCoworker'},
         ]
     },
-    // {
-    //     title: 'Fancy To-Do List',
-    //     image: 'todo.jpg',
-    //     imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
-    //     description: `A simple public todo list. Users can add or delete items from existing lists or create new lists. 
-    //     It's fancy because it does a little more than your typical boiler-plate list. • Express, JavaScript, jQuery, MongoDB, Node.js`,
-    //     links: [
-    //         {name: 'Visit Website', url: 'https://advanced-todo-list.herokuapp.com/'},
-    //         {name: 'GitHub', url: 'https://github.com/tdeckard2000/ToDo-List'},
-    //     ]
-    // },
-    // {
-    //     title: 'Simon Says Game',
-    //     image: 'simon_says.jpg',
-    //     imageAdjustments: { objectPosition: "-5px -7px", width: '286px' },
-    //     description: 'A simple game I created early in my Web Dev career to better my development knowledge. • JavaScript, jQuery',
-    //     links: [
-    //         {name: 'Visit Website', url: 'https://tdeckard2000.github.io/Simon-Says-Game/'},
-    //         {name: 'GitHub', url: 'https://github.com/tdeckard2000/Simon-Says-Game'},
-    //     ]
-    // },
-    // {
-    //     title: 'My Local Meal',
-    //     image: 'my_local_meal.jpeg',
-    //     imageAdjustments: { objectPosition: "0 0", width: '270px' },
-    //     description: `My very first toe-dip into web development. I regularly attended a coding meetup group and found myself leading most 
-    //     aspects of this project. I sketched the UI, designed the logo, and build much of the front end. • Django, JavaScript, jQuery, MongoDB`,
-    //     links: [
-    //         {name: 'Visit Website', url: 'https://mylocalmeal.com/'},
-    //     ]
-    // },
+    {
+        title: 'Public Todo List',
+        image: 'todo.jpg',
+        imageAdjustments: { objectPosition: "0px 0px", width: '266px' },
+        description: `This web app utilizes MongoDB Atlas for persistent data storage. Users can add or delete items from existing lists or create new lists. 
+         • Express, JavaScript, jQuery, MongoDB, Node.js`,
+        links: [
+            {name: 'Visit Website', url: 'https://advanced-todo-list.herokuapp.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/ToDo-List'},
+        ]
+    },
+    {
+        title: 'Simon Game',
+        image: 'simon_says.jpg',
+        imageAdjustments: { objectPosition: "-5px -7px", width: '286px' },
+        description: `A throwback to the late 70's, this is an online version of the popular game. • JavaScript, jQuery`,
+        links: [
+            {name: 'Play Game 🎮', url: 'https://tdeckard2000.github.io/Simon-Says-Game/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/Simon-Says-Game'},
+        ]
+    },
+    {
+        title: 'My Local Meal',
+        image: 'my_local_meal.jpeg',
+        imageAdjustments: { objectPosition: "0 0", width: '270px' },
+        description: `I regularly attend coding meetup groups and find myself leading the design and development of projects. 
+        For My Local Meal, I sketched the UI, designed the logo, and build much of the front end. • Django, JavaScript, jQuery, MongoDB`,
+        links: [
+            {name: 'Visit Website', url: 'https://mylocalmeal.com/'},
+        ]
+    },
     {
         title: 'Portfolio Site',
         image: 'endeavors.jpg',
@@ -257,10 +257,10 @@ export const electronicProjects = [
 
 export const modelingProjects = [
     {
-        title: 'House Mouse VR Game',
+        title: '3D Mouse Game 🎮 (Click to Play)',
         image: 'house_mouse.jpg',
         imageAdjustments: { objectPosition: "-13px 1px", width: '287px' },
-        description: `•• Click to Play •• Taking the place of a mouse, you explore a large furnished house, yard, and graveyard for hidden cheese. The game features many 
+        description: `In "House Mouse", a game originally created for VR, the player takes the role of a mouse. Explore a large furnished house, yard, and graveyard for hidden cheese. The game features many 
         detailed objects, animations, and hidden places to explore. The game could be found on early VR gaming websites and had a short article written 
         about it. The game still needs some work, but is playable now right here on your browser. Use arrow keys (or W,A,S,D) to move, mouse to steer, and shift to run.`,
         links: [
