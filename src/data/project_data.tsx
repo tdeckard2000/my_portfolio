@@ -260,7 +260,7 @@ export const modelingProjects = [
         title: '3D Mouse Game 🎮 (Click to Play)',
         image: 'house_mouse.jpg',
         imageAdjustments: { objectPosition: "-13px 1px", width: '287px' },
-        description: `In "House Mouse", a game originally created for VR, the player takes the role of a mouse. Explore a large furnished house, yard, and graveyard for hidden cheese. The game features many 
+        description: `In "House Mouse", a game originally created for VR, the player takes the role of a mouse. The game features many 
         detailed objects, animations, and hidden places to explore. The game could be found on early VR gaming websites and had a short article written 
         about it. The game still needs some work, but is playable now right here on your browser. Use arrow keys (or W,A,S,D) to move, mouse to steer, and shift to run.
         • Unity, C#, Sketchup, OnShape`,
