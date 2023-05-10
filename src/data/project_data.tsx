@@ -262,7 +262,8 @@ export const modelingProjects = [
         imageAdjustments: { objectPosition: "-13px 1px", width: '287px' },
         description: `In "House Mouse", a game originally created for VR, the player takes the role of a mouse. Explore a large furnished house, yard, and graveyard for hidden cheese. The game features many 
         detailed objects, animations, and hidden places to explore. The game could be found on early VR gaming websites and had a short article written 
-        about it. The game still needs some work, but is playable now right here on your browser. Use arrow keys (or W,A,S,D) to move, mouse to steer, and shift to run.`,
+        about it. The game still needs some work, but is playable now right here on your browser. Use arrow keys (or W,A,S,D) to move, mouse to steer, and shift to run.
+        • Unity, C#, Sketchup, OnShape`,
         links: [
             {name: 'Play Game 🧀', url:'/houseMouseVr'},
             {name: 'More Images', url: 'https://photos.app.goo.gl/p7um9Ti5WavJzmag7'},
@@ -277,7 +278,7 @@ export const modelingProjects = [
         display for the office and has been an essential tool for testing new products during the production lifecycle. It features an automated 
         airflow system, heavy articulating panels, integrated display, illuminated color-changing logo, and a patch panel for testing signal 
         propagation distances. I researched and purchased tools and materials for the build and referenced the 3D model for precise measurements 
-        during construction.`,
+        during construction. • Sketchup`,
         links: [
             {name: 'More Images', url: 'https://photos.app.goo.gl/LEHdTCXZhBEfC8Xb6'},
             {name: 'View Assembled Model', url: 'https://app.sketchup.com/share/tc/northAmerica/0J36uBVCO6I?stoken=UGQn4AU38ZMWFg59rI_E6y574e8ZdbrDcHabGEcLKhXEdvd73HngrruQe9N6mPVJ&source=web'},
@@ -289,7 +290,7 @@ export const modelingProjects = [
         imageAdjustments: { objectPosition: "3px -16px", width: '271px' },
         description: `Created for the testing team, this housing is a slim version of the original. The PCB, having been repurposed from another 
         product, could easily be stripped down to fit into a small housing. I made several of these for our testing and development teams. 
-        They can be found in various tool boxes around the office.`,
+        They can be found in various tool boxes around the office. • OnShape`,
         links: [
             {name: 'View Exploded Model', url: 'https://cad.onshape.com/documents/2f89c86dd48c723ad8125ea1/w/1b60cbc0a8cfeb23017075d0/e/112e0b484756827f57c30b54?renderMode=0&uiState=63f6fb94e846e77c0263c9db'},
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/2f89c86dd48c723ad8125ea1/w/1b60cbc0a8cfeb23017075d0/e/dafd14e2134a5123a8b668b8?renderMode=0&uiState=63f6fba7e846e77c0263ca07'},
@@ -302,7 +303,7 @@ export const modelingProjects = [
         description: `A colleague created a Pulse Generator for testing products during the development cycle. The device is fantastic, but 
         could be cumbersome to use due to the shape of the PCB, the position of the motor, and the exposed contacts that would sometimes short on metal surfaces. 
         I created a housing for the motor PCB and the display/controller PCB to make for a more user-friendly experience. The circuit boards fit perfectly 
-        and the housings simply snap together.`,
+        and the housings simply snap together. • OnShape`,
         links: [
             {name: 'View Exploded Model', url: 'https://cad.onshape.com/documents/a373224f1e3a9af2d0bd5648/w/67b157fe9d05ef9aed2ace02/e/47936c6c247692c41f498abf?renderMode=0&uiState=63f6fc4c1f9b5520c2996ece'},
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/a373224f1e3a9af2d0bd5648/w/67b157fe9d05ef9aed2ace02/e/e79c47fd7f170aaa88dae507?renderMode=0&uiState=63f6fc441f9b5520c2996ec6'},
@@ -323,7 +324,7 @@ export const modelingProjects = [
         description: `Being a big fan of Stan Winston studios' work and theme park attractions, I have had a love for animatronics for a long time. 
         I just think they're so cool. This is my first attempt at an animatronic Compy dinosaur. My plan was to use servo motors, 
         bowden cable, and bowden tube to articulate the tail, legs, and head. I would then 3D Print a negative of the shell and mold a foam latex 
-        skin. It became clear that the small servos were not strong enough.`,
+        skin. It became clear that the small servos were not strong enough. • OnShape`,
         links: [
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/756eb34697a8926a1aceca8f/w/3900260f14349326b5bdd855/e/5020d39ec5eeccbf33ab53ea?renderMode=0&uiState=63f6fcdb1734342db4cffd48'},
             {name: 'View Articulating Legs', url: 'https://cad.onshape.com/documents/756eb34697a8926a1aceca8f/w/3900260f14349326b5bdd855/e/9c724dba115c5a749381616d?renderMode=0&uiState=63f6fcf71734342db4cffd4f'},
@@ -333,7 +334,7 @@ export const modelingProjects = [
         title: 'Cat Deterrent Housing',
         image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/6.jpg',
         imageAdjustments: { objectPosition: "-1px -34px", width: '267px' },
-        description: 'A simple housing I modeled and printed for the Cat Fan. (see project above)',
+        description: 'A simple housing I modeled and printed for the Cat Fan. (see project above) • OnShape',
         links: [
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/11f429975ad44917112c4046/w/d76f6b087f5e9f8915322282/e/3e19c087b44d2958310c073c?renderMode=0&uiState=63f7be2e6ceb9333c0652243'},
         ]
@@ -344,7 +345,7 @@ export const modelingProjects = [
         imageAdjustments: { objectPosition: "1px -10px", width: '258px' },
         description: `Having a mild fascination with the underwater world, I decided I wanted to attach my GoPro to my paddleboard anchor. I fashioned 
         this mount for my camera and a dive light. I lowered the anchor 80 feet into the crystal-clear Bear Lake of northern Utah. This 
-        is the first iteration of the design which I found placed too much vertical stress on the anchor rope.`,
+        is the first iteration of the design which I found placed too much vertical stress on the anchor rope. • OnShape`,
         links: [
             {name: 'More Images', url: 'https://photos.app.goo.gl/Pp62jy9E6BWZYRXR8'},
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/4adf53283e2faa43bfa89f07/w/861b295a2aa8328193d961bc/e/e06b290c4b54bd9e77b021c5?renderMode=0&uiState=63f6fdee1cdd6e53c31de9d9'},
@@ -356,7 +357,7 @@ export const modelingProjects = [
         imageAdjustments: { objectPosition: "1px -10px", width: '258px' },
         description: `The second iteration of the design faired much better. Distributing the weight of the camera and dive light more evenly across 
         the anchor rope allowed for a more secure and more predictable camera angle. These underwater explorations eventually lead me to earning an 
-        SSI open water scuba certification.`,
+        SSI open water scuba certification. • OnShape`,
         links: [
             {name: 'More Images', url: 'https://photos.app.goo.gl/Pp62jy9E6BWZYRXR8'},
             {name: 'Thingiverse', url: 'https://www.thingiverse.com/thing:5451179'},
@@ -369,7 +370,7 @@ export const modelingProjects = [
         imageAdjustments: { objectPosition: "7px -16px", width: '242px' },
         description: `Created for ROV underwater drone applications, specifically the QYSEA FIFISH. 
         The claw uses a hair-trigger and rubber band to grab items without the need 
-        for motors. It is designed to release if the drone becomes stuck.`,
+        for motors. It is designed to release if the drone becomes stuck. • OnShape`,
         links: [
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/3b6b86b092f0c587a064c9b6/w/8bd724e31644deac6e68afc3/e/523793ad2c1354c0936a1e23?renderMode=0&uiState=63f6ffb7637d0521b1249f54'}
         ]
@@ -378,7 +379,7 @@ export const modelingProjects = [
         title: 'Gateway Mascot',
         image: 'mascot.jpg',
         imageAdjustments: { objectPosition: "0px -25px", width: '267px' },
-        description: `I was asked to create a personified toy model of a NextCentury product with a hidden door. This was used for a large work celebration.`,
+        description: `I was asked to create a personified toy model of a NextCentury product with a hidden door. This was used for a large work celebration. • OnShape`,
         links: [
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/d0b070538f05d8fc6299bb2c/w/344070c303831e0759ed51cf/e/4fc06dc84581f6240e85c986?renderMode=0&uiState=63f700e880305060322382f1'},
             {name: 'Viewed Opened Model', url: 'https://cad.onshape.com/documents/d0b070538f05d8fc6299bb2c/w/344070c303831e0759ed51cf/e/cee28b323da0595e2b6b5d2b?renderMode=0&uiState=63f700fe80305060322382f9'}
@@ -389,7 +390,7 @@ export const modelingProjects = [
         image: 'razor_guard.jpg',
         imageAdjustments: { objectPosition: "-74px -63px", width: '373px' },
         description: `My razor didn't offer the guard size I needed, so I decided to make my own. It fits 
-        perfectly on the razor with a "snap".`,
+        perfectly on the razor with a "snap". • OnShape`,
         links: [
             {name: 'View Model', url: 'https://cad.onshape.com/documents/e90dc898bdc3019f235810ac/w/6d7d75c286c4773a91e017b5/e/f7bb3d0e8aee8926836bec2b?renderMode=0&uiState=63f7072080305060322386d7'}
         ]
@@ -399,7 +400,7 @@ export const modelingProjects = [
         image: 'screwdriver.jpg',
         imageAdjustments: { objectPosition: "-33px -30px", width: '309px' },
         description: `One of my most used creations, this screwdriver makes it easy to open NextCentury's line of 
-        waterproof products. Many copies of these are floating around the office and in our remote manufacturing facility.`,
+        waterproof products. Many copies of these are floating around the office and in our remote manufacturing facility. • OnShape`,
         links: [
             {name: 'View Exploded Model', url: 'https://cad.onshape.com/documents/e0353ae829facfd73a72e514/w/60384add30f278f16a5c2680/e/f6d014956cdde2a1b876a6f9?renderMode=0&uiState=63f706b41cdd6e53c31df897'}
         ]
@@ -413,10 +414,10 @@ export const videoProjects = [
         imageAdjustments: { objectPosition: "-29px -9px", width: '321px' },
         description: `I received recognition for my video production business work "Interesting Ted Videography LLC" 
         and my YouTube channel of the same name, receiving 2.2 Million views and counting. Much of my work was inspired 
-        by director Devin Graham, who I later was fortunate enough to work with.`,
+        by director Devin Graham, who I later was fortunate enough to work with. • Adobe Premiere Pro`,
         links: [
-            {name: 'News Article', url: 'https://photos.app.goo.gl/vpVt8hbzafGqCxSDA'},
-            {name: 'YouTube Channel', url: 'https://www.youtube.com/@InterestingTed'}
+            // {name: 'News Article', url: 'https://photos.app.goo.gl/vpVt8hbzafGqCxSDA'},
+            // {name: 'YouTube Channel', url: 'https://www.youtube.com/@InterestingTed'}
         ]
     },
     {
@@ -439,7 +440,7 @@ export const videoProjects = [
         title: 'The Limestone Post',
         image: 'limestone_post_logo.png',
         imageAdjustments: { objectPosition: "10px -14px", width: '244px' },
-        description: 'I was hired by the Limestone Post to produce videos of local nature preserves, creators, and neighborhoods.',
+        description: 'I was hired by the Limestone Post to produce videos of local nature preserves, creators, and neighborhoods. • Adobe Premiere Pro',
         links: [
             {name: 'Limestone Post Profile', url: 'https://limestonepostmagazine.com/author/trentdeckard/'},
             {name: 'Video Example', url: 'https://youtu.be/QHT-KG9wajI'}
@@ -449,7 +450,7 @@ export const videoProjects = [
         title: 'EyeSend Belay Glasses Advert',
         image: 'belay.jpg',
         imageAdjustments: { objectPosition: "-5px 0", width: '285px' },
-        description: 'I was hired by engineer Matt Cupal to create a Kickstarter advert for his innovative adjustable belay glasses.',
+        description: 'I was hired by engineer Matt Cupal to create a Kickstarter advert for his innovative adjustable belay glasses. • Adobe Premiere Pro',
         links: [
             {name: 'KickStarter Page', url: 'https://www.kickstarter.com/projects/mattcupal/eyesend-adjustable-view-belay-glasses'},
             {name: 'Watch Video', url: 'https://youtu.be/r-c1K3nYIzI'}
@@ -459,7 +460,7 @@ export const videoProjects = [
         title: "Stong's Bread Advert",
         image: 'https://i.ytimg.com/vi/gCD0lYrGNG0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWn4Y5bPfCmSma2bVMSq3tvA4Z6g',
         imageAdjustments: { objectPosition: "-2px 0", width: '288px' },
-        description: `I created a promotional video for Matthew Stong's bread company. During this shoot I ate lots of bread.`,
+        description: `I created a promotional video for Matthew Stong's bread company. During this shoot I ate lots of bread. • Adobe Premiere Pro`,
         links: [
             {name: 'Watch Video', url: 'https://youtu.be/DBuuEukTazI'}
         ]
@@ -468,9 +469,9 @@ export const videoProjects = [
         title: 'Doggie Dinners Advert',
         image: 'doggie_dinners2.png',
         imageAdjustments: { objectPosition: "-2px -31px", width: '340px' },
-        description: 'I was hired to produce this Kickstarter advert for Doggie Dinners locally sourced organic dog food.',
+        description: 'I was hired to produce this Kickstarter advert for Doggie Dinners locally sourced organic dog food. • Adobe Premiere Pro',
         links: [
-            {name: 'Watch Video', url: 'https://youtu.be/vXMjw3X3CAU'}
+            {name: 'Watch Video', url: 'https://youtu.be/vXMjw3X3CAU'},
         ]
     },
     {
@@ -479,7 +480,10 @@ export const videoProjects = [
         imageAdjustments: { objectPosition: "-1px -8px", width: '267px' },
         description: `The director Devin Graham has been an idle of mine for many years. I was fortunate enough to work directly 
         with Devin for a full day of shooting. I was featured in one of his latest videos.`,
-        pageLink: ''
+        links: [
+            {name: 'Watch Video', url: 'https://youtu.be/7BtzuRvFAeY?t=274'},
+            {name: 'Behind the Scenes', url: 'https://youtu.be/bHvledEjAAs?t=279'}
+        ]
     },
     {
         title: 'Documentary Now Finale Extra',
@@ -487,7 +491,9 @@ export const videoProjects = [
         imageAdjustments: { objectPosition: "-4px -6px", width: '269px' },
         description: `I was an extra in the season finale of the Emmy nominated mocumentary series "Documentary Now!" 
         This episode featured Michael C. Hall, Bobby Moynihan, Helen Mirren, and Kevin Dunn. Directed by Alexander Buono.`,
-        pageLink: ''
+        links: [
+            {name: 'Watch Video', url: 'https://youtu.be/QMdyQ2Qm8kU'}
+        ]
     },
     {
         title: 'Acting',
