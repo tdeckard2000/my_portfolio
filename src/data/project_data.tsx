@@ -1,5 +1,16 @@
 export const webDevelopmentProjects = [
     {
+        title: 'Interactive Shipwrecks Map',
+        image: 'https://raw.githubusercontent.com/tdeckard2000/lakeShipWrecks/main/images/shipwrecks.png',
+        imageAdjustments: { objectPosition: "0px 0px", width: '265px' },
+        description: `My latest project as of March 9th 2023. The goal is a comprehensive, detailed, interactive map of 
+        shipwrecks. The site will initially only cover The Great Lakes. • MapBox, MongoDB, Next.js, Node, React, TypeScript`,
+        links: [
+            {name: 'Visit Website', url: 'http://shipwrecks.herokuapp.com/#/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/lakeShipWrecks'},
+        ]
+    },
+    {
         title: "NextCentury Submetering Systems",
         image: 'nextCentury.jpeg',
         imageAdjustments: { objectPosition: "-1px 3px", width: '372px' },
@@ -20,17 +31,6 @@ export const webDevelopmentProjects = [
         links: [
             {name: 'Visit Website', url: 'https://www.tedlywebservices.com/'},
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/tedlywebservices'},
-        ]
-    },
-    {
-        title: 'Interactive Shipwrecks Map',
-        image: 'https://raw.githubusercontent.com/tdeckard2000/lakeShipWrecks/main/images/shipwrecks.png',
-        imageAdjustments: { objectPosition: "0px 0px", width: '265px' },
-        description: `My latest project as of March 9th 2023. The goal is a comprehensive, detailed, interactive map of 
-        shipwrecks. The site will initially only cover The Great Lakes. • MapBox, MongoDB, Next.js, Node, React, TypeScript`,
-        links: [
-            {name: 'Visit Website', url: 'http://shipwrecks.herokuapp.com/#/'},
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/lakeShipWrecks'},
         ]
     },
     {
