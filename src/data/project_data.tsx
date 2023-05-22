@@ -418,6 +418,7 @@ export const videoProjects = [
         links: [
             // {name: 'News Article', url: 'https://photos.app.goo.gl/vpVt8hbzafGqCxSDA'},
             // {name: 'YouTube Channel', url: 'https://www.youtube.com/@InterestingTed'}
+            {name: 'Visit Website', url: 'https://interestingted.webs.com/'}
         ]
     },
     {
