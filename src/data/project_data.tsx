@@ -331,6 +331,16 @@ export const modelingProjects = [
         ]
     },
     {
+        title: 'Simple Animatronic Hand',
+        image: 'Richard_Landon_Animatronic_Hand.jpg',
+        imageAdjustments: { objectPosition: "0px -40px", width: '271px' },
+        description: `This is a quick and dirty cable-driven (FireLine) hand, based on Richard Landon's design from Stand Winston Studios. The wires could be connected to servos or a hand operated pulley control system. Click the card to watch a video. • OnShape`,
+        links: [
+            {name: 'Watch Video', url: 'https://photos.app.goo.gl/F2thejXwjLjByLGg8'},
+            {name: 'View Model', url: 'https://cad.onshape.com/documents/0f747eaf73ebcfec149f36fa/w/91fcb7c79acb0ee106eab1e7/e/6a7c1e3ea4e94c46e89df807?renderMode=0&uiState=65c69ffa39d2f25e4cf6f5d2'},
+        ]
+    },
+    {
         title: 'Cat Deterrent Housing',
         image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/6.jpg',
         imageAdjustments: { objectPosition: "-1px -34px", width: '267px' },
