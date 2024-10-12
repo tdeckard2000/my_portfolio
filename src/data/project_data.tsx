@@ -250,7 +250,7 @@ export const electronicProjects = [
         description: `I have always loved taking things apart to see how they tick. From the age of 10 I was pulling apart old 
         portable televisions, radios, phones, everything. This curiosity continues today. I do a little bit of everything, from 
         general car repair to electronics repair and 'handyman' tasks. Largely stemming from my eagerness to learn and grow, 
-        I pride myself in being able to figure out just about anything.`,
+        I pride myself in being able to figure out just about anything I put my mind to.`,
         pageLink: ''
     },
 ]
@@ -319,27 +319,26 @@ export const modelingProjects = [
     },
     {
         title: 'Animatronic Dinosaur',
-        image: 'dino.png',
-        imageAdjustments: { objectPosition: "0px -5px", width: '264px' },
-        description: `Being a big fan of Stan Winston studios' work and theme park attractions, I have had a love for animatronics for a long time. 
-        I just think they're so cool. This is my first attempt at an animatronic Compy dinosaur. My plan was to use servo motors, 
-        bowden cable, and bowden tube to articulate the tail, legs, and head. I would then 3D Print a negative of the shell and mold a foam latex 
-        skin. It became clear that the small servos were not strong enough. • OnShape`,
+        image: 'dino_tail.gif',
+        imageAdjustments: { objectPosition: "0px 0px", width: '285px' },
+        description: `Being a big fan of Stan Winston studios' work, I have had a long time interest in animatronics. 
+        This is my first attempt at an animatronic Compy dinosaur. The design uses a cable driven system popularized by Richard Landon. The flexible skin was 3D printed using TPU on a stock Ender 3 Pro. • OnShape`,
         links: [
+            {name: 'More Images', url: 'https://photos.app.goo.gl/6fRnX9FFVf4ua7B8A'},
             {name: 'View Assembled Model', url: 'https://cad.onshape.com/documents/756eb34697a8926a1aceca8f/w/3900260f14349326b5bdd855/e/5020d39ec5eeccbf33ab53ea?renderMode=0&uiState=63f6fcdb1734342db4cffd48'},
             {name: 'View Articulating Legs', url: 'https://cad.onshape.com/documents/756eb34697a8926a1aceca8f/w/3900260f14349326b5bdd855/e/9c724dba115c5a749381616d?renderMode=0&uiState=63f6fcf71734342db4cffd4f'},
         ]
     },
-    {
-        title: 'Simple Animatronic Hand',
-        image: 'Richard_Landon_Animatronic_Hand.jpg',
-        imageAdjustments: { objectPosition: "0px -40px", width: '271px' },
-        description: `This is a quick and dirty cable-driven (FireLine) hand, based on Richard Landon's design from Stand Winston Studios. The wires could be connected to servos or a hand operated pulley control system. Click the card to watch a video. • OnShape`,
-        links: [
-            {name: 'Watch Video', url: 'https://photos.app.goo.gl/F2thejXwjLjByLGg8'},
-            {name: 'View Model', url: 'https://cad.onshape.com/documents/0f747eaf73ebcfec149f36fa/w/91fcb7c79acb0ee106eab1e7/e/6a7c1e3ea4e94c46e89df807?renderMode=0&uiState=65c69ffa39d2f25e4cf6f5d2'},
-        ]
-    },
+    // {
+    //     title: 'Simple Animatronic Hand',
+    //     image: 'Richard_Landon_Animatronic_Hand.jpg',
+    //     imageAdjustments: { objectPosition: "0px -40px", width: '271px' },
+    //     description: `This is a quick and dirty cable-driven (FireLine) hand, based on Richard Landon's design from Stand Winston Studios. The wires could be connected to servos or a hand operated pulley control system. Click the card to watch a video. • OnShape`,
+    //     links: [
+    //         {name: 'Watch Video', url: 'https://photos.app.goo.gl/F2thejXwjLjByLGg8'},
+    //         {name: 'View Model', url: 'https://cad.onshape.com/documents/0f747eaf73ebcfec149f36fa/w/91fcb7c79acb0ee106eab1e7/e/6a7c1e3ea4e94c46e89df807?renderMode=0&uiState=65c69ffa39d2f25e4cf6f5d2'},
+    //     ]
+    // },
     {
         title: 'Cat Deterrent Housing',
         image: 'https://raw.githubusercontent.com/tdeckard2000/cat_fan_deterrent/main/Images/6.jpg',
