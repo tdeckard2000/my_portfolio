@@ -162,6 +162,19 @@ export const webDevelopmentProjects = [
 
 export const electronicProjects = [
     {
+        title: 'ESP8266 WebSocket Client',
+        image: 'WebSocket_ESP8266.jpg',
+        imageAdjustments: { objectPosition: "0px -10px", width: '266px' },
+        description: `Streams live data to and from a Vue web application over a WebSocket connection. 
+        Sends light sensor state and button position. Receives LED, buzzer, and data request commands.
+        Maintains an active WiFi and WebSocket connection. • Arduino, ESP8266, Vue.js, Heroku`,
+        links: [
+            {name: 'Web App', url: 'https://websocket-5d15bc66efcd.herokuapp.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/WebSocket-ESP8266-Vue'},
+            {name: 'Arduino Sketch', url: 'https://github.com/tdeckard2000/WebSocket-ESP8266-Vue/blob/main/ESP8266_Arduino_Sketch/Two_Way_Socket/Two_Way_Socket.ino'},
+        ]
+    },
+    {
         title: 'NextCentury Hardware & Software Testing',
         image: 'testing_keithleys.jpg',
         imageAdjustments: { objectPosition: "0px -17px", width: '266px' },
