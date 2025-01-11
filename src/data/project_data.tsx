@@ -153,7 +153,7 @@ export const webDevelopmentProjects = [
         title: 'Portfolio Site',
         image: 'endeavors.jpg',
         imageAdjustments: { objectPosition: "0px -2px", width: '265px' },
-        description: `Fully responsive to all screen sizes. • Express, MongoDB, Next.js, Node.js, React, TypeScript`,
+        description: `Fully responsive to all screen sizes. • Next.js, Node.js, React, TypeScript, AWS Amplify`,
         links: [
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/my_portfolio'},
         ]
