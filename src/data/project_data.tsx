@@ -27,7 +27,7 @@ export const webDevelopmentProjects = [
         imageAdjustments: { objectPosition: "-1px -1px", width: '267px' },
         description: `A web development business concept website with a modern design to attract new clients. 
             I used AI image generation to assist with the design.
-            • Next.js, Node, React, Midjourney`,
+            • Next.js, Node, React, Midjourney, AWS Amplify`,
         links: [
             {name: 'Visit Website', url: 'https://www.tedlywebservices.com/'},
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/tedlywebservices'},
@@ -146,7 +146,7 @@ export const webDevelopmentProjects = [
         description: `I regularly attend coding meetup groups and find myself leading the design and development of projects. 
         For My Local Meal, I sketched the UI, designed the logo, and build much of the front end. • Django, JavaScript, jQuery, MongoDB`,
         links: [
-            {name: 'Visit Website', url: 'https://mylocalmeal.com/'},
+            //{name: 'Visit Website', url: 'https://mylocalmeal.com/'},
         ]
     },
     {
