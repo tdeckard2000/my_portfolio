@@ -3,7 +3,7 @@ export const webDevelopmentProjects = [
         title: 'Interactive Shipwrecks Map',
         image: 'https://raw.githubusercontent.com/tdeckard2000/lakeShipWrecks/main/images/shipwrecks.png',
         imageAdjustments: { objectPosition: "0px -1px", width: '266px' },
-        description: `My latest project as of March 9th 2023. The goal is a comprehensive, detailed, interactive map of 
+        description: `My latest project. The goal is a comprehensive, detailed, interactive map of 
         shipwrecks. The site initially only covers The Great Lakes. • MapBox, MongoDB, Next.js, Node, React, TypeScript, AWS Amplify`,
         links: [
             {name: 'Visit Website', url: 'https://main.d3idlddrmg0ef4.amplifyapp.com'},
