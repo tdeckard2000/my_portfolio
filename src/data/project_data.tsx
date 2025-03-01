@@ -1,9 +1,33 @@
 export const webDevelopmentProjects = [
     {
+        title: "NextCentury Submetering Systems",
+        image: 'nextCentury.jpeg',
+        imageAdjustments: { objectPosition: "-1px 3px", width: '372px' },
+        description: `I have worked at NextCentury for five years. As a full stack web developer,
+        a mobile app developer, a lead software and hardware tester, and a technical support member.
+        The company had just 8 members when I joined. • Angular, Vue.js, MongoDB, Node.js, TypeScript, Ionic`,
+        links: [
+            {name: 'Company Page', url: 'https://www.nextcenturymeters.com/'},
+            {name: 'Fun at Work', url: 'https://www.linkedin.com/posts/trentdeckard_throwback-to-that-time-we-had-a-mario-kart-activity-7295660336093794305-MdSg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABXRmtwBdLP3WOsmaLfcnVmnxDAG7lMe9qc'},
+        ]
+    },
+    {
+        title: "OCCRRA - Ohio Child Care Resource & Referral Association",
+        image: 'OCCRRA.jpg',
+        imageAdjustments: { objectPosition: "-1px 3px", width: '372px' },
+        description: `OCCRRA is a non profit organization based in Ohio. I worked primarily on the Ohio Professional Registry (OPR).
+        The OPR is a state-wide system used by all early childhood educations for tracking and managing professional development. 
+        • React, SQL, JavaScript, AWS`,
+        links: [
+            {name: 'Company Page', url: 'https://www.occrra.org/'},
+            {name: 'OPR', url: 'https://registry.occrra.org/#/'},
+        ]
+    },
+    {
         title: 'Interactive Shipwrecks Map',
         image: 'https://raw.githubusercontent.com/tdeckard2000/lakeShipWrecks/main/images/shipwrecks.png',
         imageAdjustments: { objectPosition: "0px -1px", width: '266px' },
-        description: `My latest project. The goal is a comprehensive, detailed, interactive map of 
+        description: `A work in progress. The goal is a comprehensive, detailed, interactive map of 
         shipwrecks. The site initially only covers The Great Lakes. • MapBox, MongoDB, Next.js, Node, React, TypeScript, AWS Amplify`,
         links: [
             {name: 'Visit Website', url: 'https://main.d3idlddrmg0ef4.amplifyapp.com'},
@@ -11,14 +35,29 @@ export const webDevelopmentProjects = [
         ]
     },
     {
-        title: "NextCentury Submetering Systems",
-        image: 'nextCentury.jpeg',
-        imageAdjustments: { objectPosition: "-1px 3px", width: '372px' },
-        description: `I worked at NextCentury for four years. As a full stack web developer during 
-        my final year, a lead software and hardware tester for 2 years, and a technical support member
-        for 1 year. The company had just 8 members when I joined. • Angular, MongoDB, Node.js, TypeScript, Vue.js, Ionic`,
+        title: 'Socket Tools',
+        image: 'socketTools.jpg',
+        imageAdjustments: { objectPosition: "-38px -1px", width: '340px' },
+        description: `A simple WebSocket Server & Arduino Sketch. Connects a wifi-enabled (ESP8266) Arduino-nano-like board to an Express server via WebSocket.
+        The ESP8266 maintains a constant connection allowing for instant two-way communication. Tap the light bulb to fetch the room's light level, sound the buzzer,
+        or toggle the LED. The button animates to reflect the live state of the ESP8266 button. See the Electronics section to learn more.
+        • Vue.js, Node, Arduino, AWS Amplify`,
         links: [
-            {name: 'Company Page', url: 'https://www.nextcenturymeters.com/'},
+            {name: 'Visit Website', url: 'https://websocket-5d15bc66efcd.herokuapp.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/WebSocket-ESP8266-Vue'},
+        ]
+    },
+    {
+        title: 'Turf Calculator',
+        image: 'canBeFresh.jpg',
+        imageAdjustments: { objectPosition: "-38px -1px", width: '340px' },
+        description: `I was contracted to develop a sleek and simple web app for calculating service fees based on client property size.
+        Employees use the app while working directly with customers at their home. The company owner can easily update prices and discounts from the admin page.
+        The admin password for this demo is "password".
+        • Next.js, Node, React, MongoDB, AWS Amplify`,
+        links: [
+            {name: 'Visit Website', url: 'https://mongo.d30xlzx2qvq6gc.amplifyapp.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/cbf_calculator'},
         ]
     },
     {
@@ -31,18 +70,6 @@ export const webDevelopmentProjects = [
         links: [
             {name: 'Visit Website', url: 'https://www.tedlywebservices.com/'},
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/tedlywebservices'},
-        ]
-    },
-    {
-        title: 'Coffee Shop',
-        image: 'https://raw.githubusercontent.com/tdeckard2000/simpleShopStore/main/images/exampleSnapshot.JPG',
-        imageAdjustments: { objectPosition: "-1px -1px", width: '267px' },
-        description: `My goal was to create a simple online store of my own to avoid Shopify fees. This is built to be reusable. 
-        It can easily be added to any other react or NextJs application. All product images are AI generated. Just add Stripe.
-        . • Next.js, Node, React, TypeScript, MidJourney`,
-        links: [
-            {name: 'Visit Website', url: 'http://coffeestore.herokuapp.com/#/'},
-            {name: 'GitHub', url: 'https://github.com/tdeckard2000/simpleShopStore'},
         ]
     },
     {
@@ -84,28 +111,40 @@ export const webDevelopmentProjects = [
         ]
     },
     {
+        title: 'Coffee Shop',
+        image: 'https://raw.githubusercontent.com/tdeckard2000/simpleShopStore/main/images/exampleSnapshot.JPG',
+        imageAdjustments: { objectPosition: "-1px -1px", width: '267px' },
+        description: `My goal was to create a simple online store of my own to avoid Shopify fees. This is built to be reusable. 
+        It can easily be added to any other react or NextJs application. All product images are AI generated. Just add Stripe.
+        . • Next.js, Node, React, TypeScript, MidJourney`,
+        links: [
+            {name: 'Visit Website', url: 'http://coffeestore.herokuapp.com/#/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/simpleShopStore'},
+        ]
+    },
+    {
         title: 'Yolo Logan!',
         image: 'https://raw.githubusercontent.com/tdeckard2000/YoloLogan/master/images/example.png',
         imageAdjustments: { objectPosition: "-1px 6px", width: '272px' },
         description: `A website for Logan locals to find and submit events, meetup groups, and community resources. This website uses Open Layers 
         map and Census Geocoder API to record and display event locations on an interactive map. Search for events using the search bar, or find 
-        what you need using the event filter. Responsive to many screen sizes. The app is not finished. • Angular, Express, MongoDB, Node.js, OpenLayers, TypeScript`,
+        what you need using the event filter. Responsive to many screen sizes. The app is far from finished. • Angular, Express, MongoDB, Node.js, OpenLayers, TypeScript`,
         links: [
             {name: 'Visit Website', url: 'https://yolologan.herokuapp.com/'},
             {name: 'GitHub', url: 'https://github.com/tdeckard2000/YoloLogan'},
         ]
     },
-    // {
-    //     title: 'Support Ticket Dashboard',
-    //     image: 'https://raw.githubusercontent.com/tdeckard2000/Support-Ticket-Dashboard/master/images/example.png',
-    //     imageAdjustments: { objectPosition: "-9px -1px", width: '275px' },
-    //     description: `A personal project created as a proof of concept for reporting and handling various types of support tickets. 
-    //     Existing users can be assigned to each ticket. Each ticket can be tagged as urgent or marked as completed. • Angular, TypeScript`,
-    //     links: [
-    //         {name: 'Visit Website', url: 'https://support-tickets-dashboard.herokuapp.com/'},
-    //         {name: 'GitHub', url: 'https://github.com/tdeckard2000/Support-Ticket-Dashboard'},
-    //     ]
-    // },
+    {
+        title: 'Support Ticket Dashboard',
+        image: 'https://raw.githubusercontent.com/tdeckard2000/Support-Ticket-Dashboard/master/images/example.png',
+        imageAdjustments: { objectPosition: "-9px -1px", width: '275px' },
+        description: `Originally created for a 3D House Printing firm, this served as a proof of concept for reporting and handling various types of support tickets. 
+        Existing users can be assigned to each ticket. Each ticket can be tagged as urgent or marked as completed. • Angular, TypeScript`,
+        links: [
+            {name: 'Visit Website', url: 'https://support-tickets-dashboard.herokuapp.com/'},
+            {name: 'GitHub', url: 'https://github.com/tdeckard2000/Support-Ticket-Dashboard'},
+        ]
+    },
     {
         title: 'Rate-A-Coworker 2.0',
         image: 'rate_coworker.png',
