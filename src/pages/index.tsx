@@ -266,10 +266,10 @@ export default function Home() {
           <div className={styles.navContainerDesktop}
             style={{ bottom: yPosition / 4 + "px" }}>
             <a style={{ textDecoration: 'none' }} href="#blockWebDevTitle"><span>Web</span></a>
-            <a style={{ textDecoration: 'none' }} href="#blockResumeTitle"><span>Contact</span></a>
             <a style={{ textDecoration: 'none' }} href="#blockModelingTitle"><span>3D Modeling</span></a>
             <a style={{ textDecoration: 'none' }} href="#blockElectronicsTitle"><span>Electronics</span></a>
             <a style={{ textDecoration: 'none' }} href="#blockVideoTitle"><span>Video</span></a>
+            <a style={{ textDecoration: 'none' }} href="#blockResumeTitle"><span>Contact</span></a>
           </div>
 
 
