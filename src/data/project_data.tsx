@@ -200,6 +200,21 @@ export const webDevelopmentProjects = [
 ];
 
 export const electronicProjects = [
+      {
+        title: 'FlagCam - Complete Mailbox Camera Solution',
+        image: 'flag_cam_main.jpg',
+        imageAdjustments: { objectPosition: "0px -18px", width: '266px' },
+        description: `Like the Ring doorbell camera, but for your mailbox. FlagCam sends a notification and image to you when you receive 
+        mail in your mailbox. The FlagCam is placed in your mailbox while the Solar FlagHub is placed nearby. One FlagHub can support up to 100 FlagCams making it the perfect
+        solution for apartment complexes and a great amenity to offer tenants. Users can view the inside of their mailbox along with other information on the mobile friendly 
+        web app. The FlagCam is equipped with an LED allowing it to collect an image and other helpful information. This data is sent to the nearby FlagHub for processing. The FlagHub
+        then sends all of that data up to the FlagCam servers.
+        See the 3D Modeling and Web sections to learn more about the project. 
+        • AWS Amplify, C Programming Language, ESP32, Node, OnShape, RaspberryPi Zero W, Vue.js`,
+        links: [
+            {name: 'Images & Videos', url: 'https://photos.app.goo.gl/LDnTUXV4Ydz6ecom8'},
+        ]
+    },
     {
         title: 'ESP8266 WebSocket Client',
         image: 'WebSocket_ESP8266.jpg',
@@ -308,6 +323,30 @@ export const electronicProjects = [
 ]
 
 export const modelingProjects = [
+    {
+        title: 'FlagCam Camera',
+        image: 'flag_cam_camera.jpg',
+        imageAdjustments: { objectPosition: "0px -34px", width: '287px' },
+        description: `This is the camera portion of the FlagCam product. The camera is placed in your mailbox and communicates with the solar powered
+        FlagHub to send images, mailbox temperature, and other helpful information directly to you.
+        • OnShape`,
+        links: [
+            {name: 'View Model', url: 'https://cad.onshape.com/documents/edcc79e694c27020132f4bd2/w/dc797ca7607936fbcea51fa2/e/d9fcb25cbf12b0f3a989c3c1?renderMode=0&uiState=6a6fc99109deec286fba160a'},
+            {name: 'Images & Videos', url: 'https://photos.app.goo.gl/LDnTUXV4Ydz6ecom8'},
+        ]
+    },
+    {
+        title: 'FlagCam Solar Hub',
+        image: 'flag_cam_hub.jpg',
+        imageAdjustments: { objectPosition: "-20px -36px", width: '287px' },
+        description: `This is the solar powered hub portion of the FlagCam product. This hub can support up to 100 individual FlagCam modules, making FlagCam a perfect amenity for
+        apartment complexes.
+        • OnShape`,
+        links: [
+            {name: 'View Model', url: 'https://cad.onshape.com/documents/353bff7fb38483d02c1cd11e/w/c16f68de6fdc7a791e1b22f4/e/d0136d810ed39e0f904abe56?renderMode=0&uiState=6a6fc8fa0e38eaae70c97fb9'},
+            {name: 'Images & Videos', url: 'https://photos.app.goo.gl/LDnTUXV4Ydz6ecom8'},
+        ]
+    },
     {
         title: '3D Mouse Game 🎮 (Click to Play)',
         image: 'house_mouse.jpg',

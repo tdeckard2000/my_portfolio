@@ -265,30 +265,29 @@ export default function Home() {
 
           <div className={styles.navContainerDesktop}
             style={{ bottom: yPosition / 4 + "px" }}>
-            <a style={{ textDecoration: 'none' }} href="#blockWebDevTitle"><span>Web</span></a>
-            <a style={{ textDecoration: 'none' }} href="#blockModelingTitle"><span>3D Modeling</span></a>
             <a style={{ textDecoration: 'none' }} href="#blockElectronicsTitle"><span>Electronics</span></a>
+            <a style={{ textDecoration: 'none' }} href="#blockModelingTitle"><span>3D Modeling</span></a>
+            <a style={{ textDecoration: 'none' }} href="#blockWebDevTitle"><span>Web</span></a>
             <a style={{ textDecoration: 'none' }} href="#blockVideoTitle"><span>Video</span></a>
             <a style={{ textDecoration: 'none' }} href="#blockResumeTitle"><span>Contact</span></a>
           </div>
 
-
-          {/* ----- Web Development ----- */}
-          <div className={styles.blockTitle} id="blockWebDevTitle">Web Development</div>
-          <div id="blockWebDev">
-            { webDevelopmentProjects.map((project, index) =>
+          {/* ----- Electronics ----- */}
+          <div className={styles.blockTitle} id="blockElectronicsTitle">Electronics</div>
+          <div id="blockElectronics">
+            { electronicProjects.map((project, index) =>
               <Fragment key={project.title}>
-                <div style={{perspective: '1000px'}}>
-                  <div onClick={() => flipBlock('web' + index)} id={"web" + index} className={styles.blockContainer}>
-                    <div className={styles.blockFront}>
-                      <div className={styles.blockImageContainer}>
-                        <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
+                  <div style={{perspective: '1000px'}}>
+                    <div onClick={() => flipBlock('electronics' + index)} id={"electronics" + index} className={styles.blockContainer}>
+                      <div className={styles.blockFront}>
+                        <div className={styles.blockImageContainer}>
+                          <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
+                        </div>
+                        <div className={styles.blockRightColumn}>
+                          <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
+                          <p className={styles.blockDescription}>{project.description}</p>
+                        </div>
                       </div>
-                      <div className={styles.blockRightColumn}>
-                        <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
-                        <p className={styles.blockDescription}>{project.description}</p>
-                      </div>
-                    </div>
                     <div className={styles.blockBack}>
                       {project.links?.map((link, linkIndex) => 
                         <a key={project.title + linkIndex} className={styles.blockBackButton} 
@@ -299,12 +298,12 @@ export default function Home() {
                   </div>
                 </div>
                 <div className={styles.mobileProjectTitle}>{project.title}</div>
-                <div onClick={() => toggleMobileDescription("webD" + index)} id={"webD" + index} 
+                <div onClick={() => toggleMobileDescription("electronicsD" + index)} id={"electronicsD" + index} 
                 className={styles.mobileProjectDescription + ' ' + styles.noWrap}>{project.description}</div>
               </Fragment>
             )}
           </div>
-
+          
           <div className={styles.blockDivider}></div>
 
           {/* ----- 3D Modeling ----- */}
@@ -341,22 +340,22 @@ export default function Home() {
 
           <div className={styles.blockDivider}></div>
 
-          {/* ----- Electronics ----- */}
-          <div className={styles.blockTitle} id="blockElectronicsTitle">Electronics</div>
-          <div id="blockElectronics">
-            { electronicProjects.map((project, index) =>
+          {/* ----- Web Development ----- */}
+          <div className={styles.blockTitle} id="blockWebDevTitle">Web Development</div>
+          <div id="blockWebDev">
+            { webDevelopmentProjects.map((project, index) =>
               <Fragment key={project.title}>
-                  <div style={{perspective: '1000px'}}>
-                    <div onClick={() => flipBlock('electronics' + index)} id={"electronics" + index} className={styles.blockContainer}>
-                      <div className={styles.blockFront}>
-                        <div className={styles.blockImageContainer}>
-                          <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
-                        </div>
-                        <div className={styles.blockRightColumn}>
-                          <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
-                          <p className={styles.blockDescription}>{project.description}</p>
-                        </div>
+                <div style={{perspective: '1000px'}}>
+                  <div onClick={() => flipBlock('web' + index)} id={"web" + index} className={styles.blockContainer}>
+                    <div className={styles.blockFront}>
+                      <div className={styles.blockImageContainer}>
+                        <img className={styles.blockImage} style={project.imageAdjustments} src={project.image} alt="" />
                       </div>
+                      <div className={styles.blockRightColumn}>
+                        <div style={{ fontSize: '20px', margin: '20px 0' }}>{project.title}</div>
+                        <p className={styles.blockDescription}>{project.description}</p>
+                      </div>
+                    </div>
                     <div className={styles.blockBack}>
                       {project.links?.map((link, linkIndex) => 
                         <a key={project.title + linkIndex} className={styles.blockBackButton} 
@@ -367,12 +366,12 @@ export default function Home() {
                   </div>
                 </div>
                 <div className={styles.mobileProjectTitle}>{project.title}</div>
-                <div onClick={() => toggleMobileDescription("electronicsD" + index)} id={"electronicsD" + index} 
+                <div onClick={() => toggleMobileDescription("webD" + index)} id={"webD" + index} 
                 className={styles.mobileProjectDescription + ' ' + styles.noWrap}>{project.description}</div>
               </Fragment>
             )}
           </div>
-          
+
           <div className={styles.blockDivider}></div>
 
           {/* ----- Video Production ----- */}
