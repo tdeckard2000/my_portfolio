@@ -213,6 +213,8 @@ export const electronicProjects = [
         • AWS Amplify, C Programming Language, ESP32, Node, OnShape, RaspberryPi Zero W, Vue.js`,
         links: [
             {name: 'Images & Videos', url: 'https://photos.app.goo.gl/LDnTUXV4Ydz6ecom8'},
+            {name: 'Cam 3D Model', url: 'https://cad.onshape.com/documents/edcc79e694c27020132f4bd2/w/dc797ca7607936fbcea51fa2/e/d9fcb25cbf12b0f3a989c3c1?renderMode=0&uiState=6b0659c7c3e6c16ca3bddd68'},
+            {name: 'Hub 3D Model', url: 'https://cad.onshape.com/documents/353bff7fb38483d02c1cd11e/w/c16f68de6fdc7a791e1b22f4/e/d0136d810ed39e0f904abe56?renderMode=0&uiState=6b0659f26e390e35fd328555'},
         ]
     },
     {
